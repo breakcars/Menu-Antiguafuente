@@ -1,0 +1,574 @@
+/* Importación de fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Open+Sans:ital,wght@0,400;0,600;1,400&display=swap');
+
+/* Reset y caja global */
+* {
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fafafa;
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+    overflow-x: hidden;
+}
+
+/* --- FACHADA Y ENCABEZADO GLASSMORPHIC --- */
+.header-wrapper {
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+.imagen-fachada {
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+    object-position: center center;
+    display: block;
+    -webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 60%, rgba(0, 0, 0, 0) 100%);
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 60%, rgba(0, 0, 0, 0) 100%);
+}
+
+header.main-header {
+    position: relative;
+    z-index: 2;
+    margin: -85px 12px 10px 12px;
+    padding: 10px 14px;
+    background: rgba(255, 255, 255, 0.85);
+    -webkit-backdrop-filter: blur(6px);
+    backdrop-filter: blur(6px);
+    border-radius: 16px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.12);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 12px;
+}
+
+.header-logo {
+    width: 68px;
+    height: 68px;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
+.header-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 3px;
+}
+
+.header-text h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #8b0000;
+    margin: 0;
+    font-size: 1.05rem;
+    line-height: 1.1;
+    letter-spacing: 0.3px;
+}
+
+.header-text p {
+    font-style: italic;
+    color: #666;
+    font-size: 0.72rem;
+    margin: 1px 0 0 0;
+    line-height: 1;
+}
+
+/* Redes Sociales y "Síguenos" */
+.header-social-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 4px;
+}
+
+.siguenos-tag {
+    font-size: 0.72rem;
+    font-weight: 600;
+    color: #555555;
+    font-style: italic;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    letter-spacing: 0.4px;
+    user-select: none;
+}
+
+.siguenos-tag i {
+    color: #8b0000;
+    font-size: 0.75rem;
+    animation: apuntarDerecha 1.6s infinite ease-in-out;
+}
+
+@keyframes apuntarDerecha {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(3px);
+    }
+}
+
+.header-social {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header-social a {
+    color: #8b0000;
+    font-size: 1rem;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 26px;
+    height: 26px;
+}
+
+/* --- CONTENEDOR PRINCIPAL --- */
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 12px;
+}
+
+.translate-container {
+    margin-bottom: 12px;
+    text-align: right;
+}
+
+/* --- NOTA DE LA CASA --- */
+.note {
+    background-color: #fffaf0;
+    border-left: 3px solid #8b0000;
+    padding: 6px 10px;
+    margin-bottom: 12px;
+    font-style: italic;
+    font-size: 0.78rem;
+    line-height: 1.25;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+}
+
+/* --- NAVEGACIÓN DE CATEGORÍAS EN MÓVIL --- */
+.categories-nav-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px 10px;
+    margin: 15px 0 25px 0;
+    justify-items: center;
+}
+
+.category-circle-item {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-height: 44px;
+    user-select: none;
+}
+
+.category-circle-item img {
+    width: 78px;
+    height: 78px;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2.5px solid #8b0000;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+}
+
+.category-circle-item span {
+    margin-top: 6px;
+    font-size: 0.82rem;
+    font-weight: 700;
+    color: #333;
+    text-align: center;
+    line-height: 1.1;
+}
+
+/* --- ACORDEONES Y DETAILS --- */
+details {
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    background: transparent !important;
+}
+
+details > summary {
+    display: none !important;
+}
+
+details[open] {
+    margin-top: 15px !important;
+    margin-bottom: 25px !important;
+}
+
+.category-desc {
+    font-style: italic;
+    color: #666;
+    margin: 0 0 12px 0;
+    padding: 0 4px;
+    font-size: 0.9rem;
+}
+
+/* --- TARJETAS DE PRODUCTOS --- */
+.menu-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding: 5px 0;
+}
+
+.menu-item {
+    background-color: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+}
+
+.card-img-container {
+    width: 100%;
+    height: 110px;
+    overflow: hidden;
+    background-color: #f8fafc;
+    cursor: pointer;
+}
+
+.thumb-foto {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.item-info {
+    padding: 8px 10px;
+    flex-grow: 1;
+}
+
+.item-info strong {
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+    font-size: 0.9rem;
+    color: #111;
+    margin-bottom: 4px;
+    line-height: 1.25;
+}
+
+.item-info strong .cc-tag {
+    font-weight: 400;
+    font-size: 0.8em;
+    color: #777;
+}
+
+.item-info p {
+    margin: 0;
+    font-size: 0.78rem;
+    color: #666;
+    line-height: 1.3;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.item-actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 10px;
+    border-top: 1px solid #f1f5f9;
+    background-color: #fafafa;
+}
+
+.price {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 0.95rem;
+    color: #8b0000;
+}
+
+/* --- BOTÓN FLOTANTE "VOLVER ARRIBA" --- */
+.btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: #8b0000;
+    color: #ffffff;
+    border: none;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1rem;
+    cursor: pointer;
+    z-index: 99;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease, transform 0.2s ease;
+}
+
+.btn-back-to-top.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+.btn-back-to-top:active {
+    transform: scale(0.92);
+}
+
+/* --- MODAL ADAPTADO --- */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.85);
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.modal-content-card {
+    background-color: #ffffff;
+    padding: 20px 15px;
+    border-radius: 12px;
+    max-width: 500px;
+    width: 100%;
+    max-height: 85vh;
+    overflow-y: auto;
+    position: relative;
+}
+
+.modal-content-card img {
+    width: 100%;
+    height: auto;
+    max-height: 55vh;
+    object-fit: contain;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    display: block;
+}
+
+.modal-content-card h2 {
+    color: #8b0000;
+    margin: 0 0 8px 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.25rem;
+}
+
+.modal-content-card p {
+    font-size: 0.9rem;
+    line-height: 1.4;
+    color: #444;
+}
+
+.cerrar {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: #444;
+    font-size: 32px;
+    font-weight: bold;
+    cursor: pointer;
+    min-width: 44px;
+    min-height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* --- FOOTER MINIMALISTA EN COLUMNAS VERTICALES --- */
+footer {
+    background-color: #121212;
+    color: #ffffff;
+    padding: 16px 10px 10px 10px;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.footer-columns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+.sucursal-col {
+    flex: 1;
+    text-align: center;
+}
+
+.sucursal-tag {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 0.78rem;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 2px;
+}
+
+.sucursal-col p {
+    margin: 0;
+    color: #888888;
+    font-size: 0.70rem;
+    line-height: 1.25;
+}
+
+.sucursal-col a {
+    color: #888888;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.sucursal-col a:hover {
+    color: #ffffff;
+}
+
+.v-divider {
+    width: 1px;
+    height: 38px;
+    background-color: #333333;
+    flex-shrink: 0;
+}
+
+.creditos-footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    padding-bottom: 2px;
+}
+
+.creditos-footer a {
+    font-size: 8px;
+    color: #666666;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.creditos-footer a:hover {
+    color: #25D366;
+}
+
+/* --- ADAPTACIÓN RESPONSIVA (DESKTOP / TABLET) --- */
+@media (min-width: 481px) {
+    .header-content {
+        flex-direction: row;
+        gap: 15px;
+    }
+    
+    .header-logo {
+        width: 85px;
+        height: 85px;
+    }
+    
+    .header-text h1 {
+        font-size: 2rem;
+    }
+
+    .categories-nav-grid {
+        grid-template-columns: repeat(auto-fill, minmax(90px, 1fr));
+        gap: 15px;
+    }
+
+    .category-circle-item img {
+        width: 90px;
+        height: 90px;
+    }
+
+    .menu-container {
+        grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+        gap: 15px;
+    }
+}
+
+@media (min-width: 768px) {
+    header.main-header {
+        margin: -95px 30px 20px 30px;
+        padding: 14px 30px;
+    }
+
+    .header-right {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        gap: 20px;
+    }
+
+    .header-social a {
+        font-size: 1.25rem;
+        width: 36px;
+        height: 36px;
+        transition: color 0.2s ease, transform 0.2s ease;
+    }
+
+    .header-social a:hover {
+        color: #d62828;
+        transform: translateY(-2px);
+    }
+
+    .menu-container {
+        grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+        gap: 20px;
+    }
+
+    .card-img-container {
+        height: 170px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .categories-nav-grid {
+        grid-template-columns: repeat(5, 1fr);
+        gap: 25px;
+    }
+
+    .category-circle-item img {
+        width: 140px;
+        height: 140px;
+    }
+
+    .menu-container {
+        grid-template-columns: repeat(5, minmax(0, 1fr));
+        gap: 20px;
+    }
+
+    .card-img-container {
+        height: 190px;
+    }
+}

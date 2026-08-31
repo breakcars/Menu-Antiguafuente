@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Antigua Fuente - Monumento Gastronómico</title>
+    <!-- FontAwesome para íconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Hoja de estilos -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="header-wrapper">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQes2gumYOT1M8ZacTyxA-ngh8J3IQDZEV-Q0Ds7l_YEEqQAKcKY0Tj6MUu&s=10" alt="Fachada Antigua Fuente" class="imagen-fachada">
+    
+    <header class="main-header">
+        <div class="header-content">
+            <img src="logo antiguafuente amarillo.png" alt="Logo Antigua Fuente" class="header-logo" loading="eager">
+            
+            <div class="header-right">
+                <div class="header-text">
+                    <h1>ANTIGUA FUENTE</h1>
+                    <p>Monumento Gastronómico</p>
+                </div>
+                <div class="header-social-wrapper">
+    <span class="siguenos-tag">
+        Síguenos <i class="fas fa-arrow-right-long"></i>
+    </span>
+    <div class="header-social">
+        <a href="#" onclick="abrirApp('facebook'); return false;" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+        <a href="#" onclick="abrirApp('instagram'); return false;" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="https://antiguafuente.cl" target="_blank" title="Sitio Oficial" aria-label="Sitio Web"><i class="fas fa-globe"></i></a>
+    </div>
+</div>
+            </div>
+        </div>
+    </header>
+</div>
+
+
+
+    <div class="container">
+    
+        <!-- Traductor Google -->
+        <div id="google_translate_element" class="translate-container"></div>
+
+            <div class="note">
+                    <strong>Nota:</strong> Sándwiches y vienesas servidos exclusivamente en pan amasado frica artesanal del día.
+            </div>
+
+        <!-- GRID DE CATEGORÍAS ADAPTATIVO -->
+        <div class="categories-nav-grid">
+            <div class="category-circle-item" onclick="seleccionarCategoria('cat-promociones')" role="button" tabindex="0">
+                    <img src="image/promociones/promociones.jpg" alt="Promociones" loading="lazy">
+                    <span>Promociones</span>
+            </div>
+
+            <div class="category-circle-item" onclick="seleccionarCategoria('cat-lomitos')" role="button" tabindex="0">
+                <img src="image/lomo/lomosolo.jpg" alt="Lomitos" loading="lazy">
+                <span>Lomitos</span>
+            </div>
+    
+            <div class="category-circle-item" onclick="seleccionarCategoria('cat-churrascos')" role="button" tabindex="0">
+                <img src="image/churrasco/churrascosolo.jpg" alt="Churrascos" loading="lazy">
+                <span>Churrascos</span>
+            </div>
+
+            <div class="category-circle-item" onclick="seleccionarCategoria('cat-vienesas')" role="button" tabindex="0">
+                <img src="image/vienesa/vienesasola.jpg" alt="Vienesas" loading="lazy">
+                <span>Vienesas</span>
+            </div>
+
+            <div class="category-circle-item" onclick="seleccionarCategoria('cat-fricandelas')" role="button" tabindex="0">
+                <img src="image/fricandela/fricandelasola.jpg" alt="Fricandelas" loading="lazy">
+                <span>Fricandelas</span>
+            </div>
+
+            <div class="category-circle-item" onclick="seleccionarCategoria('cat-gordas')" role="button" tabindex="0">
+                <img src="image/gorda/gordasola.jpg" alt="Gordas" loading="lazy">
+                <span>Gordas</span>
+            </div>
+
+            <div class="category-circle-item" onclick="seleccionarCategoria('cat-rumanos')" role="button" tabindex="0">
+                <img src="image/rumano/rumanosolo.jpg" alt="Rumanos" loading="lazy">
+                <span>Rumanos</span>
+            </div>
+
+            <div class="category-circle-item" onclick="seleccionarCategoria('cat-agregados')" role="button" tabindex="0">
+                <img src="image/agregados/categoria.jpg" alt="Agregados" loading="lazy">
+                <span>Agregados</span>
+            </div>
+
+            <div class="category-circle-item" onclick="seleccionarCategoria('cat-platos')" role="button" tabindex="0">
+                <img src="image/platos/rinones.png" alt="Platos" loading="lazy">
+                <span>Platos</span>
+            </div>
+
+            <div class="category-circle-item" onclick="seleccionarCategoria('cat-aderezos')" role="button" tabindex="0">
+                <img src="image/aderezos/aderezos.jpg" alt="Aderezos" loading="lazy">
+                <span>Aderezos</span>
+            </div>
+
+            <div class="category-circle-item" onclick="seleccionarCategoria('cat-bebidas')" role="button" tabindex="0">
+                <img src="image/bebidas/todas.png" alt="Bebidas" loading="lazy">
+                <span>Bebidas</span>
+            </div>
+
+            <div class="category-circle-item" onclick="seleccionarCategoria('cat-te_helado')" role="button" tabindex="0">
+                <img src="image/bebidas/icetealipton.png" alt="Té Helado" loading="lazy">
+                <span>Té Helado</span>
+            </div>
+
+            <div class="category-circle-item" onclick="seleccionarCategoria('cat-jugos_naturales')" role="button" tabindex="0">
+                <img src="image/jugosnaturales/jugosnaturales.jpg" alt="Jugos Naturales" loading="lazy">
+                <span>Jugos Nat.</span>
+            </div>
+
+            <div class="category-circle-item" onclick="seleccionarCategoria('cat-jugos_botella')" role="button" tabindex="0">
+                <img src="image/jugos/jugos.png" alt="Jugos Botella" loading="lazy">
+                <span>Jugos Bot.</span>
+            </div>
+
+            <div class="category-circle-item" onclick="seleccionarCategoria('cat-cafeteria')" role="button" tabindex="0">
+                <img src="image/cafeteria/cafeteria.jpg" alt="Cafetería" loading="lazy">
+                <span>Cafetería</span>
+            </div>
+
+            <div class="category-circle-item" onclick="seleccionarCategoria('cat-cervezas_botella')" role="button" tabindex="0">
+                <img src="image/cervezas/cervezas.png" alt="Cervezas" loading="lazy">
+                <span>Cervezas</span>
+            </div>
+
+            <div class="category-circle-item" onclick="seleccionarCategoria('cat-shops')" role="button" tabindex="0">
+                <img src="image/shops/cervezas.jpg" alt="Shops" loading="lazy">
+                <span>Shops</span>
+            </div>
+
+            <div class="category-circle-item" onclick="seleccionarCategoria('cat-bebidas_maquina')" role="button" tabindex="0">
+                    <img src="image/maquina/maquina.jpg" alt="Bebidas de Máquina" loading="lazy">
+                    <span>Bebida Máquina</span>
+            </div>
+        </div>
+
+        <!-- SECCIONES DE PRODUCTOS -->
+
+        <details id="cat-promociones">
+            <summary>PROMOCIONES</summary>
+            <p class="category-desc">Aprovecha nuestras ofertas y combos especiales.</p>
+            <div id="container-promociones" class="menu-container"></div>
+        </details>
+        <details id="cat-lomitos">
+            <summary>LOMITOS</summary>
+            <p class="category-desc">Exquisitas y finas láminas de lomo de cerdo cocinadas en su propio jugo.</p>
+            <div id="container-lomitos" class="menu-container"></div>
+        </details>
+
+        <details id="cat-churrascos">
+            <summary>CHURRASCOS</summary>
+            <p class="category-desc">Finos cortes de tierna carne de vacuno de primera selección, cocinados a la plancha.</p>
+            <div id="container-churrascos" class="menu-container"></div>
+        </details>
+
+        <details id="cat-vienesas">
+            <summary>VIENESAS</summary>
+            <p class="category-desc">Tradicionales vienesas en pan fresco con tus ingredientes favoritos.</p>
+            <div id="container-vienesas" class="menu-container"></div>
+        </details>
+
+        <details id="cat-fricandelas">
+            <summary>FRICANDELAS</summary>
+            <p class="category-desc">Hamburguesas artesanales preparadas con la receta exclusiva de la casa.</p>
+            <div id="container-fricandelas" class="menu-container"></div>
+        </details>
+
+        <details id="cat-gordas">
+            <summary>GORDA</summary>
+            <p class="category-desc">Nuestra tradicional y sabrosa salchicha gruesa de gran calibre, asada a la plancha.</p>
+            <div id="container-gordas" class="menu-container"></div>
+        </details>
+
+        <details id="cat-rumanos">
+            <summary>RUMANO ARTESANAL</summary>
+            <p class="category-desc">Deliciosa preparación artesanal de carne molida de vacuno y cerdo, aliñada con un toque de ajo y asada a la plancha.</p>
+            <div id="container-rumanos" class="menu-container"></div>
+        </details>
+
+        <details id="cat-agregados">
+            <summary>AGREGADOS</summary>
+            <p class="category-desc">Acompaña tus sándwiches con nuestros ingredientes adicionales.</p>
+            <div id="container-agregados" class="menu-container"></div>
+        </details>
+
+        <details id="cat-platos">
+            <summary>PLATOS</summary>
+            <p class="category-desc">Exquisitas preparaciones al plato servidas en porciones generosas.</p>
+            <div id="container-platos" class="menu-container"></div>
+        </details>
+
+        <details id="cat-aderezos">
+            <summary>ADEREZOS</summary>
+            <p class="category-desc">Nuestros aderezos artesanales para acompañar tu mesa.</p>
+            <div id="container-aderezos" class="menu-container"></div>
+        </details>
+
+        <details id="cat-bebidas">
+            <summary>BEBIDAS</summary>
+            <p class="category-desc">Refrescantes bebidas en lata de 350cc.</p>
+            <div id="container-bebidas" class="menu-container"></div>
+        </details>
+
+        <details id="cat-te_helado">
+            <summary>TÉ HELADO</summary>
+            <p class="category-desc">Lipton Ice Tea de 600ml.</p>
+            <div id="container-te_helado" class="menu-container"></div>
+        </details>
+
+        <details id="cat-jugos_naturales">
+            <summary>JUGOS NATURALES</summary>
+            <p class="category-desc">Pulpas naturales seleccionadas.</p>
+            <div id="container-jugos_naturales" class="menu-container"></div>
+        </details>
+
+        <details id="cat-jugos_botella">
+            <summary>JUGOS EN BOTELLA</summary>
+            <p class="category-desc">Formatos individuales de 300ml.</p>
+            <div id="container-jugos_botella" class="menu-container"></div>
+        </details>
+
+        <details id="cat-cafeteria">
+            <summary>CAFETERÍA Y TÉ</summary>
+            <p class="category-desc">Bebidas calientes para acompañar.</p>
+            <div id="container-cafeteria" class="menu-container"></div>
+        </details>
+
+        <details id="cat-cervezas_botella">
+            <summary>CERVEZAS EN BOTELLA</summary>
+            <p class="category-desc">Selección de cervezas nacionales e importadas en formato 330ml y 500ml.</p>
+            <div id="container-cervezas_botella" class="menu-container"></div>
+        </details>
+
+        <details id="cat-shops">
+            <summary>SHOPS</summary>
+            <p class="category-desc">Cerveza de barril bien fría en jarra o copón.</p>
+            <div id="container-shops" class="menu-container"></div>
+        </details>
+
+        <details id="cat-bebidas_maquina">
+                <summary>BEBIDAS DE MÁQUINA</summary>
+                <p class="category-desc">Refrescante combinación a base de jarabe concentrado y agua carbonatada (soda), servida al instante.</p>
+        <div id="container-bebidas_maquina" class="menu-container"></div>
+        </details>
+    </div>
+
+    <!-- Modal de Combinaciones / Variaciones -->
+    <div id="miModal" class="modal">
+        <div class="modal-content-card">
+            <span class="cerrar" onclick="cerrarModal()">&times;</span>
+            <h2 id="modal-titulo"></h2>
+            <img id="imgModal" src="" alt="Foto del producto">
+            <p id="modal-descripcion"></p>
+        </div>
+    </div>
+
+    <!-- BOTÓN FLOTANTE "VOLVER ARRIBA" -->
+    <button id="btnBackToTop" class="btn-back-to-top" aria-label="Volver arriba">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <footer>
+    <div class="footer-columns">
+        <div class="sucursal-col">
+            <span class="sucursal-tag">Alameda</span>
+            <p>Av. Alameda 58, Santiago<br><a href="tel:56226393231"><i class="fas fa-phone"></i> (56 2) 26393231</a></p>
+        </div>
+
+        <!-- Línea divisoria vertical -->
+        <div class="v-divider"></div>
+
+        <div class="sucursal-col">
+            <span class="sucursal-tag">MUT</span>
+            <p>Mercado Urbano Tobalaba<br>Apoquindo 2730, Piso -3</p>
+        </div>
+    </div>
+
+    <div class="creditos-footer">
+        <a href="https://wa.me/56968213125" target="_blank" rel="noopener noreferrer">
+            Créditos 📲
+        </a>
+    </div>
+    </footer>
+
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script src="script.js"></script>
+</body>
+</html>
