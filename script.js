@@ -158,3 +158,87 @@ function abrirApp(redSocial) {
         }
     }
 }
+// Manejo de Pestañas Internas del Modal
+function cambiarSubtema(idTab, btnElemento) {
+    const contenidos = document.querySelectorAll('.tab-content');
+    contenidos.forEach(panel => panel.classList.remove('active'));
+
+    const botones = document.querySelectorAll('.tab-btn');
+    botones.forEach(btn => btn.classList.remove('active'));
+
+    const tabSeleccionada = document.getElementById(idTab);
+    if (tabSeleccionada) tabSeleccionada.classList.add('active');
+    if (btnElemento) btnElemento.classList.add('active');
+}
+
+// Abrir y Cerrar Modales Generales
+function abrirModal(idModal) {
+    const modal = document.getElementById(idModal);
+    if (modal) modal.style.display = "flex";
+}
+
+function cerrarModal(idModal) {
+    const targetId = (typeof idModal === 'string') ? idModal : 'miModal';
+    const modal = document.getElementById(targetId);
+    if (modal) modal.style.display = "none";
+}
+
+function cerrarModalAfuera(event, idModal) {
+    const modal = document.getElementById(idModal);
+    if (event.target === modal) {
+        cerrarModal(idModal);
+    }
+}
+
+let idiomaActual = 'es';
+
+async function cargarMenu() {
+    try {
+        // Carga menu_es.json o menu_en.json según la selección
+        const response = await fetch(`menu_${idiomaActual}.json`);
+        menuDataGlobal = await response.json();
+
+        for (const categoria in menuDataGlobal) {
+            const contenedor = document.getElementById(`container-${categoria}`);
+            if (!contenedor) continue;
+
+            contenedor.innerHTML = '';
+
+            menuDataGlobal[categoria].forEach(producto => {
+                const nombreFormateado = producto.nombre.replace(/\(([^)]+)\)/, '<span class="cc-tag">($1)</span>');
+
+                const tarjetaHtml = `
+                    <div class="menu-item" onclick="verCombinaciones('${categoria}', '${producto.nombre}')" role="button" tabindex="0">
+                        <div class="card-img-container">
+                            <img src="${producto.imagen}" alt="${producto.nombre}" class="thumb-foto" loading="lazy">
+                        </div>
+                        <div class="item-info">
+                            <strong>${nombreFormateado}</strong>
+                            <p>${producto.descripcion}</p>
+                        </div>
+                        <div class="item-actions">
+                            <span class="price">${producto.precio}</span>
+                        </div>
+                    </div>
+                `;
+                contenedor.innerHTML += tarjetaHtml;
+            });
+        }
+    } catch (error) {
+        console.error('Error al cargar el archivo de menú:', error);
+    }
+}
+
+// Función para cambiar de idioma al presionar los botones
+function cambiarIdioma(lang) {
+    if (idiomaActual === lang) return;
+    
+    idiomaActual = lang;
+    
+    // Actualiza la clase activa en los botones UI
+    document.querySelectorAll('.btn-lang').forEach(btn => btn.classList.remove('active'));
+    event.target.classList.add('active');
+    
+    // Vuelve a renderizar la carta con el nuevo idioma
+    cargarMenu();
+}

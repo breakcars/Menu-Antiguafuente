@@ -801,18 +801,19 @@
   }
 ],
 "promociones": [
-    {
-      "nombre": "Promo Lomito + Cerveza",
-      "descripcion": "Lomito Italiano acompañado de una cerveza Kunstmann Torobayo 330cc.",
-      "precio": "$12.500",
-      "imagen": "image/promociones/promo1.jpg"
-    },
-    {
-      "nombre": "Promo 2x1 Vienesas",
-      "descripcion": "Dos Vienesas Italianas en pan amasado artesanal.",
-      "precio": "$11.000",
-      "imagen": "image/promociones/promo2.jpg"
-    }
-  ]
+  {
+    "nombre": "Promoción Fricandela Completa + Cerveza",
+    "descripcion": "Fricandela completa + Cerveza Del Puerto Porter 500 ml (4,5°). Válida hasta agotar stock.",
+    "precio": "$8.700",
+    "imagen": "image/promocion/fricaporter.jpg"
+  },
+  {
+    "nombre": "Promoción Fricandela Completa + Bebida",
+    "descripcion": "Fricandela completa + Bebida 220 ml. Sabores a elección: Pepsi, Pepsi Zero, Canada Dry Ginger Ale o Canada Dry Zero. Válida hasta agotar stock.",
+    "precio": "$7.700",
+    "imagen": "image/promocion/fricabebidas.jpg"
+  }
+]
+
 }
   

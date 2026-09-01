@@ -18,21 +18,21 @@
         <div class="header-content">
             <img src="logo antiguafuente amarillo.png" alt="Logo Antigua Fuente" class="header-logo" loading="eager">
             
-            <div class="header-right">
-                <div class="header-text">
-                    <h1>ANTIGUA FUENTE</h1>
-                    <p>Monumento Gastronómico</p>
+                        <div class="header-right">
+                            <div class="header-text">
+                                <h1>ANTIGUA FUENTE</h1>
+                                <p>Monumento Gastronómico</p>
+                            </div>
+                            <div class="header-social-wrapper">
+                <span class="siguenos-tag">
+                    Síguenos <i class="fas fa-arrow-right-long"></i>
+                </span>
+                    <div class="header-social">
+                    <a href="#" onclick="abrirApp('facebook'); return false;" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="#" onclick="abrirApp('instagram'); return false;" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://antiguafuente.cl" target="_blank" title="Sitio Oficial" aria-label="Sitio Web"><i class="fas fa-globe"></i></a>
+                    </div>
                 </div>
-                <div class="header-social-wrapper">
-    <span class="siguenos-tag">
-        Síguenos <i class="fas fa-arrow-right-long"></i>
-    </span>
-    <div class="header-social">
-        <a href="#" onclick="abrirApp('facebook'); return false;" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
-        <a href="#" onclick="abrirApp('instagram'); return false;" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-        <a href="https://antiguafuente.cl" target="_blank" title="Sitio Oficial" aria-label="Sitio Web"><i class="fas fa-globe"></i></a>
-    </div>
-</div>
             </div>
         </div>
     </header>
@@ -42,8 +42,12 @@
 
     <div class="container">
     
-        <!-- Traductor Google -->
-        <div id="google_translate_element" class="translate-container"></div>
+       
+            <div class="lang-switcher">
+                <button class="btn-lang active" onclick="cambiarIdioma('es')">ES</button>
+                <button class="btn-lang" onclick="cambiarIdioma('en')">EN</button>
+                <button class="btn-lang" onclick="cambiarIdioma('pt')">PT</button>
+            </div>
 
             <div class="note">
                     <strong>Nota:</strong> Sándwiches y vienesas servidos exclusivamente en pan amasado frica artesanal del día.
@@ -52,7 +56,7 @@
         <!-- GRID DE CATEGORÍAS ADAPTATIVO -->
         <div class="categories-nav-grid">
             <div class="category-circle-item" onclick="seleccionarCategoria('cat-promociones')" role="button" tabindex="0">
-                    <img src="image/promociones/promociones.jpg" alt="Promociones" loading="lazy">
+                    <img src="image/promocion/promociones.jpg" alt="Promociones" loading="lazy">
                     <span>Promociones</span>
             </div>
 
@@ -267,30 +271,73 @@
         <i class="fas fa-chevron-up"></i>
     </button>
 
-    <footer>
+   <!-- FOOTER -->
+<footer>
     <div class="footer-columns">
         <div class="sucursal-col">
             <span class="sucursal-tag">Alameda</span>
             <p>Av. Alameda 58, Santiago<br><a href="tel:56226393231"><i class="fas fa-phone"></i> (56 2) 26393231</a></p>
         </div>
-
-        <!-- Línea divisoria vertical -->
-        <div class="v-divider"></div>
-
-        <div class="sucursal-col">
-            <span class="sucursal-tag">MUT</span>
-            <p>Mercado Urbano Tobalaba<br>Apoquindo 2730, Piso -3</p>
-        </div>
     </div>
+
+    <p style="margin-top: 15px;">
+        <span class="kw-link-main" onclick="abrirModal('modalCondiciones')">
+            <i class="fas fa-shield-alt"></i> Condiciones y Protección al Consumidor
+        </span>
+    </p>
 
     <div class="creditos-footer">
         <a href="https://wa.me/56968213125" target="_blank" rel="noopener noreferrer">
-            Créditos 📲
+            Desarrollador 📲
         </a>
     </div>
-    </footer>
+</footer>
 
-    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+<!-- MODAL UNIFICADO: CONDICIONES Y LEGISLACIÓN -->
+<div id="modalCondiciones" class="modal" onclick="cerrarModalAfuera(event, 'modalCondiciones')">
+    <div class="modal-content-card modal-large">
+        <span class="cerrar" onclick="cerrarModal('modalCondiciones')">&times;</span>
+        <h2 class="modal-title"><i class="fas fa-balance-scale"></i> Términos, Condiciones y Derechos</h2>
+
+        <!-- Navegación por Pestañas -->
+        <div class="modal-nav">
+            <button class="tab-btn active" onclick="cambiarSubtema('tab-exclusividad', this)">Exclusividad & Precios</button>
+            <button class="tab-btn" onclick="cambiarSubtema('tab-retracto', this)">Derecho de Retracto</button>
+            <button class="tab-btn" onclick="cambiarSubtema('tab-alergias', this)">Alergias e Intolerancias</button>
+            <button class="tab-btn" onclick="cambiarSubtema('tab-consumidor', this)">Protección al Consumidor</button>
+        </div>
+
+        <!-- Contenidos -->
+        <div class="modal-body">
+            <div id="tab-exclusividad" class="tab-content active">
+                <h3><i class="fas fa-store"></i> Exclusividad de Carta y Precios</h3>
+                <p>Los precios, promociones, productos y combinaciones de esta carta digital son exclusivos para el consumo presencial en el local. Los precios expuestos en plataformas de reparto a domicilio (delivery) pueden diferir debido a costos operacionales de terceros.</p>
+            </div>
+
+            <div id="tab-retracto" class="tab-content">
+                <h3><i class="fas fa-ban"></i> Derecho de Retracto (Ley N° 19.496)</h3>
+                <p>De conformidad con el Art. 3° bis de la Ley N° 19.496 sobre Protección de los Derechos de los Consumidores, no aplica el derecho de retracto en la compra de productos perecibles o preparaciones alimentarias de consumo inmediato una vez confirmada e ingresada la comanda a cocina.</p>
+            </div>
+
+            <div id="tab-alergias" class="tab-content">
+                <h3><i class="fas fa-utensils"></i> Alergias e Ingredientes</h3>
+                <p>Nuestras preparaciones se realizan en cocinas expuestas a ingredientes altamente alergenos. Pueden contener trazas de <strong>gluten, huevo, lácteos, mostaza, frutos secos y sulfitos</strong>. Por favor, notifique cualquier condición médica o alergia severa al personal de atención antes de emitir su pedido.</p>
+            </div>
+
+            <div id="tab-consumidor" class="tab-content">
+                <h3><i class="fas fa-user-shield"></i> Derechos del Consumidor & Pagos</h3>
+                <ul>
+                    <li><strong>Propina Voluntaria:</strong> La propina sugerida (10%) es estrictamente voluntaria conforme a la Ley N° 20.729.</li>
+                    <li><strong>Comprobante de Pago:</strong> Se emitirá boleta electrónica por cada consumo realizado en el establecimiento.</li>
+                    <li><strong>Medios de Pago:</strong> Se aceptan pagos en efectivo, tarjetas de débito y crédito bancarias sin recargos adicionales.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!-- Cargar primero script.js y luego el API de Google Translate -->
     <script src="script.js"></script>
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 </body>
 </html>

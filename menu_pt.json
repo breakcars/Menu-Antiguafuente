@@ -1,0 +1,818 @@
+{
+  "lomitos": [
+    {
+      "nombre": "Lomito Solo",
+      "descripcion": "(Sanduíche chileno de lombo de porco grelhado) Fatias de lombo de porco cortadas na hora, servidas em pão amassado chileno quentinho.",
+      "precio": "$5.400",
+      "imagen": "image/lomo/lomosolo.jpg"
+    },
+    {
+      "nombre": "Lomito Especial",
+      "descripcion": "(Sanduíche de lombo de porco) Coberto com nossa maionese caseira.",
+      "precio": "$6.700",
+      "imagen": "image/lomo/lomoespecial.jpg"
+    },
+    {
+      "nombre": "Lomito Diplomático",
+      "descripcion": "(Sanduíche de lombo de porco) Coberto com queijo cremoso derretido.",
+      "precio": "$7.500",
+      "imagen": "image/lomo/diplomatico.jpg"
+    },
+    {
+      "nombre": "Lomito Palta",
+      "descripcion": "(Sanduíche de lombo de porco) Com generosa camada de abacate fresco da estação.",
+      "precio": "$7.700",
+      "imagen": "image/lomo/lomopalta.jpg"
+    },
+    {
+      "nombre": "Lomito Rusa",
+      "descripcion": "(Sanduíche de lombo de porco) Nossa receita especial de salada russa com presunto, picles e maionese.",
+      "precio": "$7.700",
+      "imagen": "image/lomo/lomorusa.jpg"
+    },
+    {
+      "nombre": "Lomito Chacarero Ají",
+      "descripcion": "(Sanduíche de lombo de porco, estilo \"Chacarero\") Com tomate fresco, vagem tenra e um toque de pimenta chilena (ají).",
+      "precio": "$7.700",
+      "imagen": "image/lomo/lomochacareroaji.jpg"
+    },
+    {
+      "nombre": "Lomito Completo",
+      "descripcion": "(Sanduíche de lombo de porco, estilo \"completo\") Chucrute tradicional, molho de tomate natural e maionese caseira.",
+      "precio": "$8.000",
+      "imagen": "image/lomo/lomocompleto.jpg"
+    },
+    {
+      "nombre": "Lomito Palta Mayo",
+      "descripcion": "(Sanduíche de lombo de porco) Abacate da estação e nossa clássica maionese caseira.",
+      "precio": "$9.000",
+      "imagen": "image/lomo/lomopaltamayo.jpg"
+    },
+    {
+      "nombre": "Lomito Italiano",
+      "descripcion": "(Sanduíche de lombo de porco, estilo \"italiano\") Fatias de tomate fresco, abacate amassado e maionese da casa — nome inspirado nas cores vermelho, branco e verde.",
+      "precio": "$10.300",
+      "imagen": "image/lomo/lomoitaliano.jpg"
+    },
+    {
+      "nombre": "Lomito Baquedano",
+      "descripcion": "(Sanduíche de lombo de porco) Queijo cremoso derretido, tomate fresco e cebola grelhada na chapa.",
+      "precio": "$10.300",
+      "imagen": "image/lomo/lomobaquedano.jpg"
+    },
+    {
+      "nombre": "Lomito Alameda",
+      "descripcion": "(Sanduíche de lombo de porco) Bacon crocante, queijo cremoso derretido e cebola grelhada na chapa.",
+      "precio": "$11.300",
+      "imagen": "image/lomo/lomoalameda.jpg"
+    }
+  ],
+
+  "churrascos": [
+    {
+      "nombre": "Churrasco Solo",
+      "descripcion": "(Sanduíche chileno de carne bovina fatiada fina) Fatias suculentas de carne bovina em pão amassado artesanal.",
+      "precio": "$7.100",
+      "imagen": "image/churrasco/churrascosolo.jpg"
+    },
+    {
+      "nombre": "Churrasco Especial",
+      "descripcion": "(Sanduíche de carne bovina) Fatias finas de carne com maionese da casa.",
+      "precio": "$8.400",
+      "imagen": "image/churrasco/churrascomayo.jpg"
+    },
+    {
+      "nombre": "Barros Luco",
+      "descripcion": "(O icônico sanduíche chileno de carne com queijo derretido, batizado em homenagem ao ex-presidente Ramón Barros Luco) Carne bovina com bastante queijo cremoso derretido.",
+      "precio": "$9.400",
+      "imagen": "image/churrasco/barrosluco.jpg"
+    },
+    {
+      "nombre": "Churrasco Rusa",
+      "descripcion": "(Sanduíche de carne bovina) Salada russa caseira com presunto, picles e maionese.",
+      "precio": "$9.400",
+      "imagen": "image/churrasco/churrascorusa.jpg"
+    },
+    {
+      "nombre": "Churrasco Palta",
+      "descripcion": "(Sanduíche de carne bovina) Com generosa porção de abacate amassado da estação.",
+      "precio": "$9.400",
+      "imagen": "image/churrasco/churrascopalta.jpg"
+    },
+    {
+      "nombre": "Churrasco Completo",
+      "descripcion": "(Sanduíche de carne bovina, estilo \"completo\") Chucrute, molho de tomate natural e maionese caseira.",
+      "precio": "$9.700",
+      "imagen": "image/churrasco/churrascocompleto.jpg"
+    },
+    {
+      "nombre": "Churrasco Chacarero Ají",
+      "descripcion": "(Sanduíche de carne bovina, estilo \"Chacarero\") Tomate fresco, vagem e pimenta verde (ají) da casa.",
+      "precio": "$9.700",
+      "imagen": "image/churrasco/chacareroaji.jpg"
+    },
+    {
+      "nombre": "Churrasco Palta Mayo",
+      "descripcion": "(Sanduíche de carne bovina) Uma generosa camada de abacate amassado e maionese caseira.",
+      "precio": "$10.700",
+      "imagen": "image/churrasco/churrascopaltamayo.jpg"
+    },
+    {
+      "nombre": "Churrasco Italiano",
+      "descripcion": "(Sanduíche de carne bovina, estilo \"italiano\") Tomate fresco fatiado, abacate e maionese caseira.",
+      "precio": "$12.000",
+      "imagen": "image/churrasco/churrascoitaliano.jpg"
+    },
+    {
+      "nombre": "Churrasco Baquedano",
+      "descripcion": "(Sanduíche de carne bovina) Queijo cremoso derretido, tomate fresco e cebola grelhada na chapa.",
+      "precio": "$12.000",
+      "imagen": "image/churrasco/churrascobaquedano.jpg"
+    },
+    {
+      "nombre": "Churrasco Alameda",
+      "descripcion": "(Sanduíche de carne bovina) Bacon crocante, queijo cremoso derretido e cebola grelhada na chapa.",
+      "precio": "$13.000",
+      "imagen": "image/churrasco/churrascoalameda.jpg"
+    }
+  ],
+
+  "rumanos": [
+    {
+      "nombre": "Rumano Solo",
+      "descripcion": "(\"Rumano\", sanduíche chileno de carne de porco e boi grelhadas) Mistura artesanal de porco e boi grelhados na chapa com alho e pimenta.",
+      "precio": "$7.100",
+      "imagen": "image/rumano/rumanosolo.jpg"
+    },
+    {
+      "nombre": "Rumano Especial",
+      "descripcion": "(Sanduíche de carne de porco e boi) Preparo artesanal da carne com maionese da casa.",
+      "precio": "$8.400",
+      "imagen": "image/rumano/rumanomayo.jpg"
+    },
+    {
+      "nombre": "Rumano Queso",
+      "descripcion": "(Sanduíche de carne de porco e boi) Carne temperada com bastante queijo cremoso derretido.",
+      "precio": "$9.400",
+      "imagen": "image/rumano/rumanoqueso.jpg"
+    },
+    {
+      "nombre": "Rumano Palta",
+      "descripcion": "(Sanduíche de carne de porco e boi) Servido com uma camada de abacate fresco da estação.",
+      "precio": "$9.400",
+      "imagen": "image/rumano/rumanopalta.jpg"
+    },
+    {
+      "nombre": "Rumano Rusa",
+      "descripcion": "(Sanduíche de carne de porco e boi) Salada russa especial com presunto, picles e maionese.",
+      "precio": "$9.400",
+      "imagen": "image/rumano/rumanorusa.jpg"
+    },
+    {
+      "nombre": "Rumano Chacarero Ají",
+      "descripcion": "(Sanduíche de carne de porco e boi, estilo \"Chacarero\") Vagem tenra, tomate fatiado e pimenta verde (ají).",
+      "precio": "$9.400",
+      "imagen": "image/rumano/rumanochacarero.jpg"
+    },
+    {
+      "nombre": "Rumano Completo",
+      "descripcion": "(Sanduíche de carne de porco e boi, estilo \"completo\") Chucrute, molho de tomate natural e maionese caseira.",
+      "precio": "$9.700",
+      "imagen": "image/rumano/rumanocompleto.jpg"
+    },
+    {
+      "nombre": "Rumano Palta Mayo",
+      "descripcion": "(Sanduíche de carne de porco e boi) Abacate fresco amassado e nossa maionese caseira.",
+      "precio": "$10.400",
+      "imagen": "image/rumano/rumanopaltamayo.jpg"
+    },
+    {
+      "nombre": "Rumano Baquedano",
+      "descripcion": "(Sanduíche de carne de porco e boi) Queijo cremoso derretido, tomate fresco e cebola grelhada na chapa.",
+      "precio": "$11.600",
+      "imagen": "image/rumano/rumanobaquedano.jpg"
+    },
+    {
+      "nombre": "Rumano Italiano",
+      "descripcion": "(Sanduíche de carne de porco e boi, estilo \"italiano\") Tomate fresco, abacate amassado e maionese caseira.",
+      "precio": "$12.000",
+      "imagen": "image/rumano/rumanoitaliano.jpg"
+    },
+    {
+      "nombre": "Rumano Alameda",
+      "descripcion": "(Sanduíche de carne de porco e boi) Bacon crocante, queijo cremoso derretido e cebola grelhada na chapa.",
+      "precio": "$13.000",
+      "imagen": "image/rumano/rumanoalameda.jpg"
+    }
+  ],
+
+  "fricandelas": [
+    {
+      "nombre": "Fricandela Sola",
+      "descripcion": "(Sanduíche chileno de hambúrguer caseiro) Um grande hambúrguer caseiro servido em pão amassado artesanal.",
+      "precio": "$4.300",
+      "imagen": "image/fricandela/fricandelasola.jpg"
+    },
+    {
+      "nombre": "Fricandela Especial",
+      "descripcion": "(Sanduíche de hambúrguer caseiro) Hambúrguer artesanal com maionese caseira.",
+      "precio": "$5.600",
+      "imagen": "image/fricandela/fricandelamayo.jpg"
+    },
+    {
+      "nombre": "Fricandela Palta",
+      "descripcion": "(Sanduíche de hambúrguer caseiro) Com abacate fresco amassado da estação.",
+      "precio": "$6.600",
+      "imagen": "image/fricandela/fricapalta.jpg"
+    },
+    {
+      "nombre": "Fricandela Rusa",
+      "descripcion": "(Sanduíche de hambúrguer caseiro) Salada russa com presunto, picles e maionese artesanal.",
+      "precio": "$6.600",
+      "imagen": "image/fricandela/fricarusa.jpg"
+    },
+    {
+      "nombre": "Fricandela Queso",
+      "descripcion": "(Sanduíche de hambúrguer caseiro) Nosso hambúrguer da casa com queijo cremoso derretido.",
+      "precio": "$6.600",
+      "imagen": "image/fricandela/fricaqueso.jpg"
+    },
+    {
+      "nombre": "Fricandela Completa",
+      "descripcion": "(Sanduíche de hambúrguer caseiro, estilo \"completo\") Chucrute artesanal, molho de tomate natural e maionese caseira.",
+      "precio": "$6.900",
+      "imagen": "image/fricandela/fricandelacompleta.jpg"
+    },
+    {
+      "nombre": "Fricandela Chacarera Ají",
+      "descripcion": "(Sanduíche de hambúrguer caseiro, estilo \"Chacarero\") Vagem, tomate fresco fatiado e pimenta (ají).",
+      "precio": "$6.900",
+      "imagen": "image/fricandela/fricandelachacareraaji.jpg"
+    },
+    {
+      "nombre": "Fricandela Palta Mayo",
+      "descripcion": "(Sanduíche de hambúrguer caseiro) Abacate fresco amassado e maionese caseira.",
+      "precio": "$7.900",
+      "imagen": "image/fricandela/fricapaltamayo.jpg"
+    },
+    {
+      "nombre": "Fricandela Baquedano",
+      "descripcion": "(Sanduíche de hambúrguer caseiro) Queijo cremoso derretido, tomate fresco e cebola grelhada na chapa.",
+      "precio": "$8.800",
+      "imagen": "image/fricandela/fricandelabaquedano.jpg"
+    },
+    {
+      "nombre": "Fricandela Italiana",
+      "descripcion": "(Sanduíche de hambúrguer caseiro, estilo \"italiano\") Tomate fresco fatiado, abacate e maionese da casa.",
+      "precio": "$9.200",
+      "imagen": "image/fricandela/fricandelaitaliana.jpg"
+    },
+    {
+      "nombre": "Fricandela Alameda",
+      "descripcion": "(Sanduíche de hambúrguer caseiro) Bacon crocante, queijo cremoso derretido e cebola grelhada na chapa.",
+      "precio": "$9.800",
+      "imagen": "image/fricandela/fricandelaalameda.jpg"
+    }
+  ],
+
+  "vienesas": [
+    {
+      "nombre": "Vienesa Sola",
+      "descripcion": "(Sanduíche chileno de salsicha, estilo cachorro-quente) Salsicha artesanal servida em pão amassado quentinho.",
+      "precio": "$2.000",
+      "imagen": "image/vienesa/vienesasola.jpg"
+    },
+    {
+      "nombre": "Vienesa Especial",
+      "descripcion": "(Sanduíche de salsicha) Salsicha artesanal com maionese da casa.",
+      "precio": "$3.300",
+      "imagen": "image/vienesa/vienesamayo.jpg"
+    },
+    {
+      "nombre": "Vienesa Rusa",
+      "descripcion": "(Sanduíche de salsicha) Salada russa artesanal com presunto, picles e maionese.",
+      "precio": "$4.300",
+      "imagen": "image/vienesa/vienesarusa.jpg"
+    },
+    {
+      "nombre": "Vienesa Queso",
+      "descripcion": "(Sanduíche de salsicha) Com bastante queijo cremoso derretido na chapa.",
+      "precio": "$4.300",
+      "imagen": "image/vienesa/vienesaqueso.jpg"
+    },
+    {
+      "nombre": "Vienesa Palta",
+      "descripcion": "(Sanduíche de salsicha) Servido com uma porção de abacate fresco amassado.",
+      "precio": "$4.300",
+      "imagen": "image/vienesa/vienesapalta.jpg"
+    },
+    {
+      "nombre": "Vienesa Chacarera Ají",
+      "descripcion": "(Sanduíche de salsicha, estilo \"Chacarero\") Vagem fresca, tomate fatiado e pimenta (ají).",
+      "precio": "$4.300",
+      "imagen": "image/vienesa/vienesachacarera.jpg"
+    },
+    {
+      "nombre": "Vienesa Completa",
+      "descripcion": "(Sanduíche de salsicha, estilo \"completo\") Chucrute artesanal, molho de tomate natural e maionese caseira.",
+      "precio": "$4.600",
+      "imagen": "image/vienesa/vienesacompleta.jpg"
+    },
+    {
+      "nombre": "Vienesa Palta Mayo",
+      "descripcion": "(Sanduíche de salsicha) Abacate fresco amassado com nossa cremosa maionese caseira.",
+      "precio": "$5.300",
+      "imagen": "image/vienesa/vienesapaltamayo.jpg"
+    },
+    {
+      "nombre": "Vienesa Baquedano",
+      "descripcion": "(Sanduíche de salsicha) Queijo cremoso derretido, tomate fatiado e cebola grelhada na chapa.",
+      "precio": "$6.500",
+      "imagen": "image/vienesa/vienesabaquedano.jpg"
+    },
+    {
+      "nombre": "Vienesa Italiana",
+      "descripcion": "(Sanduíche de salsicha, estilo \"italiano\") Tomate fresco, abacate amassado e maionese caseira.",
+      "precio": "$6.900",
+      "imagen": "image/vienesa/vienesaitaliana.jpg"
+    },
+    {
+      "nombre": "Vienesa Alameda",
+      "descripcion": "(Sanduíche de salsicha) Bacon crocante, queijo cremoso derretido e cebola grelhada na chapa.",
+      "precio": "$7.500",
+      "imagen": "image/vienesa/vienesaalameda.jpg"
+    }
+  ],
+
+  "gordas": [
+    {
+      "nombre": "Gorda Sola",
+      "descripcion": "(\"Gorda\", sanduíche chileno de linguiça defumada e grossa) Uma linguiça de porco grossa, artesanal e levemente defumada.",
+      "precio": "$4.300",
+      "imagen": "image/gorda/gordasola.jpg"
+    },
+    {
+      "nombre": "Gorda Especial",
+      "descripcion": "(Sanduíche de linguiça defumada) Linguiça de porco defumada com maionese da casa.",
+      "precio": "$5.600",
+      "imagen": "image/gorda/gordamayo.jpg"
+    },
+    {
+      "nombre": "Gorda Rusa",
+      "descripcion": "(Sanduíche de linguiça defumada) Salada russa caseira com presunto, picles e maionese.",
+      "precio": "$6.400",
+      "imagen": "image/gorda/gordarusa.jpg"
+    },
+    {
+      "nombre": "Gorda Queso",
+      "descripcion": "(Sanduíche de linguiça defumada) Coberta com bastante queijo cremoso derretido.",
+      "precio": "$6.400",
+      "imagen": "image/gorda/gordaqueso.jpg"
+    },
+    {
+      "nombre": "Gorda Palta",
+      "descripcion": "(Sanduíche de linguiça defumada) Com abacate fresco amassado da estação.",
+      "precio": "$6.600",
+      "imagen": "image/gorda/gordapalta.jpg"
+    },
+    {
+      "nombre": "Gorda Chacarera Ají",
+      "descripcion": "(Sanduíche de linguiça defumada, estilo \"Chacarero\") Vagem tenra, tomate fresco fatiado e pimenta (ají).",
+      "precio": "$6.600",
+      "imagen": "image/gorda/gordachacareraaji.jpg"
+    },
+    {
+      "nombre": "Gorda Completa",
+      "descripcion": "(Sanduíche de linguiça defumada, estilo \"completo\") Chucrute, molho de tomate natural e maionese caseira.",
+      "precio": "$6.900",
+      "imagen": "image/gorda/gordacompleta.jpg"
+    },
+    {
+      "nombre": "Gorda Palta Mayo",
+      "descripcion": "(Sanduíche de linguiça defumada) Abacate amassado da estação e maionese da casa.",
+      "precio": "$7.900",
+      "imagen": "image/gorda/gordapaltamayo.jpg"
+    },
+    {
+      "nombre": "Gorda Baquedano",
+      "descripcion": "(Sanduíche de linguiça defumada) Queijo cremoso derretido, tomate fresco e cebola grelhada na chapa.",
+      "precio": "$8.800",
+      "imagen": "image/gorda/gordabaquedano.jpg"
+    },
+    {
+      "nombre": "Gorda Alameda",
+      "descripcion": "(Sanduíche de linguiça defumada) Bacon crocante, queijo cremoso derretido e cebola grelhada na chapa.",
+      "precio": "$9.800",
+      "imagen": "image/gorda/gordaalameda.jpg"
+    },
+    {
+      "nombre": "Gorda Italiana",
+      "descripcion": "(Sanduíche de linguiça defumada, estilo \"italiano\") Tomate fresco, abacate amassado e maionese da casa.",
+      "precio": "$10.200",
+      "imagen": "image/gorda/gordaitaliana.jpg"
+    }
+  ],
+
+  "agregados": [
+    { "nombre": "Palta", "descripcion": "Uma porção de abacate fresco amassado.", "precio": "$1.500", "imagen": "image/agregados/palta.jpg" },
+    { "nombre": "Tomate", "descripcion": "Uma porção de tomate fresco fatiado.", "precio": "$1.200", "imagen": "image/agregados/tomate.jpg" },
+    { "nombre": "Mayonesa Casera", "descripcion": "Maionese caseira, preparada com ovo pasteurizado.", "precio": "$1.000", "imagen": "image/agregados/mayo.jpg" },
+    { "nombre": "Chucrut", "descripcion": "Chucrute artesanal tradicional.", "precio": "$1.000", "imagen": "image/agregados/chucrut.jpg" },
+    { "nombre": "Porotos Verdes", "descripcion": "Vagens tenras selecionadas.", "precio": "$1.200", "imagen": "image/agregados/porotosverdes.jpg" },
+    { "nombre": "Tomate Picado", "descripcion": "Tomate picado, exclusivo para os sanduíches de salsicha (vienesa).", "precio": "$1.000", "imagen": "image/agregados/tomatepicado.jpg" },
+    { "nombre": "Salsa de Tomate", "descripcion": "Nosso molho de tomate caseiro.", "precio": "$800", "imagen": "image/agregados/salsatomate.jpg" },
+    { "nombre": "Ají Verde", "descripcion": "Pimenta verde fresca picada.", "precio": "$800", "imagen": "image/agregados/ajiverde.jpg" },
+    { "nombre": "Cebolla Caramelizada", "descripcion": "Cebola refogada na chapa.", "precio": "$1.200", "imagen": "image/agregados/cebollacaramelizada.jpg" },
+    { "nombre": "Tocino", "descripcion": "Fatias de bacon crocante.", "precio": "$1.500", "imagen": "image/agregados/tocino.jpg" },
+    { "nombre": "Queso Fundido", "descripcion": "Uma porção extra de queijo derretido.", "precio": "$1.500", "imagen": "image/agregados/queso.jpg" },
+    { "nombre": "Salsa Americana", "descripcion": "Molho picado tradicional, estilo relish.", "precio": "$1.000", "imagen": "image/agregados/americana.jpg" },
+    { "nombre": "Ensalada Rusa", "descripcion": "Uma porção de salada russa artesanal.", "precio": "$1.500", "imagen": "image/agregados/rusa.jpg" },
+    { "nombre": "Pepinillos", "descripcion": "Uma porção de picles crocantes fatiados.", "precio": "$1.000", "imagen": "image/agregados/pepinillos.jpg" }
+  ],
+  "platos": [
+    {
+      "nombre": "Crudo Tradicional",
+      "descripcion": "(Carne bovina crua, estilo tártaro chileno) Carne bovina magra moída, servida crua com temperos da casa.",
+      "precio": "$8.900",
+      "imagen": "image/platos/crudo.avif"
+    },
+    {
+      "nombre": "Tártaro",
+      "descripcion": "(Steak tartare clássico) Carne bovina moída bem fina, alcaparras, cebola, picles e gema de ovo.",
+      "precio": "$9.500",
+      "imagen": "image/platos/tartaro.avif"
+    },
+    {
+      "nombre": "Riñones con Arroz",
+      "descripcion": "(Rins de boi com arroz) Rins suculentos preparados à moda da casa, acompanhados de uma porção de arroz.",
+      "precio": "$PRECIO",
+      "imagen": "image/platos/rinonarroz.png"
+    },
+    {
+      "nombre": "Rumano con Arroz",
+      "descripcion": "(Recheio de \"Rumano\" servido como prato) Nosso saboroso preparo de carne moída, servido sobre arroz em vez de no pão.",
+      "precio": "$PRECIO",
+      "imagen": "image/platos/rumano-arroz.jpg"
+    },
+    {
+      "nombre": "Ensalada de la Casa",
+      "descripcion": "Salada da casa, servida em prato grande, em porção mais generosa do que a usada nos sanduíches.",
+      "precio": "$PRECIO",
+      "imagen": "image/platos/ensalada.jpg"
+    }
+  ],
+  "aderezos": [
+    {
+      "nombre": "Mostaza Artesanal",
+      "descripcion": "Nossa própria mostarda de receita artesanal da casa.",
+      "precio": "$500",
+      "imagen": "image/aderezos/mostaza.jpg"
+    },
+    {
+      "nombre": "Ají Rojo Crema",
+      "descripcion": "Molho cremoso de pimenta vermelha, preparado artesanalmente.",
+      "precio": "$500",
+      "imagen": "image/aderezos/ajirojo.jpg"
+    }
+  ],
+  "bebidas": [
+    {
+      "nombre": "Coca Cola Original (350cc)",
+      "descripcion": "O clássico refrigerante de sabor inconfundível e máxima refrescância.",
+      "precio": "$1.800",
+      "imagen": "image/bebidas/cocacola.jpg"
+    },
+    {
+      "nombre": "Coca Cola Zero (350cc)",
+      "descripcion": "O mesmo grande sabor e refrescância da Coca-Cola, totalmente sem açúcar.",
+      "precio": "$1.800",
+      "imagen": "image/bebidas/cocacolazero.jpg"
+    },
+    {
+      "nombre": "Pepsi (350cc)",
+      "descripcion": "Refrigerante de sabor intenso, refrescante e com o toque característico da Pepsi.",
+      "precio": "$1.800",
+      "imagen": "image/bebidas/pepsi.jpg"
+    },
+    {
+      "nombre": "Pepsi Zero (350cc)",
+      "descripcion": "Todo o sabor ousado e refrescante da Pepsi, em sua versão sem açúcar e sem calorias.",
+      "precio": "$1.800",
+      "imagen": "image/bebidas/pepsizero.jpg"
+    },
+    {
+      "nombre": "Bilz (350cc)",
+      "descripcion": "Refrigerante chileno tradicional, com seu inconfundível e doce sabor \"fantasia vermelha\".",
+      "precio": "$1.800",
+      "imagen": "image/bebidas/bilz.jpg"
+    },
+    {
+      "nombre": "Pap (350cc)",
+      "descripcion": "Refrigerante nacional emblemático, com sabor autêntico, fresco e doce de mamão.",
+      "precio": "$1.800",
+      "imagen": "image/bebidas/pap.jpg"
+    },
+    {
+      "nombre": "Limón Soda (350cc)",
+      "descripcion": "Bebida gaseificada ultra refrescante com o toque exato de suco de limão de verdade.",
+      "precio": "$1.800",
+      "imagen": "image/bebidas/limonsoda.jpg"
+    },
+    {
+      "nombre": "Limón Soda Zero (350cc)",
+      "descripcion": "A intensidade cítrica e refrescante da Limón Soda, totalmente sem açúcar.",
+      "precio": "$1.800",
+      "imagen": "image/bebidas/limonsodazero.jpg"
+    },
+    {
+      "nombre": "Canada Dry Ginger Ale (350cc)",
+      "descripcion": "Refrigerante premium feito com extratos naturais de gengibre, suave e refrescante.",
+      "precio": "$1.800",
+      "imagen": "image/bebidas/canadadry.jpg"
+    },
+    {
+      "nombre": "Canada Dry Zero (350cc)",
+      "descripcion": "O sabor refinado e a frescura borbulhante do Ginger Ale, sem açúcar.",
+      "precio": "$1.800",
+      "imagen": "image/bebidas/canadadryzero.jpg"
+    },
+    {
+      "nombre": "Kem Piña (350cc)",
+      "descripcion": "Refrigerante chileno típico, de sabor tropical doce e refrescante de abacaxi.",
+      "precio": "$1.800",
+      "imagen": "image/bebidas/kem.jpg"
+    },
+    {
+      "nombre": "Crush (350cc)",
+      "descripcion": "Refrigerante com sabor de laranja vibrante, doce e intenso.",
+      "precio": "$1.800",
+      "imagen": "image/bebidas/crush.jpg"
+    },
+    {
+      "nombre": "Crush Zero (350cc)",
+      "descripcion": "O clássico e refrescante sabor de laranja da Crush, totalmente sem açúcar.",
+      "precio": "$1.800",
+      "imagen": "image/bebidas/crushzero.jpg"
+    },
+    {
+      "nombre": "7Up (350cc)",
+      "descripcion": "Refrigerante transparente sabor limão, leve, cristalino e borbulhante.",
+      "precio": "$1.800",
+      "imagen": "image/bebidas/7up.jpg"
+    }
+  ],
+ "te_helado": [
+    {
+      "nombre": "Ice Tea Lipton Durazno (600cc)",
+      "descripcion": "Chá preto gelado e refrescante, com um sabor suave e doce de pêssego.",
+      "precio": "$2.200",
+      "imagen": "image/bebidas/icetedurazno.jpg"
+    },
+    {
+      "nombre": "Ice Tea Lipton Limón (600cc)",
+      "descripcion": "Chá preto gelado clássico, com um toque cítrico e refrescante de limão.",
+      "precio": "$2.200",
+      "imagen": "image/bebidas/icetelimon.png"
+    }
+  ],
+  "jugos_naturales": [
+    { "nombre": "Jugo de Frutilla", "descripcion": "Suco natural de polpa de morango.", "precio": "$2.800", "imagen": "image/jugosnaturales/pulpafrutilla.jpg" },
+    { "nombre": "Jugo de Mango", "descripcion": "Suco natural de polpa de manga.", "precio": "$2.800", "imagen": "image/jugosnaturales/pulpamango.jpg" },
+    { "nombre": "Jugo de Chirimoya", "descripcion": "Suco natural de polpa de cherimoia (fruta-do-conde chilena).", "precio": "$2.800", "imagen": "image/jugosnaturales/pulpachirimoya.jpg" }
+  ],
+  "jugos_botella": [
+    {
+      "nombre": "Watt's Durazno (300cc)",
+      "descripcion": "Néctar de pêssego refrescante, de textura macia e doçura natural.",
+      "precio": "$1.600",
+      "imagen": "image/jugos/durazno.png"
+    },
+    {
+      "nombre": "Watt's Naranja (300cc)",
+      "descripcion": "Néctar de laranja refrescante com um toque cítrico equilibrado.",
+      "precio": "$1.600",
+      "imagen": "image/jugos/naranja.png"
+    },
+    {
+      "nombre": "Watt's Tutti Frutilla (300cc)",
+      "descripcion": "Deliciosa mistura de frutas com um sabor intenso de morango.",
+      "precio": "$1.600",
+      "imagen": "image/jugos/tutifrutilla.png"
+    },
+    {
+      "nombre": "Del Valle Piña (300cc)",
+      "descripcion": "Néctar sabor abacaxi, de textura leve, doce e muito refrescante.",
+      "precio": "$1.600",
+      "imagen": "image/jugos/pilladelvalle.png"
+    }
+  ],
+ "cafeteria": [
+    {
+      "nombre": "Té Ceylan",
+      "descripcion": "Infusão tradicional de chá preto Ceylon, servida bem quente em xícara grande.",
+      "precio": "$1.500",
+      "imagen": "image/cafeteria/te.jpg"
+    },
+    {
+      "nombre": "Café Chico",
+      "descripcion": "Café tradicional Nescafé Espresso granulado, servido quente em xícara pequena.",
+      "precio": "$1.500",
+      "imagen": "image/cafeteria/cafechico.jpg"
+    },
+    {
+      "nombre": "Café Grande",
+      "descripcion": "Café tradicional Nescafé Espresso granulado, servido quente em xícara grande.",
+      "precio": "$2.000",
+      "imagen": "image/cafeteria/cafegrande.jpg"
+    }
+  ],
+ "cervezas_botella": [
+    {
+      "nombre": "Kunstmann Torobayo (330cc)",
+      "descripcion": "Amber Ale tradicional de Valdivia, com notas de caramelo e frutas secas (5,0° GL).",
+      "precio": "$3.200",
+      "imagen": "image/cervezas/torobayo330.png"
+    },
+    {
+      "nombre": "Kunstmann Bock (330cc)",
+      "descripcion": "Cerveja escura estilo Bock, de corpo denso, com toques de café e chocolate (5,3° GL).",
+      "precio": "$3.200",
+      "imagen": "image/cervezas/Bock.png"
+    },
+    {
+      "nombre": "Kunstmann Lager (330cc)",
+      "descripcion": "Lager loira artesanal não filtrada, muito fresca e de amargor moderado (4,3° GL).",
+      "precio": "$3.200",
+      "imagen": "image/cervezas/lager.png"
+    },
+    {
+      "nombre": "Kunstmann Lager Blanc (330cc)",
+      "descripcion": "Cerveja de trigo não filtrada, suave, refrescante e com finos toques cítricos (4,3° GL).",
+      "precio": "$3.200",
+      "imagen": "image/cervezas/LagerBlanc.png"
+    },
+    {
+      "nombre": "Austral Calafate (330cc)",
+      "descripcion": "Ale patagônica de sabor característico, com infusão da fruta silvestre calafate (5,0° GL).",
+      "precio": "$3.200",
+      "imagen": "image/cervezas/Calafate330.png"
+    },
+    {
+      "nombre": "Austral Yagán (330cc)",
+      "descripcion": "Dark Ale de tom escuro profundo, com intensas notas de cevada tostada (5,0° GL).",
+      "precio": "$3.200",
+      "imagen": "image/cervezas/Yagan.png"
+    },
+    {
+      "nombre": "Austral Lager (330cc)",
+      "descripcion": "Lager dourada clássica da Patagônia, limpa, refrescante e de final suave (4,6° GL).",
+      "precio": "$3.200",
+      "imagen": "image/cervezas/australlager.jpg"
+    },
+    {
+      "nombre": "Austral Patagona (330cc)",
+      "descripcion": "Pale Ale de perfil maltado, atrativa cor âmbar e amargor sutil (5,0° GL).",
+      "precio": "$3.200",
+      "imagen": "image/cervezas/Patagona.png"
+    },
+    {
+      "nombre": "Royal Guard (355cc)",
+      "descripcion": "Smooth Lager, elaborada com duplo lúpulo para um sabor equilibrado e final suave (5,0° GL).",
+      "precio": "$2.500",
+      "imagen": "image/cervezas/royalguard.png"
+    },
+    {
+      "nombre": "Cristal Zero (355cc)",
+      "descripcion": "Lager sem álcool, leve e muito refrescante (0,0° GL).",
+      "precio": "$2.200",
+      "imagen": "image/cervezas/cristalzero.png"
+    },
+    {
+      "nombre": "Heineken (330cc)",
+      "descripcion": "Premium Lager internacional de puro malte, sabor equilibrado e amargor suave (5,0° GL).",
+      "precio": "$2.800",
+      "imagen": "image/cervezas/heiniken.png"
+    },
+    {
+      "nombre": "Corona (330cc)",
+      "descripcion": "Clássica Pale Lager mexicana, leve, refrescante e muito fácil de tomar (4,5° GL).",
+      "precio": "$2.800",
+      "imagen": "image/cervezas/corona.png"
+    },
+    {
+      "nombre": "Del Puerto Pilsen Lager (330cc)",
+      "descripcion": "Pilsen artesanal de Valparaíso, fresca, leve e bem equilibrada (4,5° GL).",
+      "precio": "$3.000",
+      "imagen": "image/cervezas/delpuertopilsen.png"
+    },
+    {
+      "nombre": "Coors (330cc)",
+      "descripcion": "Lager americana dourada e refrescante, de corpo leve e fácil de beber (5,0° GL).",
+      "precio": "$2.500",
+      "imagen": "image/cervezas/coors.jfif"
+    },
+    {
+      "nombre": "Erdinger Blanca (330cc)",
+      "descripcion": "Autêntica cerveja de trigo alemã (Weissbier) não filtrada, especiada e frutada (5,3° GL).",
+      "precio": "$3.800",
+      "imagen": "image/cervezas/erdingerblanca.jfif"
+    },
+    {
+      "nombre": "Erdinger Zero (330cc)",
+      "descripcion": "Cerveja de trigo alemã sem álcool, de bom corpo e sabor frutado refrescante (0,0° GL).",
+      "precio": "$3.800",
+      "imagen": "image/cervezas/erdingerzero.jfif"
+    },
+    {
+      "nombre": "Kunstmann Torobayo (500cc)",
+      "descripcion": "Amber Ale de Valdivia com notas de caramelo, em versão de meio litro (5,0° GL).",
+      "precio": "$4.500",
+      "imagen": "image/cervezas/torobayo500.png"
+    },
+    {
+      "nombre": "Austral Calafate (500cc)",
+      "descripcion": "Ale patagônica com infusão de calafate, em versão de meio litro (5,0° GL).",
+      "precio": "$4.500",
+      "imagen": "image/cervezas/calafate500.png"
+    }
+  ],
+  "shops": [
+    {
+      "nombre": "Shop Escudo Mediano (345cc)",
+      "descripcion": "(Chope) Refrescante cerveja Escudo de chope, servida em caneca média bem gelada.",
+      "precio": "$2.500",
+      "imagen": "image/shops/blanco.jpg"
+    },
+    {
+      "nombre": "Shop Escudo Jarra (500cc)",
+      "descripcion": "(Chope) Clássica cerveja Escudo de chope, servida em caneca de meio litro bem gelada.",
+      "precio": "$3.200",
+      "imagen": "image/shops/blancogrande.jpg"
+    },
+    {
+      "nombre": "Shop Escudo Copón (500cc)",
+      "descripcion": "(Chope) Cerveja Escudo de chope, servida em taça grande para preservar corpo, espuma e frescor.",
+      "precio": "$3.500",
+      "imagen": "image/shops/coponblanco.jpg"
+    },
+    {
+      "nombre": "Shop Del Puerto Porter Mediano (345cc)",
+      "descripcion": "(Chope) Cerveja escura artesanal estilo Porter de chope, servida em caneca média.",
+      "precio": "$2.800",
+      "imagen": "image/shops/negro.jpg"
+    },
+    {
+      "nombre": "Shop Del Puerto Porter Jarra (500cc)",
+      "descripcion": "(Chope) Cerveja escura artesanal estilo Porter de chope, com notas maltadas, servida em caneca de meio litro.",
+      "precio": "$3.800",
+      "imagen": "image/shops/negrogrande.jpg"
+    },
+    {
+      "nombre": "Shop Del Puerto Porter Copón (500cc)",
+      "descripcion": "(Chope) Cerveja escura artesanal estilo Porter de chope, servida em taça grande para realçar suas notas tostadas.",
+      "precio": "$4.000",
+      "imagen": "image/shops/coponnegro.jpg"
+    }
+    ],
+"bebidas_maquina": [
+  {
+    "nombre": "Coca Cola Original (Máquina)",
+    "descripcion": "Combinação refrescante de xarope concentrado de Coca Cola e água gaseificada, servida na hora pela máquina.",
+    "precio": "$1.800",
+    "imagen": "image/maquina/cocanormal.jpg"
+  },
+  {
+    "nombre": "Coca Cola Zero (Máquina)",
+    "descripcion": "O sabor clássico da Coca Cola em sua versão sem açúcar, direto da máquina.",
+    "precio": "$1.800",
+    "imagen": "image/maquina/cocazero.jpg"
+  },
+  {
+    "nombre": "Fanta Zero (Máquina)",
+    "descripcion": "Sabor intenso de laranja e bem gaseificado, totalmente sem açúcar.",
+    "precio": "$1.800",
+    "imagen": "image/maquina/fantazero.jpg"
+  },
+  {
+    "nombre": "Soda (Máquina)",
+    "descripcion": "Água gaseificada purificada, fresca e ultra refrescante.",
+    "precio": "$1.800",
+    "imagen": "image/maquina/soda.jpg"
+  }
+],
+"promociones": [
+  {
+    "nombre": "Promoción Fricandela Completa + Cerveza",
+    "descripcion": "(Combo promocional) Um sanduíche Fricandela \"completo\" mais uma cerveja Del Puerto Porter de 500 ml (4,5°). Válido até esgotar o estoque.",
+    "precio": "$8.700",
+    "imagen": "image/promocion/fricaporter.jpg"
+  },
+  {
+    "nombre": "Promoción Fricandela Completa + Bebida",
+    "descripcion": "(Combo promocional) Um sanduíche Fricandela \"completo\" mais um refrigerante de 220 ml. Sabores à escolha: Pepsi, Pepsi Zero, Canada Dry Ginger Ale ou Canada Dry Zero. Válido até esgotar o estoque.",
+    "precio": "$7.700",
+    "imagen": "image/promocion/fricabebidas.jpg"
+  }
+]
+
+}
