@@ -1,7 +1,7 @@
 {
   "lomitos": [
     {
-      "nombre": "Lomito Plain",
+      "nombre": "Plain Lomito",
       "descripcion": "(Chilean grilled pork sandwich) Freshly cut slices of pork loin on warm traditional Chilean bread.",
       "precio": "$5.600",
       "imagen": "image/lomo/lomosolo.jpg"
@@ -26,7 +26,7 @@
     },
     {
       "nombre": "Lomito Rusa",
-      "descripcion": "(Pork sandwich) Our special \"Russian salad\" (potato salad) with ham, pickles and mayonnaise.",
+      "descripcion": "(Pork sandwich) Our special <a href=\"#\" class=\"rusa-link\" data-modal=\"russian-salad\">Russian Salad.</a>",
       "precio": "$7.900",
       "imagen": "image/lomo/lomorusa.jpg"
     },
@@ -69,13 +69,13 @@
   ],
   "churrascos": [
     {
-      "nombre": "Churrasco Solo",
+      "nombre": "Plain Churrasco",
       "descripcion": "(Chilean thin-sliced beef sandwich) Juicy slices of beef on artisanal traditional bread.",
       "precio": "$7.800",
       "imagen": "image/churrasco/churrascosolo.jpg"
     },
     {
-      "nombre": "Churrasco Especial",
+      "nombre": "Churrasco Special",
       "descripcion": "(Beef sandwich) Thin beef slices with house-made mayonnaise.",
       "precio": "$9.100",
       "imagen": "image/churrasco/churrascomayo.jpg"
@@ -88,12 +88,12 @@
     },
     {
       "nombre": "Churrasco Rusa",
-      "descripcion": "(Beef sandwich) House-made \"Russian salad\" (potato salad) with ham, pickles and mayonnaise.",
+      "descripcion": "(Beef sandwich) House-made <a href=\"#\" class=\"rusa-link\" data-modal=\"russian-salad\">Russian Salad.</a> ",
       "precio": "$10.100",
       "imagen": "image/churrasco/churrascorusa.jpg"
     },
     {
-      "nombre": "Churrasco Palta",
+      "nombre": "Churrasco Avocado",
       "descripcion": "(Beef sandwich) Topped with a generous portion of mashed, in-season avocado.",
       "precio": "$10.100",
       "imagen": "image/churrasco/churrascopalta.jpg"
@@ -111,13 +111,13 @@
       "imagen": "image/churrasco/chacareroaji.jpg"
     },
     {
-      "nombre": "Churrasco Palta Mayo",
+      "nombre": "Churrasco Avocado-Mayo",
       "descripcion": "(Beef sandwich) A generous layer of mashed avocado and house-made mayonnaise.",
       "precio": "$11.400",
       "imagen": "image/churrasco/churrascopaltamayo.jpg"
     },
     {
-      "nombre": "Churrasco Italiano",
+      "nombre": "Churrasco Italian",
       "descripcion": "(Beef sandwich, \"Italian\" style) Sliced fresh tomato, avocado and house-made mayonnaise.",
       "precio": "$12.700",
       "imagen": "image/churrasco/churrascoitaliano.jpg"
@@ -137,32 +137,32 @@
   ],
   "rumanos": [
     {
-      "nombre": "Rumano Solo",
+      "nombre": "Rumano Plain",
       "descripcion": "(\"Rumano,\" a Chilean grilled pork-and-beef sandwich) Artisanal blend of griddled pork and beef with garlic and chili.",
       "precio": "$7.800",
       "imagen": "image/rumano/rumanosolo.jpg"
     },
     {
-      "nombre": "Rumano Especial",
+      "nombre": "Rumano Special",
       "descripcion": "(Pork-and-beef sandwich) House-style meat preparation with house-made mayonnaise.",
       "precio": "$9.100",
       "imagen": "image/rumano/rumanomayo.jpg"
     },
     {
-      "nombre": "Rumano Queso",
+      "nombre": "Rumano Cheese",
       "descripcion": "(Pork-and-beef sandwich) Seasoned meat with plenty of melted buttery cheese.",
       "precio": "$10.100",
       "imagen": "image/rumano/rumanoqueso.jpg"
     },
     {
-      "nombre": "Rumano Palta",
+      "nombre": "Rumano Avocado",
       "descripcion": "(Pork-and-beef sandwich) Served with a layer of fresh, in-season avocado.",
       "precio": "$10.100",
       "imagen": "image/rumano/rumanopalta.jpg"
     },
     {
       "nombre": "Rumano Rusa",
-      "descripcion": "(Pork-and-beef sandwich) Special \"Russian salad\" (potato salad) with ham, pickles and mayonnaise.",
+      "descripcion": "(Pork-and-beef sandwich) Special <a href=\"#\" class=\"rusa-link\" data-modal=\"russian-salad\">Russian Salad.</a>",
       "precio": "$10.100",
       "imagen": "image/rumano/rumanorusa.jpg"
     },
@@ -179,7 +179,7 @@
       "imagen": "image/rumano/rumanocompleto.jpg"
     },
     {
-      "nombre": "Rumano Palta Mayo",
+      "nombre": "Rumano Avocado-Mayo",
       "descripcion": "(Pork-and-beef sandwich) Fresh mashed avocado and our house-made mayonnaise.",
       "precio": "$11.400",
       "imagen": "image/rumano/rumanopaltamayo.jpg"
@@ -205,49 +205,49 @@
   ],
   "fricandelas": [
     {
-      "nombre": "Fricandela Sola",
-      "descripcion": "(Chilean beef-patty sandwich) A large house-made meat patty served on artisanal traditional bread.",
+      "nombre": "Plain Fricandela",
+      "descripcion": "A Traditional meatball made with a blend of pork and beef, warm and simmered in its own rich gravy",
       "precio": "$4.400",
       "imagen": "image/fricandela/fricandelasola.jpg"
     },
     {
-      "nombre": "Fricandela Especial",
-      "descripcion": "(Meat-patty sandwich) House-made patty topped with house-made mayonnaise.",
+      "nombre": "Fricandela Special",
+      "descripcion": "with house-made mayonnaise.",
       "precio": "$5.700",
       "imagen": "image/fricandela/fricandelamayo.jpg"
     },
     {
-      "nombre": "Fricandela Palta",
+      "nombre": "Fricandela Avocado",
       "descripcion": "(Meat-patty sandwich) Topped with fresh, in-season mashed avocado.",
       "precio": "$6.700",
       "imagen": "image/fricandela/fricapalta.jpg"
     },
     {
       "nombre": "Fricandela Rusa",
-      "descripcion": "(Meat-patty sandwich) \"Russian salad\" (potato salad) with ham, pickles and house-made mayonnaise.",
+      "descripcion": "With <a href=\"#\" class=\"rusa-link\" data-modal=\"russian-salad\">Russian Salad.</a>",
       "precio": "$6.700",
       "imagen": "image/fricandela/fricarusa.jpg"
     },
     {
-      "nombre": "Fricandela Queso",
-      "descripcion": "(Meat-patty sandwich) Our house patty with creamy melted cheese.",
+      "nombre": "Fricandela Cheese",
+      "descripcion": "Our house patty with creamy melted cheese.",
       "precio": "$6.700",
       "imagen": "image/fricandela/fricaqueso.jpg"
     },
     {
       "nombre": "Fricandela Completa",
-      "descripcion": "(Meat-patty sandwich, \"loaded\" style) House-made sauerkraut, natural tomato sauce and house-made mayonnaise.",
+      "descripcion": "with House-made sauerkraut, natural tomato sauce and house-made mayonnaise.",
       "precio": "$7.000",
       "imagen": "image/fricandela/fricandelacompleta.jpg"
     },
     {
       "nombre": "Fricandela Chacarera Ají",
-      "descripcion": "(Meat-patty sandwich, \"Chacarero\" style) Green beans, sliced fresh tomato and chili (ají).",
+      "descripcion": "with Green beans, sliced fresh tomato and chili (ají).",
       "precio": "$7.000",
       "imagen": "image/fricandela/fricandelachacareraaji.jpg"
     },
     {
-      "nombre": "Fricandela Palta Mayo",
+      "nombre": "Fricandela Avocado-Mayo",
       "descripcion": "(Meat-patty sandwich) Fresh mashed avocado and house-made mayonnaise.",
       "precio": "$8.000",
       "imagen": "image/fricandela/fricapaltamayo.jpg"
@@ -286,7 +286,7 @@
     },
     {
       "nombre": "HOT DOG Rusa",
-      "descripcion": "(Sausage sandwich) Artisanal \"Russian salad\" (potato salad) with ham, pickles and mayonnaise.",
+      "descripcion": "(Sausage sandwich) Artisanal <a href=\"#\" class=\"rusa-link\" data-modal=\"russian-salad\">Russian Salad.</a>",
       "precio": "$4.400",
       "imagen": "image/vienesa/vienesarusa.jpg"
     },
@@ -315,7 +315,7 @@
       "imagen": "image/vienesa/vienesacompleta.jpg"
     },
     {
-      "nombre": "HOT DOG Palta Mayo",
+      "nombre": "HOT DOG Avocado-Mayo",
       "descripcion": "(Sausage sandwich) Fresh mashed avocado with our creamy house-made mayonnaise.",
       "precio": "$5.700",
       "imagen": "image/vienesa/vienesapaltamayo.jpg"
@@ -341,31 +341,31 @@
   ],
   "gordas": [
     {
-      "nombre": "Gorda Sola",
+      "nombre": "Gorda Plain",
       "descripcion": "(\"Gorda,\" a Chilean thick smoked-sausage sandwich) A thick, lightly smoked artisanal pork sausage.",
       "precio": "$4.400",
       "imagen": "image/gorda/gordasola.jpg"
     },
     {
-      "nombre": "Gorda Especial",
+      "nombre": "Gorda Special",
       "descripcion": "(Smoked sausage sandwich) Smoked pork sausage with house-made mayonnaise.",
       "precio": "$5.700",
       "imagen": "image/gorda/gordamayo.jpg"
     },
     {
       "nombre": "Gorda Rusa",
-      "descripcion": "(Smoked sausage sandwich) House-made \"Russian salad\" (potato salad) with ham, pickles and mayonnaise.",
+      "descripcion": "(Smoked sausage sandwich) House-made <a href=\"#\" class=\"rusa-link\" data-modal=\"russian-salad\">Russian Salad.</a>",
       "precio": "$6.700",
       "imagen": "image/gorda/gordarusa.jpg"
     },
     {
-      "nombre": "Gorda Queso",
+      "nombre": "Gorda Cheese",
       "descripcion": "(Smoked sausage sandwich) Topped with plenty of melted buttery cheese.",
       "precio": "$6.700",
       "imagen": "image/gorda/gordaqueso.jpg"
     },
     {
-      "nombre": "Gorda Palta",
+      "nombre": "Gorda Avocado",
       "descripcion": "(Smoked sausage sandwich) Topped with fresh, in-season mashed avocado.",
       "precio": "$6.700",
       "imagen": "image/gorda/gordapalta.jpg"
@@ -383,7 +383,7 @@
       "imagen": "image/gorda/gordacompleta.jpg"
     },
     {
-      "nombre": "Gorda Palta Mayo",
+      "nombre": "Gorda Avocado-Mayo",
       "descripcion": "(Smoked sausage sandwich) In-season mashed avocado and house-made mayonnaise.",
       "precio": "$8.000",
       "imagen": "image/gorda/gordapaltamayo.jpg"
@@ -420,7 +420,7 @@
     { "nombre": "Bacon", "descripcion": "Slices of crispy bacon.", "precio": "$2.300", "imagen": "image/agregados/tocino.jpg" },
     { "nombre": "Cheese", "descripcion": "An extra portion of melted cheese.", "precio": "$2.300", "imagen": "image/agregados/queso.jpg" },
     { "nombre": "Salsa Americana", "descripcion": "Traditional chopped relish-style sauce.", "precio": "$1.300", "imagen": "image/agregados/americana.jpg" },
-    { "nombre": "Ensalada Rusa", "descripcion": "Its a creamy mash made with pickled cucumbers, pearl onions, carrots and cauliflower finely chopped, combined with diced ham and homemade mayonnaise.", "precio": "$2.300", "imagen": "image/agregados/rusa.jpg" },
+    { "nombre": "Russian Salad", "descripcion": "Its a creamy mash made with pickled cucumbers, pearl onions, carrots and cauliflower finely chopped, combined with diced ham and homemade mayonnaise.", "precio": "$2.300", "imagen": "image/agregados/rusa.jpg" },
     { "nombre": "Pepinillos", "descripcion": "A portion of crunchy sliced pickles.", "precio": "$1.300", "imagen": "image/agregados/pepinillos.jpg" }
   ],
   "platos": [

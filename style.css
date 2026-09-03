@@ -357,6 +357,17 @@ details[open] {
     transform: scale(0.92);
 }
 
+.rusa-link {
+    color: #8b0000;
+    text-decoration: underline;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.rusa-link:hover {
+    color: #d62828;
+}
+
 /* --- MODAL ADAPTADO --- */
 .modal {
     display: none;

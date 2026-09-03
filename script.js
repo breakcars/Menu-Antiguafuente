@@ -86,7 +86,7 @@ const translations = {
         tab3_p_html: 'Todas nuestras preparaciones son artesanales y se elaboran a diario en el local. La palta se lava y se muele en el momento, el tomate se lava y se corta en láminas frescas, y tanto nuestra salsa de tomate como la mayonesa casera (Preparada con huevos pasteurizados) se elaboran internamente.',
 
         tab4_h3: "Derechos del Consumidor & Pagos",
-        tab4_li1_html: '<strong>Propina Voluntaria:</strong> La propina sugerida (10%) es estrictamente voluntaria conforme a la Ley N° 20.729.',
+        tab4_li1_html: '<strong>Propina Voluntaria:</strong> La propina sugerida (10%) es strictly voluntaria conforme a la Ley N° 20.729.',
         tab4_li2_html: '<strong>Comprobante de Pago:</strong> Se emitirá boleta electrónica por cada consumo realizado en el establecimiento.',
         tab4_li3_html: '<strong>Medios de Pago:</strong> Se aceptan pagos en efectivo, tarjetas de débito y crédito bancarias sin recargos adicionales.'
     },
@@ -294,7 +294,7 @@ function verCombinaciones(categoria, nombreProducto) {
 
     if (titulo) titulo.textContent = productoSeleccionado.nombre;
     if (imgModal) imgModal.src = productoSeleccionado.imagen;
-    if (descripcion) descripcion.textContent = productoSeleccionado.descripcion;
+    if (descripcion) descripcion.innerHTML = productoSeleccionado.descripcion;
 
     modal.style.display = "flex";
 }
@@ -466,3 +466,20 @@ function cambiarIdioma(lang, event) {
     aplicarTraducciones(idiomaActual);
     cargarMenu();
 }
+
+document.addEventListener('click', function (e) {
+  // Detectar clic en el link dentro de la descripción
+  const rusaLink = e.target.closest('.rusa-link');
+  if (rusaLink) {
+    e.preventDefault();
+    e.stopPropagation();
+    const modal = document.getElementById('modal-rusa');
+    if (modal) modal.style.display = 'flex';
+  }
+
+  // Detectar clic para cerrar (en la 'X' o fuera de la tarjeta)
+  if (e.target.classList.contains('cerrar') || e.target.id === 'modal-rusa') {
+    const modal = document.getElementById('modal-rusa');
+    if (modal) modal.style.display = 'none';
+  }
+});
