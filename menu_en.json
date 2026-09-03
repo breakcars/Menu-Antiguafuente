@@ -218,7 +218,7 @@
     },
     {
       "nombre": "Fricandela Avocado",
-      "descripcion": "(Meat-patty sandwich) Topped with fresh, in-season mashed avocado.",
+      "descripcion": "Topped with fresh, in-season mashed avocado.",
       "precio": "$6.700",
       "imagen": "image/fricandela/fricapalta.jpg"
     },
@@ -248,13 +248,13 @@
     },
     {
       "nombre": "Fricandela Avocado-Mayo",
-      "descripcion": "(Meat-patty sandwich) Fresh mashed avocado and house-made mayonnaise.",
+      "descripcion": "Fresh mashed avocado and house-made mayonnaise.",
       "precio": "$8.000",
       "imagen": "image/fricandela/fricapaltamayo.jpg"
     },
     {
       "nombre": "Fricandela Baquedano",
-      "descripcion": "(Meat-patty sandwich) Melted buttery cheese, fresh tomato and grilled onion.",
+      "descripcion": "Melted buttery cheese, fresh tomato and grilled onion.",
       "precio": "$9.300",
       "imagen": "image/fricandela/fricandelabaquedano.jpg"
     },
@@ -266,7 +266,7 @@
     },
     {
       "nombre": "Fricandela Alameda",
-      "descripcion": "(Meat-patty sandwich) Crispy bacon, melted buttery cheese and grilled onion.",
+      "descripcion": "Crispy bacon, melted buttery cheese and grilled onion.",
       "precio": "$10.300",
       "imagen": "image/fricandela/fricandelaalameda.jpg"
     }
