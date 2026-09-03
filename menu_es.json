@@ -742,7 +742,7 @@
       "imagen": "image/cervezas/calafate500.png"
     }
   ],
-  "Schop": [
+  "shops": [
     {
       "nombre": "Schop Escudo Mediano (345cc)",
       "descripcion": "Refrescante cerveza Escudo de barril, servida en jarra mediana bien helada.",
