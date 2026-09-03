@@ -3,67 +3,67 @@
     {
       "nombre": "Lomito Solo",
       "descripcion": "(Chilean grilled pork sandwich) Freshly cut slices of pork loin on warm traditional Chilean bread.",
-      "precio": "$5.400",
+      "precio": "$5.600",
       "imagen": "image/lomo/lomosolo.jpg"
     },
     {
       "nombre": "Lomito Especial",
       "descripcion": "(Pork sandwich) Topped with our house-made mayonnaise.",
-      "precio": "$6.700",
+      "precio": "$6.900",
       "imagen": "image/lomo/lomoespecial.jpg"
     },
     {
       "nombre": "Lomito Diplomático",
       "descripcion": "(Pork sandwich) Covered in melted, creamy buttery cheese.",
-      "precio": "$7.500",
+      "precio": "$7.900",
       "imagen": "image/lomo/diplomatico.jpg"
     },
     {
       "nombre": "Lomito Palta",
       "descripcion": "(Pork sandwich) Topped with a generous layer of fresh, in-season avocado.",
-      "precio": "$7.700",
+      "precio": "$7.900",
       "imagen": "image/lomo/lomopalta.jpg"
     },
     {
       "nombre": "Lomito Rusa",
       "descripcion": "(Pork sandwich) Our special \"Russian salad\" (potato salad) with ham, pickles and mayonnaise.",
-      "precio": "$7.700",
+      "precio": "$7.900",
       "imagen": "image/lomo/lomorusa.jpg"
     },
     {
       "nombre": "Lomito Chacarero Ají",
       "descripcion": "(Pork sandwich, \"Chacarero\" style) With fresh tomato, tender green beans and a touch of Chilean chili (ají).",
-      "precio": "$7.700",
+      "precio": "$8.200",
       "imagen": "image/lomo/lomochacareroaji.jpg"
     },
     {
       "nombre": "Lomito Completo",
       "descripcion": "(Pork sandwich, \"loaded\" style) Traditional sauerkraut, natural tomato sauce and house-made mayonnaise.",
-      "precio": "$8.000",
+      "precio": "$8.200",
       "imagen": "image/lomo/lomocompleto.jpg"
     },
     {
       "nombre": "Lomito Palta Mayo",
       "descripcion": "(Pork sandwich) In-season avocado and our classic house-made mayonnaise.",
-      "precio": "$9.000",
+      "precio": "$9.200",
       "imagen": "image/lomo/lomopaltamayo.jpg"
     },
     {
       "nombre": "Lomito Italiano",
       "descripcion": "(Pork sandwich, \"Italian\" style) Sliced fresh tomato, mashed avocado and house mayonnaise — named for its red, white and green colors.",
-      "precio": "$10.300",
+      "precio": "$10.500",
       "imagen": "image/lomo/lomoitaliano.jpg"
     },
     {
       "nombre": "Lomito Baquedano",
       "descripcion": "(Pork sandwich) Melted buttery cheese, fresh tomato and grilled onion.",
-      "precio": "$10.300",
+      "precio": "$10.500",
       "imagen": "image/lomo/lomobaquedano.jpg"
     },
     {
       "nombre": "Lomito Alameda",
       "descripcion": "(Pork sandwich) Crispy bacon, melted buttery cheese and grilled onion.",
-      "precio": "$11.300",
+      "precio": "$11.500",
       "imagen": "image/lomo/lomoalameda.jpg"
     }
   ],
@@ -72,67 +72,67 @@
     {
       "nombre": "Churrasco Solo",
       "descripcion": "(Chilean thin-sliced beef sandwich) Juicy slices of beef on artisanal traditional bread.",
-      "precio": "$7.100",
+      "precio": "$7.800",
       "imagen": "image/churrasco/churrascosolo.jpg"
     },
     {
       "nombre": "Churrasco Especial",
       "descripcion": "(Beef sandwich) Thin beef slices with house-made mayonnaise.",
-      "precio": "$8.400",
+      "precio": "$9.100",
       "imagen": "image/churrasco/churrascomayo.jpg"
     },
     {
       "nombre": "Barros Luco",
       "descripcion": "(Chile's iconic beef & melted-cheese sandwich, named after former president Ramón Barros Luco) Beef with plenty of melted buttery cheese.",
-      "precio": "$9.400",
+      "precio": "$10.100",
       "imagen": "image/churrasco/barrosluco.jpg"
     },
     {
       "nombre": "Churrasco Rusa",
       "descripcion": "(Beef sandwich) House-made \"Russian salad\" (potato salad) with ham, pickles and mayonnaise.",
-      "precio": "$9.400",
+      "precio": "$10.100",
       "imagen": "image/churrasco/churrascorusa.jpg"
     },
     {
       "nombre": "Churrasco Palta",
       "descripcion": "(Beef sandwich) Topped with a generous portion of mashed, in-season avocado.",
-      "precio": "$9.400",
+      "precio": "$10.100",
       "imagen": "image/churrasco/churrascopalta.jpg"
     },
     {
       "nombre": "Churrasco Completo",
       "descripcion": "(Beef sandwich, \"loaded\" style) Sauerkraut, natural tomato sauce and house-made mayonnaise.",
-      "precio": "$9.700",
+      "precio": "$10.400",
       "imagen": "image/churrasco/churrascocompleto.jpg"
     },
     {
       "nombre": "Churrasco Chacarero Ají",
       "descripcion": "(Beef sandwich, \"Chacarero\" style) Fresh tomato, green beans and house green chili (ají).",
-      "precio": "$9.700",
+      "precio": "$10.400",
       "imagen": "image/churrasco/chacareroaji.jpg"
     },
     {
       "nombre": "Churrasco Palta Mayo",
       "descripcion": "(Beef sandwich) A generous layer of mashed avocado and house-made mayonnaise.",
-      "precio": "$10.700",
+      "precio": "$11.400",
       "imagen": "image/churrasco/churrascopaltamayo.jpg"
     },
     {
       "nombre": "Churrasco Italiano",
       "descripcion": "(Beef sandwich, \"Italian\" style) Sliced fresh tomato, avocado and house-made mayonnaise.",
-      "precio": "$12.000",
+      "precio": "$12.700",
       "imagen": "image/churrasco/churrascoitaliano.jpg"
     },
     {
       "nombre": "Churrasco Baquedano",
       "descripcion": "(Beef sandwich) Melted buttery cheese, fresh tomato and grilled onion.",
-      "precio": "$12.000",
+      "precio": "$12.700",
       "imagen": "image/churrasco/churrascobaquedano.jpg"
     },
     {
       "nombre": "Churrasco Alameda",
       "descripcion": "(Beef sandwich) Crispy bacon, melted buttery cheese and grilled onion.",
-      "precio": "$13.000",
+      "precio": "$13.700",
       "imagen": "image/churrasco/churrascoalameda.jpg"
     }
   ],
@@ -141,67 +141,67 @@
     {
       "nombre": "Rumano Solo",
       "descripcion": "(\"Rumano,\" a Chilean grilled pork-and-beef sandwich) Artisanal blend of griddled pork and beef with garlic and chili.",
-      "precio": "$7.100",
+      "precio": "$7.800",
       "imagen": "image/rumano/rumanosolo.jpg"
     },
     {
       "nombre": "Rumano Especial",
       "descripcion": "(Pork-and-beef sandwich) House-style meat preparation with house-made mayonnaise.",
-      "precio": "$8.400",
+      "precio": "$9.100",
       "imagen": "image/rumano/rumanomayo.jpg"
     },
     {
       "nombre": "Rumano Queso",
       "descripcion": "(Pork-and-beef sandwich) Seasoned meat with plenty of melted buttery cheese.",
-      "precio": "$9.400",
+      "precio": "$10.100",
       "imagen": "image/rumano/rumanoqueso.jpg"
     },
     {
       "nombre": "Rumano Palta",
       "descripcion": "(Pork-and-beef sandwich) Served with a layer of fresh, in-season avocado.",
-      "precio": "$9.400",
+      "precio": "$10.100",
       "imagen": "image/rumano/rumanopalta.jpg"
     },
     {
       "nombre": "Rumano Rusa",
       "descripcion": "(Pork-and-beef sandwich) Special \"Russian salad\" (potato salad) with ham, pickles and mayonnaise.",
-      "precio": "$9.400",
+      "precio": "$10.100",
       "imagen": "image/rumano/rumanorusa.jpg"
     },
     {
       "nombre": "Rumano Chacarero Ají",
       "descripcion": "(Pork-and-beef sandwich, \"Chacarero\" style) Tender green beans, sliced tomato and green chili (ají).",
-      "precio": "$9.400",
+      "precio": "$10.400",
       "imagen": "image/rumano/rumanochacarero.jpg"
     },
     {
       "nombre": "Rumano Completo",
       "descripcion": "(Pork-and-beef sandwich, \"loaded\" style) Sauerkraut, natural tomato sauce and house-made mayonnaise.",
-      "precio": "$9.700",
+      "precio": "$10.400",
       "imagen": "image/rumano/rumanocompleto.jpg"
     },
     {
       "nombre": "Rumano Palta Mayo",
       "descripcion": "(Pork-and-beef sandwich) Fresh mashed avocado and our house-made mayonnaise.",
-      "precio": "$10.400",
+      "precio": "$11.400",
       "imagen": "image/rumano/rumanopaltamayo.jpg"
     },
     {
       "nombre": "Rumano Baquedano",
       "descripcion": "(Pork-and-beef sandwich) Melted buttery cheese, fresh tomato and grilled onion.",
-      "precio": "$11.600",
+      "precio": "$12.700",
       "imagen": "image/rumano/rumanobaquedano.jpg"
     },
     {
       "nombre": "Rumano Italiano",
       "descripcion": "(Pork-and-beef sandwich, \"Italian\" style) Fresh tomato, mashed avocado and house-made mayonnaise.",
-      "precio": "$12.000",
+      "precio": "$12.700",
       "imagen": "image/rumano/rumanoitaliano.jpg"
     },
     {
       "nombre": "Rumano Alameda",
       "descripcion": "(Pork-and-beef sandwich) Crispy bacon, melted buttery cheese and grilled onion.",
-      "precio": "$13.000",
+      "precio": "$13.700",
       "imagen": "image/rumano/rumanoalameda.jpg"
     }
   ],
@@ -210,67 +210,67 @@
     {
       "nombre": "Fricandela Sola",
       "descripcion": "(Chilean beef-patty sandwich) A large house-made meat patty served on artisanal traditional bread.",
-      "precio": "$4.300",
+      "precio": "$4.400",
       "imagen": "image/fricandela/fricandelasola.jpg"
     },
     {
       "nombre": "Fricandela Especial",
       "descripcion": "(Meat-patty sandwich) House-made patty topped with house-made mayonnaise.",
-      "precio": "$5.600",
+      "precio": "$5.700",
       "imagen": "image/fricandela/fricandelamayo.jpg"
     },
     {
       "nombre": "Fricandela Palta",
       "descripcion": "(Meat-patty sandwich) Topped with fresh, in-season mashed avocado.",
-      "precio": "$6.600",
+      "precio": "$6.700",
       "imagen": "image/fricandela/fricapalta.jpg"
     },
     {
       "nombre": "Fricandela Rusa",
       "descripcion": "(Meat-patty sandwich) \"Russian salad\" (potato salad) with ham, pickles and house-made mayonnaise.",
-      "precio": "$6.600",
+      "precio": "$6.700",
       "imagen": "image/fricandela/fricarusa.jpg"
     },
     {
       "nombre": "Fricandela Queso",
       "descripcion": "(Meat-patty sandwich) Our house patty with creamy melted cheese.",
-      "precio": "$6.600",
+      "precio": "$6.700",
       "imagen": "image/fricandela/fricaqueso.jpg"
     },
     {
       "nombre": "Fricandela Completa",
       "descripcion": "(Meat-patty sandwich, \"loaded\" style) House-made sauerkraut, natural tomato sauce and house-made mayonnaise.",
-      "precio": "$6.900",
+      "precio": "$7.000",
       "imagen": "image/fricandela/fricandelacompleta.jpg"
     },
     {
       "nombre": "Fricandela Chacarera Ají",
       "descripcion": "(Meat-patty sandwich, \"Chacarero\" style) Green beans, sliced fresh tomato and chili (ají).",
-      "precio": "$6.900",
+      "precio": "$7.000",
       "imagen": "image/fricandela/fricandelachacareraaji.jpg"
     },
     {
       "nombre": "Fricandela Palta Mayo",
       "descripcion": "(Meat-patty sandwich) Fresh mashed avocado and house-made mayonnaise.",
-      "precio": "$7.900",
+      "precio": "$8.000",
       "imagen": "image/fricandela/fricapaltamayo.jpg"
     },
     {
       "nombre": "Fricandela Baquedano",
       "descripcion": "(Meat-patty sandwich) Melted buttery cheese, fresh tomato and grilled onion.",
-      "precio": "$8.800",
+      "precio": "$9.300",
       "imagen": "image/fricandela/fricandelabaquedano.jpg"
     },
     {
       "nombre": "Fricandela Italiana",
       "descripcion": "(Meat-patty sandwich, \"Italian\" style) Sliced fresh tomato, avocado and house-made mayonnaise.",
-      "precio": "$9.200",
+      "precio": "$9.300",
       "imagen": "image/fricandela/fricandelaitaliana.jpg"
     },
     {
       "nombre": "Fricandela Alameda",
       "descripcion": "(Meat-patty sandwich) Crispy bacon, melted buttery cheese and grilled onion.",
-      "precio": "$9.800",
+      "precio": "$10.300",
       "imagen": "image/fricandela/fricandelaalameda.jpg"
     }
   ],
@@ -279,67 +279,67 @@
     {
       "nombre": "Vienesa Sola",
       "descripcion": "(Chilean hot-dog style sausage sandwich) Artisanal sausage served on warm traditional bread.",
-      "precio": "$2.000",
+      "precio": "$2.100",
       "imagen": "image/vienesa/vienesasola.jpg"
     },
     {
       "nombre": "Vienesa Especial",
       "descripcion": "(Sausage sandwich) Artisanal sausage with house-made mayonnaise.",
-      "precio": "$3.300",
+      "precio": "$3.400",
       "imagen": "image/vienesa/vienesamayo.jpg"
     },
     {
       "nombre": "Vienesa Rusa",
       "descripcion": "(Sausage sandwich) Artisanal \"Russian salad\" (potato salad) with ham, pickles and mayonnaise.",
-      "precio": "$4.300",
+      "precio": "$4.400",
       "imagen": "image/vienesa/vienesarusa.jpg"
     },
     {
       "nombre": "Vienesa Queso",
       "descripcion": "(Sausage sandwich) With plenty of melted buttery cheese, grilled.",
-      "precio": "$4.300",
+      "precio": "$4.400",
       "imagen": "image/vienesa/vienesaqueso.jpg"
     },
     {
       "nombre": "Vienesa Palta",
       "descripcion": "(Sausage sandwich) Served with a portion of fresh mashed avocado.",
-      "precio": "$4.300",
+      "precio": "$4.400",
       "imagen": "image/vienesa/vienesapalta.jpg"
     },
     {
       "nombre": "Vienesa Chacarera Ají",
       "descripcion": "(Sausage sandwich, \"Chacarero\" style) Fresh green beans, sliced tomato and chili (ají).",
-      "precio": "$4.300",
+      "precio": "$4.700",
       "imagen": "image/vienesa/vienesachacarera.jpg"
     },
     {
       "nombre": "Vienesa Completa",
       "descripcion": "(Sausage sandwich, \"loaded\" style) Artisanal sauerkraut, natural tomato sauce and house-made mayonnaise.",
-      "precio": "$4.600",
+      "precio": "$4.700",
       "imagen": "image/vienesa/vienesacompleta.jpg"
     },
     {
       "nombre": "Vienesa Palta Mayo",
       "descripcion": "(Sausage sandwich) Fresh mashed avocado with our creamy house-made mayonnaise.",
-      "precio": "$5.300",
+      "precio": "$5.700",
       "imagen": "image/vienesa/vienesapaltamayo.jpg"
     },
     {
       "nombre": "Vienesa Baquedano",
       "descripcion": "(Sausage sandwich) Melted buttery cheese, sliced tomato and grilled onion.",
-      "precio": "$6.500",
+      "precio": "$7.000",
       "imagen": "image/vienesa/vienesabaquedano.jpg"
     },
     {
       "nombre": "Vienesa Italiana",
       "descripcion": "(Sausage sandwich, \"Italian\" style) Fresh tomato, mashed avocado and house-made mayonnaise.",
-      "precio": "$6.900",
+      "precio": "$7.000",
       "imagen": "image/vienesa/vienesaitaliana.jpg"
     },
     {
       "nombre": "Vienesa Alameda",
       "descripcion": "(Sausage sandwich) Crispy bacon, melted buttery cheese and grilled onion.",
-      "precio": "$7.500",
+      "precio": "$8.000",
       "imagen": "image/vienesa/vienesaalameda.jpg"
     }
   ],
@@ -348,116 +348,128 @@
     {
       "nombre": "Gorda Sola",
       "descripcion": "(\"Gorda,\" a Chilean thick smoked-sausage sandwich) A thick, lightly smoked artisanal pork sausage.",
-      "precio": "$4.300",
+      "precio": "$4.400",
       "imagen": "image/gorda/gordasola.jpg"
     },
     {
       "nombre": "Gorda Especial",
       "descripcion": "(Smoked sausage sandwich) Smoked pork sausage with house-made mayonnaise.",
-      "precio": "$5.600",
+      "precio": "$5.700",
       "imagen": "image/gorda/gordamayo.jpg"
     },
     {
       "nombre": "Gorda Rusa",
       "descripcion": "(Smoked sausage sandwich) House-made \"Russian salad\" (potato salad) with ham, pickles and mayonnaise.",
-      "precio": "$6.400",
+      "precio": "$6.700",
       "imagen": "image/gorda/gordarusa.jpg"
     },
     {
       "nombre": "Gorda Queso",
       "descripcion": "(Smoked sausage sandwich) Topped with plenty of melted buttery cheese.",
-      "precio": "$6.400",
+      "precio": "$6.700",
       "imagen": "image/gorda/gordaqueso.jpg"
     },
     {
       "nombre": "Gorda Palta",
       "descripcion": "(Smoked sausage sandwich) Topped with fresh, in-season mashed avocado.",
-      "precio": "$6.600",
+      "precio": "$6.700",
       "imagen": "image/gorda/gordapalta.jpg"
     },
     {
       "nombre": "Gorda Chacarera Ají",
       "descripcion": "(Smoked sausage sandwich, \"Chacarero\" style) Tender green beans, sliced fresh tomato and chili (ají).",
-      "precio": "$6.600",
+      "precio": "$7.000",
       "imagen": "image/gorda/gordachacareraaji.jpg"
     },
     {
       "nombre": "Gorda Completa",
       "descripcion": "(Smoked sausage sandwich, \"loaded\" style) Sauerkraut, natural tomato sauce and house-made mayonnaise.",
-      "precio": "$6.900",
+      "precio": "$7.000",
       "imagen": "image/gorda/gordacompleta.jpg"
     },
     {
       "nombre": "Gorda Palta Mayo",
       "descripcion": "(Smoked sausage sandwich) In-season mashed avocado and house-made mayonnaise.",
-      "precio": "$7.900",
+      "precio": "$8.000",
       "imagen": "image/gorda/gordapaltamayo.jpg"
     },
     {
       "nombre": "Gorda Baquedano",
       "descripcion": "(Smoked sausage sandwich) Melted buttery cheese, fresh tomato and grilled onion.",
-      "precio": "$8.800",
+      "precio": "$9.300",
       "imagen": "image/gorda/gordabaquedano.jpg"
     },
     {
       "nombre": "Gorda Alameda",
       "descripcion": "(Smoked sausage sandwich) Crispy bacon, melted buttery cheese and grilled onion.",
-      "precio": "$9.800",
+      "precio": "$9.300",
       "imagen": "image/gorda/gordaalameda.jpg"
     },
     {
       "nombre": "Gorda Italiana",
       "descripcion": "(Smoked sausage sandwich, \"Italian\" style) Fresh tomato, mashed avocado and house-made mayonnaise.",
-      "precio": "$10.200",
+      "precio": "$10.300",
       "imagen": "image/gorda/gordaitaliana.jpg"
     }
   ],
 
   "agregados": [
-    { "nombre": "Palta", "descripcion": "A portion of fresh mashed avocado.", "precio": "$1.500", "imagen": "image/agregados/palta.jpg" },
-    { "nombre": "Tomate", "descripcion": "A portion of fresh sliced tomato.", "precio": "$1.200", "imagen": "image/agregados/tomate.jpg" },
-    { "nombre": "Mayonesa Casera", "descripcion": "House-made mayonnaise, prepared with pasteurized egg.", "precio": "$1.000", "imagen": "image/agregados/mayo.jpg" },
-    { "nombre": "Chucrut", "descripcion": "Traditional artisanal sauerkraut.", "precio": "$1.000", "imagen": "image/agregados/chucrut.jpg" },
-    { "nombre": "Porotos Verdes", "descripcion": "Selected tender green beans.", "precio": "$1.200", "imagen": "image/agregados/porotosverdes.jpg" },
-    { "nombre": "Tomate Picado", "descripcion": "Diced tomato, exclusively for \"vienesa\" sausage sandwiches.", "precio": "$1.000", "imagen": "image/agregados/tomatepicado.jpg" },
-    { "nombre": "Salsa de Tomate", "descripcion": "Our house-made tomato sauce.", "precio": "$800", "imagen": "image/agregados/salsatomate.jpg" },
-    { "nombre": "Ají Verde", "descripcion": "Fresh chopped green chili pepper.", "precio": "$800", "imagen": "image/agregados/ajiverde.jpg" },
-    { "nombre": "Cebolla Caramelizada", "descripcion": "Onion sautéed on the griddle.", "precio": "$1.200", "imagen": "image/agregados/cebollacaramelizada.jpg" },
-    { "nombre": "Tocino", "descripcion": "Slices of crispy bacon.", "precio": "$1.500", "imagen": "image/agregados/tocino.jpg" },
-    { "nombre": "Queso Fundido", "descripcion": "An extra portion of melted cheese.", "precio": "$1.500", "imagen": "image/agregados/queso.jpg" },
-    { "nombre": "Salsa Americana", "descripcion": "Traditional chopped relish-style sauce.", "precio": "$1.000", "imagen": "image/agregados/americana.jpg" },
-    { "nombre": "Ensalada Rusa", "descripcion": "A portion of artisanal \"Russian salad\" (potato salad).", "precio": "$1.500", "imagen": "image/agregados/rusa.jpg" },
-    { "nombre": "Pepinillos", "descripcion": "A portion of crunchy sliced pickles.", "precio": "$1.000", "imagen": "image/agregados/pepinillos.jpg" }
+    { "nombre": "Palta", "descripcion": "A portion of fresh mashed avocado.", "precio": "$2.300", "imagen": "image/agregados/palta.jpg" },
+    { "nombre": "Tomate", "descripcion": "A portion of fresh sliced tomato.", "precio": "$1.300", "imagen": "image/agregados/tomate.jpg" },
+    { "nombre": "Mayonesa Casera", "descripcion": "House-made mayonnaise, prepared with pasteurized egg.", "precio": "$1.300", "imagen": "image/agregados/mayo.jpg" },
+    { "nombre": "Chucrut", "descripcion": "Traditional artisanal sauerkraut.", "precio": "$1.300", "imagen": "image/agregados/chucrut.jpg" },
+    { "nombre": "Porotos Verdes", "descripcion": "Selected tender green beans.", "precio": "$1.300", "imagen": "image/agregados/porotosverdes.jpg" },
+    { "nombre": "Tomate Picado", "descripcion": "Diced tomato, exclusively for \"vienesa\" sausage sandwiches.", "precio": "$1.300", "imagen": "image/agregados/tomatepicado.jpg" },
+    { "nombre": "Salsa de Tomate", "descripcion": "Our house-made tomato sauce.", "precio": "$1.300", "imagen": "image/agregados/salsatomate.jpg" },
+    { "nombre": "Ají Verde", "descripcion": "Fresh chopped green chili pepper.", "precio": "$0", "imagen": "image/agregados/ajiverde.jpg" },
+    { "nombre": "Cebolla Caramelizada", "descripcion": "Onion sautéed on the griddle.", "precio": "$1.300", "imagen": "image/agregados/cebollacaramelizada.jpg" },
+    { "nombre": "Tocino", "descripcion": "Slices of crispy bacon.", "precio": "$2.300", "imagen": "image/agregados/tocino.jpg" },
+    { "nombre": "Queso Fundido", "descripcion": "An extra portion of melted cheese.", "precio": "$2.300", "imagen": "image/agregados/queso.jpg" },
+    { "nombre": "Salsa Americana", "descripcion": "Traditional chopped relish-style sauce.", "precio": "$1.300", "imagen": "image/agregados/americana.jpg" },
+    { "nombre": "Ensalada Rusa", "descripcion": "Its a creamy mash made with pickled cucumbers, pearl onions, carrots and cauliflower finely chopped, combined with diced ham and homemade mayonnaise.", "precio": "$2.300", "imagen": "image/agregados/rusa.jpg" },
+    { "nombre": "Pepinillos", "descripcion": "A portion of crunchy sliced pickles.", "precio": "$1.300", "imagen": "image/agregados/pepinillos.jpg" }
   ],
   "platos": [
     {
       "nombre": "Crudo Tradicional",
       "descripcion": "(Chilean-style beef tartare) Lean minced beef served raw with house seasonings.",
-      "precio": "$8.900",
+      "precio": "$12.200",
       "imagen": "image/platos/crudo.avif"
     },
     {
       "nombre": "Tártaro",
       "descripcion": "(Classic beef tartare) Finely minced beef, capers, onion, pickle and egg yolk.",
-      "precio": "$9.500",
+      "precio": "$12.200",
       "imagen": "image/platos/tartaro.avif"
     },
     {
       "nombre": "Riñones con Arroz",
       "descripcion": "(Beef kidneys with rice) Juicy kidneys prepared house-style, served with a portion of rice.",
-      "precio": "$PRECIO",
+      "precio": "$9.500",
       "imagen": "image/platos/rinonarroz.png"
     },
     {
       "nombre": "Rumano con Arroz",
       "descripcion": "(\"Rumano\" meat filling served as a plate) Our flavorful ground-meat preparation served over rice instead of in bread.",
-      "precio": "$PRECIO",
+      "precio": "$13.600",
       "imagen": "image/platos/rumano-arroz.jpg"
     },
     {
-      "nombre": "Ensalada de la Casa",
-      "descripcion": "House salad, served on a large plate in a more generous portion than a sandwich topping.",
-      "precio": "$PRECIO",
+      "nombre": "Ensalada de Palta",
+      "descripcion": "Avocado salad, served on a large plate in a more generous portion than a sandwich.",
+      "precio": "$3.000",
+      "imagen": "image/platos/ensalada.jpg"
+    },
+    {
+      "nombre": "Ensalada de Tomate",
+      "descripcion": "Sliced tomato salad, served on a large plate in a more generous portion than a sandwich.",
+      "precio": "$3.000",
+      "imagen": "image/platos/ensalada.jpg"
+    },
+    {
+      "nombre": "Ensalada de Porotos Verdes",
+      "descripcion": "Green bean salad, served on a large plate in a more generous portion than a sandwich.",
+      "precio": "$2.500",
       "imagen": "image/platos/ensalada.jpg"
     }
   ],

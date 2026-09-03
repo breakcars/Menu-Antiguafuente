@@ -21,11 +21,11 @@
                         <div class="header-right">
                             <div class="header-text">
                                 <h1>ANTIGUA FUENTE</h1>
-                                <p>Monumento Gastronómico</p>
+                                <p data-i18n="subtitle">Monumento Gastronómico</p>
                             </div>
                             <div class="header-social-wrapper">
                 <span class="siguenos-tag">
-                    Síguenos <i class="fas fa-arrow-right-long"></i>
+                    <span data-i18n="follow_us">Síguenos</span> <i class="fas fa-arrow-right-long"></i>
                 </span>
                     <div class="header-social">
                     <a href="#" onclick="abrirApp('facebook'); return false;" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
@@ -44,214 +44,215 @@
     
        
             <div class="lang-switcher">
-                <button class="btn-lang active" onclick="cambiarIdioma('es')">ES</button>
-                <button class="btn-lang" onclick="cambiarIdioma('en')">EN</button>
-                <button class="btn-lang" onclick="cambiarIdioma('pt')">PT</button>
+                <button class="btn-lang active" onclick="cambiarIdioma('es', event)">ES</button>
+                <button class="btn-lang" onclick="cambiarIdioma('en', event)">EN</button>
+                <button class="btn-lang" onclick="cambiarIdioma('pt', event)">PT</button>
             </div>
 
             <div class="note">
-                    <strong>Nota:</strong> Sándwiches y vienesas servidos exclusivamente en pan amasado frica artesanal del día.
+                    <strong data-i18n="note_label">Nota:</strong> <span data-i18n="note_text">Sándwiches y vienesas servidos exclusivamente en pan amasado frica artesanal del día.</span>
             </div>
 
         <!-- GRID DE CATEGORÍAS ADAPTATIVO -->
         <div class="categories-nav-grid">
+            
             <div class="category-circle-item" onclick="seleccionarCategoria('cat-promociones')" role="button" tabindex="0">
                     <img src="image/promocion/promociones.jpg" alt="Promociones" loading="lazy">
-                    <span>Promociones</span>
+                    <span data-i18n="nav_promociones">Promociones</span>
             </div>
 
             <div class="category-circle-item" onclick="seleccionarCategoria('cat-lomitos')" role="button" tabindex="0">
                 <img src="image/lomo/lomosolo.jpg" alt="Lomitos" loading="lazy">
-                <span>Lomitos</span>
+                <span data-i18n="nav_lomitos">Lomitos</span>
             </div>
     
             <div class="category-circle-item" onclick="seleccionarCategoria('cat-churrascos')" role="button" tabindex="0">
                 <img src="image/churrasco/churrascosolo.jpg" alt="Churrascos" loading="lazy">
-                <span>Churrascos</span>
+                <span data-i18n="nav_churrascos">Churrascos</span>
             </div>
 
             <div class="category-circle-item" onclick="seleccionarCategoria('cat-vienesas')" role="button" tabindex="0">
                 <img src="image/vienesa/vienesasola.jpg" alt="Vienesas" loading="lazy">
-                <span>Vienesas</span>
+                <span data-i18n="nav_vienesas">Vienesas</span>
             </div>
 
             <div class="category-circle-item" onclick="seleccionarCategoria('cat-fricandelas')" role="button" tabindex="0">
                 <img src="image/fricandela/fricandelasola.jpg" alt="Fricandelas" loading="lazy">
-                <span>Fricandelas</span>
+                <span data-i18n="nav_fricandelas">Fricandelas</span>
             </div>
 
             <div class="category-circle-item" onclick="seleccionarCategoria('cat-gordas')" role="button" tabindex="0">
                 <img src="image/gorda/gordasola.jpg" alt="Gordas" loading="lazy">
-                <span>Gordas</span>
+                <span data-i18n="nav_gordas">Gordas</span>
             </div>
 
             <div class="category-circle-item" onclick="seleccionarCategoria('cat-rumanos')" role="button" tabindex="0">
                 <img src="image/rumano/rumanosolo.jpg" alt="Rumanos" loading="lazy">
-                <span>Rumanos</span>
+                <span data-i18n="nav_rumanos">Rumanos</span>
             </div>
 
             <div class="category-circle-item" onclick="seleccionarCategoria('cat-agregados')" role="button" tabindex="0">
                 <img src="image/agregados/categoria.jpg" alt="Agregados" loading="lazy">
-                <span>Agregados</span>
+                <span data-i18n="nav_agregados">Agregados</span>
             </div>
 
             <div class="category-circle-item" onclick="seleccionarCategoria('cat-platos')" role="button" tabindex="0">
                 <img src="image/platos/rinones.png" alt="Platos" loading="lazy">
-                <span>Platos</span>
+                <span data-i18n="nav_platos">Platos</span>
             </div>
 
             <div class="category-circle-item" onclick="seleccionarCategoria('cat-aderezos')" role="button" tabindex="0">
                 <img src="image/aderezos/aderezos.jpg" alt="Aderezos" loading="lazy">
-                <span>Aderezos</span>
+                <span data-i18n="nav_aderezos">Aderezos</span>
             </div>
 
             <div class="category-circle-item" onclick="seleccionarCategoria('cat-bebidas')" role="button" tabindex="0">
                 <img src="image/bebidas/todas.png" alt="Bebidas" loading="lazy">
-                <span>Bebidas</span>
+                <span data-i18n="nav_bebidas">Bebidas</span>
             </div>
 
             <div class="category-circle-item" onclick="seleccionarCategoria('cat-te_helado')" role="button" tabindex="0">
                 <img src="image/bebidas/icetealipton.png" alt="Té Helado" loading="lazy">
-                <span>Té Helado</span>
+                <span data-i18n="nav_te_helado">Té Helado</span>
             </div>
 
             <div class="category-circle-item" onclick="seleccionarCategoria('cat-jugos_naturales')" role="button" tabindex="0">
                 <img src="image/jugosnaturales/jugosnaturales.jpg" alt="Jugos Naturales" loading="lazy">
-                <span>Jugos Nat.</span>
+                <span data-i18n="nav_jugos_naturales">Jugos Nat.</span>
             </div>
 
             <div class="category-circle-item" onclick="seleccionarCategoria('cat-jugos_botella')" role="button" tabindex="0">
                 <img src="image/jugos/jugos.png" alt="Jugos Botella" loading="lazy">
-                <span>Jugos Bot.</span>
+                <span data-i18n="nav_jugos_botella">Jugos Bot.</span>
             </div>
 
             <div class="category-circle-item" onclick="seleccionarCategoria('cat-cafeteria')" role="button" tabindex="0">
                 <img src="image/cafeteria/cafeteria.jpg" alt="Cafetería" loading="lazy">
-                <span>Cafetería</span>
+                <span data-i18n="nav_cafeteria">Cafetería</span>
             </div>
 
             <div class="category-circle-item" onclick="seleccionarCategoria('cat-cervezas_botella')" role="button" tabindex="0">
                 <img src="image/cervezas/cervezas.png" alt="Cervezas" loading="lazy">
-                <span>Cervezas</span>
+                <span data-i18n="nav_cervezas_botella">Cervezas</span>
             </div>
 
             <div class="category-circle-item" onclick="seleccionarCategoria('cat-shops')" role="button" tabindex="0">
                 <img src="image/shops/cervezas.jpg" alt="Shops" loading="lazy">
-                <span>Shops</span>
+                <span data-i18n="nav_shops">Shops</span>
             </div>
 
             <div class="category-circle-item" onclick="seleccionarCategoria('cat-bebidas_maquina')" role="button" tabindex="0">
                     <img src="image/maquina/maquina.jpg" alt="Bebidas de Máquina" loading="lazy">
-                    <span>Bebida Máquina</span>
+                    <span data-i18n="nav_bebidas_maquina">Bebida Máquina</span>
             </div>
         </div>
 
         <!-- SECCIONES DE PRODUCTOS -->
 
         <details id="cat-promociones">
-            <summary>PROMOCIONES</summary>
-            <p class="category-desc">Aprovecha nuestras ofertas y combos especiales.</p>
+            <summary data-i18n="cat_promociones_title">PROMOCIONES</summary>
+            <p class="category-desc" data-i18n="cat_promociones_desc">Aprovecha nuestras ofertas y combos especiales.</p>
             <div id="container-promociones" class="menu-container"></div>
         </details>
         <details id="cat-lomitos">
-            <summary>LOMITOS</summary>
-            <p class="category-desc">Exquisitas y finas láminas de lomo de cerdo cocinadas en su propio jugo.</p>
+            <summary data-i18n="cat_lomitos_title">LOMITOS</summary>
+            <p class="category-desc" data-i18n="cat_lomitos_desc">Exquisitas y finas láminas de lomo de cerdo cocinadas en su propio jugo.</p>
             <div id="container-lomitos" class="menu-container"></div>
         </details>
 
         <details id="cat-churrascos">
-            <summary>CHURRASCOS</summary>
-            <p class="category-desc">Finos cortes de tierna carne de vacuno de primera selección, cocinados a la plancha.</p>
+            <summary data-i18n="cat_churrascos_title">CHURRASCOS</summary>
+            <p class="category-desc" data-i18n="cat_churrascos_desc">Finos cortes de tierna carne de vacuno de primera selección, cocinados a la plancha.</p>
             <div id="container-churrascos" class="menu-container"></div>
         </details>
 
         <details id="cat-vienesas">
-            <summary>VIENESAS</summary>
-            <p class="category-desc">Tradicionales vienesas en pan fresco con tus ingredientes favoritos.</p>
+            <summary data-i18n="cat_vienesas_title">VIENESAS</summary>
+            <p class="category-desc" data-i18n="cat_vienesas_desc">Tradicionales vienesas en pan fresco con tus ingredientes favoritos.</p>
             <div id="container-vienesas" class="menu-container"></div>
         </details>
 
         <details id="cat-fricandelas">
-            <summary>FRICANDELAS</summary>
-            <p class="category-desc">Hamburguesas artesanales preparadas con la receta exclusiva de la casa.</p>
+            <summary data-i18n="cat_fricandelas_title">FRICANDELAS</summary>
+            <p class="category-desc" data-i18n="cat_fricandelas_desc">Hamburguesas artesanales preparadas con la receta exclusiva de la casa.</p>
             <div id="container-fricandelas" class="menu-container"></div>
         </details>
 
         <details id="cat-gordas">
-            <summary>GORDA</summary>
-            <p class="category-desc">Nuestra tradicional y sabrosa salchicha gruesa de gran calibre, asada a la plancha.</p>
+            <summary data-i18n="cat_gordas_title">GORDA</summary>
+            <p class="category-desc" data-i18n="cat_gordas_desc">Nuestra tradicional y sabrosa salchicha gruesa de gran calibre, asada a la plancha.</p>
             <div id="container-gordas" class="menu-container"></div>
         </details>
 
         <details id="cat-rumanos">
-            <summary>RUMANO ARTESANAL</summary>
-            <p class="category-desc">Deliciosa preparación artesanal de carne molida de vacuno y cerdo, aliñada con un toque de ajo y asada a la plancha.</p>
+            <summary data-i18n="cat_rumanos_title">RUMANO ARTESANAL</summary>
+            <p class="category-desc" data-i18n="cat_rumanos_desc">Deliciosa preparación artesanal de carne molida de vacuno y cerdo, aliñada con un toque de ajo y asada a la plancha.</p>
             <div id="container-rumanos" class="menu-container"></div>
         </details>
 
         <details id="cat-agregados">
-            <summary>AGREGADOS</summary>
-            <p class="category-desc">Acompaña tus sándwiches con nuestros ingredientes adicionales.</p>
+            <summary data-i18n="cat_agregados_title">AGREGADOS</summary>
+            <p class="category-desc" data-i18n="cat_agregados_desc">Acompaña tus sándwiches con nuestros ingredientes adicionales.</p>
             <div id="container-agregados" class="menu-container"></div>
         </details>
 
         <details id="cat-platos">
-            <summary>PLATOS</summary>
-            <p class="category-desc">Exquisitas preparaciones al plato servidas en porciones generosas.</p>
+            <summary data-i18n="cat_platos_title">PLATOS</summary>
+            <p class="category-desc" data-i18n="cat_platos_desc">Exquisitas preparaciones al plato servidas en porciones generosas.</p>
             <div id="container-platos" class="menu-container"></div>
         </details>
 
         <details id="cat-aderezos">
-            <summary>ADEREZOS</summary>
-            <p class="category-desc">Nuestros aderezos artesanales para acompañar tu mesa.</p>
+            <summary data-i18n="cat_aderezos_title">ADEREZOS</summary>
+            <p class="category-desc" data-i18n="cat_aderezos_desc">Nuestros aderezos artesanales para acompañar tu mesa.</p>
             <div id="container-aderezos" class="menu-container"></div>
         </details>
 
         <details id="cat-bebidas">
-            <summary>BEBIDAS</summary>
-            <p class="category-desc">Refrescantes bebidas en lata de 350cc.</p>
+            <summary data-i18n="cat_bebidas_title">BEBIDAS</summary>
+            <p class="category-desc" data-i18n="cat_bebidas_desc">Refrescantes bebidas en lata de 350cc.</p>
             <div id="container-bebidas" class="menu-container"></div>
         </details>
 
         <details id="cat-te_helado">
-            <summary>TÉ HELADO</summary>
-            <p class="category-desc">Lipton Ice Tea de 600ml.</p>
+            <summary data-i18n="cat_te_helado_title">TÉ HELADO</summary>
+            <p class="category-desc" data-i18n="cat_te_helado_desc">Lipton Ice Tea de 600ml.</p>
             <div id="container-te_helado" class="menu-container"></div>
         </details>
 
         <details id="cat-jugos_naturales">
-            <summary>JUGOS NATURALES</summary>
-            <p class="category-desc">Pulpas naturales seleccionadas.</p>
+            <summary data-i18n="cat_jugos_naturales_title">JUGOS NATURALES</summary>
+            <p class="category-desc" data-i18n="cat_jugos_naturales_desc">Pulpas naturales seleccionadas.</p>
             <div id="container-jugos_naturales" class="menu-container"></div>
         </details>
 
         <details id="cat-jugos_botella">
-            <summary>JUGOS EN BOTELLA</summary>
-            <p class="category-desc">Formatos individuales de 300ml.</p>
+            <summary data-i18n="cat_jugos_botella_title">JUGOS EN BOTELLA</summary>
+            <p class="category-desc" data-i18n="cat_jugos_botella_desc">Formatos individuales de 300ml.</p>
             <div id="container-jugos_botella" class="menu-container"></div>
         </details>
 
         <details id="cat-cafeteria">
-            <summary>CAFETERÍA Y TÉ</summary>
-            <p class="category-desc">Bebidas calientes para acompañar.</p>
+            <summary data-i18n="cat_cafeteria_title">CAFETERÍA Y TÉ</summary>
+            <p class="category-desc" data-i18n="cat_cafeteria_desc">Bebidas calientes para acompañar.</p>
             <div id="container-cafeteria" class="menu-container"></div>
         </details>
 
         <details id="cat-cervezas_botella">
-            <summary>CERVEZAS EN BOTELLA</summary>
-            <p class="category-desc">Selección de cervezas nacionales e importadas en formato 330ml y 500ml.</p>
+            <summary data-i18n="cat_cervezas_botella_title">CERVEZAS EN BOTELLA</summary>
+            <p class="category-desc" data-i18n="cat_cervezas_botella_desc">Selección de cervezas nacionales e importadas en formato 330ml y 500ml.</p>
             <div id="container-cervezas_botella" class="menu-container"></div>
         </details>
 
         <details id="cat-shops">
-            <summary>SHOPS</summary>
-            <p class="category-desc">Cerveza de barril bien fría en jarra o copón.</p>
+            <summary data-i18n="cat_shops_title">SHOPS</summary>
+            <p class="category-desc" data-i18n="cat_shops_desc">Cerveza de barril bien fría en jarra o copón.</p>
             <div id="container-shops" class="menu-container"></div>
         </details>
 
         <details id="cat-bebidas_maquina">
-                <summary>BEBIDAS DE MÁQUINA</summary>
-                <p class="category-desc">Refrescante combinación a base de jarabe concentrado y agua carbonatada (soda), servida al instante.</p>
+                <summary data-i18n="cat_bebidas_maquina_title">BEBIDAS DE MÁQUINA</summary>
+                <p class="category-desc" data-i18n="cat_bebidas_maquina_desc">Refrescante combinación a base de jarabe concentrado y agua carbonatada (soda), servida al instante.</p>
         <div id="container-bebidas_maquina" class="menu-container"></div>
         </details>
     </div>
@@ -282,13 +283,13 @@
 
     <p style="margin-top: 15px;">
         <span class="kw-link-main" onclick="abrirModal('modalCondiciones')">
-            <i class="fas fa-shield-alt"></i> Condiciones y Protección al Consumidor
+            <i class="fas fa-shield-alt"></i> <span data-i18n="footer_legal_link">Condiciones y Protección al Consumidor</span>
         </span>
     </p>
 
     <div class="creditos-footer">
         <a href="https://wa.me/56968213125" target="_blank" rel="noopener noreferrer">
-            Desarrollador 📲
+            <span data-i18n="footer_dev">Desarrollador</span> 📲
         </a>
     </div>
 </footer>
@@ -297,47 +298,46 @@
 <div id="modalCondiciones" class="modal" onclick="cerrarModalAfuera(event, 'modalCondiciones')">
     <div class="modal-content-card modal-large">
         <span class="cerrar" onclick="cerrarModal('modalCondiciones')">&times;</span>
-        <h2 class="modal-title"><i class="fas fa-balance-scale"></i> Términos, Condiciones y Derechos</h2>
+        <h2 class="modal-title"><i class="fas fa-balance-scale"></i> <span data-i18n="legal_title">Términos, Condiciones y Derechos</span></h2>
 
         <!-- Navegación por Pestañas -->
         <div class="modal-nav">
-            <button class="tab-btn active" onclick="cambiarSubtema('tab-exclusividad', this)">Exclusividad & Precios</button>
-            <button class="tab-btn" onclick="cambiarSubtema('tab-retracto', this)">Derecho de Retracto</button>
-            <button class="tab-btn" onclick="cambiarSubtema('tab-alergias', this)">Alergias e Intolerancias</button>
-            <button class="tab-btn" onclick="cambiarSubtema('tab-consumidor', this)">Protección al Consumidor</button>
+            <button class="tab-btn active" data-i18n="tab_btn_1" onclick="cambiarSubtema('tab-exclusividad', this)">Exclusividad & Precios</button>
+            <button class="tab-btn" data-i18n="tab_btn_2" onclick="cambiarSubtema('tab-retracto', this)">Derecho de Retracto</button>
+            <button class="tab-btn" data-i18n="tab_btn_3" onclick="cambiarSubtema('tab-alergias', this)">Alergias e Intolerancias</button>
+            <button class="tab-btn" data-i18n="tab_btn_4" onclick="cambiarSubtema('tab-consumidor', this)">Protección al Consumidor</button>
         </div>
 
         <!-- Contenidos -->
         <div class="modal-body">
             <div id="tab-exclusividad" class="tab-content active">
-                <h3><i class="fas fa-store"></i> Exclusividad de Carta y Precios</h3>
-                <p>Los precios, promociones, productos y combinaciones de esta carta digital son exclusivos para el consumo presencial en el local. Los precios expuestos en plataformas de reparto a domicilio (delivery) pueden diferir debido a costos operacionales de terceros.</p>
+                <h3><i class="fas fa-store"></i> <span data-i18n="tab1_h3">Exclusividad de Carta y Precios</span></h3>
+                <p data-i18n="tab1_p">Los precios, promociones, productos y combinaciones de esta carta digital son exclusivos para el consumo presencial en el local. Los precios expuestos en plataformas de reparto a domicilio (delivery) pueden diferir debido a costos operacionales de terceros.</p>
             </div>
 
             <div id="tab-retracto" class="tab-content">
-                <h3><i class="fas fa-ban"></i> Derecho de Retracto (Ley N° 19.496)</h3>
-                <p>De conformidad con el Art. 3° bis de la Ley N° 19.496 sobre Protección de los Derechos de los Consumidores, no aplica el derecho de retracto en la compra de productos perecibles o preparaciones alimentarias de consumo inmediato una vez confirmada e ingresada la comanda a cocina.</p>
+                <h3><i class="fas fa-ban"></i> <span data-i18n="tab2_h3">Derecho de Retracto (Ley N° 19.496)</span></h3>
+                <p data-i18n="tab2_p">De conformidad con el Art. 3° bis de la Ley N° 19.496 sobre Protección de los Derechos de los Consumidores, no aplica el derecho de retracto en la compra de productos perecibles o preparaciones alimentarias de consumo inmediato una vez confirmada e ingresada la comanda a cocina.</p>
             </div>
 
             <div id="tab-alergias" class="tab-content">
-                <h3><i class="fas fa-utensils"></i> Alergias e Ingredientes</h3>
-                <p>Nuestras preparaciones se realizan en cocinas expuestas a ingredientes altamente alergenos. Pueden contener trazas de <strong>gluten, huevo, lácteos, mostaza, frutos secos y sulfitos</strong>. Por favor, notifique cualquier condición médica o alergia severa al personal de atención antes de emitir su pedido.</p>
+                <h3><i class="fas fa-utensils"></i> <span data-i18n="tab3_h3">Alergias e Ingredientes</span></h3>
+                <p data-i18n-html="tab3_p_html">Nuestras preparaciones se realizan en cocinas expuestas a ingredientes altamente alergenos. Pueden contener trazas de <strong>gluten, huevo, lácteos, mostaza, frutos secos y sulfitos</strong>. Por favor, notifique cualquier condición médica o alergia severa al personal de atención antes de emitir su pedido.</p>
             </div>
 
             <div id="tab-consumidor" class="tab-content">
-                <h3><i class="fas fa-user-shield"></i> Derechos del Consumidor & Pagos</h3>
+                <h3><i class="fas fa-user-shield"></i> <span data-i18n="tab4_h3">Derechos del Consumidor & Pagos</span></h3>
                 <ul>
-                    <li><strong>Propina Voluntaria:</strong> La propina sugerida (10%) es estrictamente voluntaria conforme a la Ley N° 20.729.</li>
-                    <li><strong>Comprobante de Pago:</strong> Se emitirá boleta electrónica por cada consumo realizado en el establecimiento.</li>
-                    <li><strong>Medios de Pago:</strong> Se aceptan pagos en efectivo, tarjetas de débito y crédito bancarias sin recargos adicionales.</li>
+                    <li data-i18n-html="tab4_li1_html"><strong>Propina Voluntaria:</strong> La propina sugerida (10%) es estrictamente voluntaria conforme a la Ley N° 20.729.</li>
+                    <li data-i18n-html="tab4_li2_html"><strong>Comprobante de Pago:</strong> Se emitirá boleta electrónica por cada consumo realizado en el establecimiento.</li>
+                    <li data-i18n-html="tab4_li3_html"><strong>Medios de Pago:</strong> Se aceptan pagos en efectivo, tarjetas de débito y crédito bancarias sin recargos adicionales.</li>
                 </ul>
             </div>
         </div>
     </div>
 </div>
 
-    <!-- Cargar primero script.js y luego el API de Google Translate -->
+    <!-- Cargar script.js (traducciones y lógica del sitio) -->
     <script src="script.js"></script>
-    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 </body>
 </html>

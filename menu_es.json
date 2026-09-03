@@ -3,461 +3,467 @@
     {
       "nombre": "Lomito Solo",
       "descripcion": "Láminas de lomito de cerdo recién cortadas en pan amasado caliente.",
-      "precio": "$5.400",
+      "precio": "$5.600",
       "imagen": "image/lomo/lomosolo.jpg"
     },
     {
       "nombre": "Lomito Especial",
       "descripcion": "Acompañado de mayonesa casera de la casa.",
-      "precio": "$6.700",
+      "precio": "$6.900",
       "imagen": "image/lomo/lomoespecial.jpg"
     },
     {
       "nombre": "Lomito Diplomático",
       "descripcion": "Cubierto de cremoso queso mantecoso fundido.",
-      "precio": "$7.500",
+      "precio": "$7.900",
       "imagen": "image/lomo/diplomatico.jpg"
     },
     {
       "nombre": "Lomito Palta",
       "descripcion": "Acompañado de abundante palta fresca de estación.",
-      "precio": "$7.700",
+      "precio": "$7.900",
       "imagen": "image/lomo/lomopalta.jpg"
     },
     {
       "nombre": "Lomito Rusa",
       "descripcion": "Receta especial de ensalada rusa con jamón, pepinillos y mayonesa.",
-      "precio": "$7.700",
+      "precio": "$7.900",
       "imagen": "image/lomo/lomorusa.jpg"
     },
     {
       "nombre": "Lomito Chacarero Ají",
       "descripcion": "Con tomates frescos, porotos verdes tiernos y un toque de ají.",
-      "precio": "$7.700",
+      "precio": "$8.200",
       "imagen": "image/lomo/lomochacareroaji.jpg"
     },
     {
       "nombre": "Lomito Completo",
       "descripcion": "Chucrut tradicional, salsa de tomate natural y mayonesa casera.",
-      "precio": "$8.000",
+      "precio": "$8.200",
       "imagen": "image/lomo/lomocompleto.jpg"
     },
     {
       "nombre": "Lomito Palta Mayo",
       "descripcion": "Palta de estación y nuestra clásica mayonesa casera.",
-      "precio": "$9.000",
+      "precio": "$9.200",
       "imagen": "image/lomo/lomopaltamayo.jpg"
     },
     {
       "nombre": "Lomito Italiano",
       "descripcion": "Tomates frescos en rodajas, palta molida y mayonesa de la casa.",
-      "precio": "$10.300",
+      "precio": "$10.500",
       "imagen": "image/lomo/lomoitaliano.jpg"
     },
     {
       "nombre": "Lomito Baquedano",
       "descripcion": "Queso mantecoso fundido, tomate fresco y cebolla a la plancha.",
-      "precio": "$10.300",
+      "precio": "$10.500",
       "imagen": "image/lomo/lomobaquedano.jpg"
     },
     {
       "nombre": "Lomito Alameda",
       "descripcion": "Crujiente tocino, queso mantecoso fundido y cebolla a la plancha.",
-      "precio": "$11.300",
+      "precio": "$11.500",
       "imagen": "image/lomo/lomoalameda.jpg"
     }
   ],
-
   "churrascos": [
     {
       "nombre": "Churrasco Solo",
       "descripcion": "Jugosas láminas de carne de vacuno en pan amasado artesanal.",
-      "precio": "$7.100",
+      "precio": "$7.800",
       "imagen": "image/churrasco/churrascosolo.jpg"
     },
     {
       "nombre": "Churrasco Especial",
       "descripcion": "Láminas de vacuno acompañadas de mayonesa de la casa.",
-      "precio": "$8.400",
+      "precio": "$9.100",
       "imagen": "image/churrasco/churrascomayo.jpg"
     },
     {
       "nombre": "Barros Luco",
       "descripcion": "Carne de vacuno con abundante queso mantecoso fundido.",
-      "precio": "$9.400",
+      "precio": "$10.100",
       "imagen": "image/churrasco/barrosluco.jpg"
     },
     {
       "nombre": "Churrasco Rusa",
       "descripcion": "Ensalada rusa artesanal con jamón, pepinillos y mayonesa.",
-      "precio": "$9.400",
+      "precio": "$10.100",
       "imagen": "image/churrasco/churrascorusa.jpg"
     },
     {
       "nombre": "Churrasco Palta",
       "descripcion": "Acompañado de abundante palta de temporada molida.",
-      "precio": "$9.400",
+      "precio": "$10.100",
       "imagen": "image/churrasco/churrascopalta.jpg"
     },
     {
       "nombre": "Churrasco Completo",
       "descripcion": "Chucrut, salsa de tomate natural y mayonesa de la casa.",
-      "precio": "$9.700",
+      "precio": "$10.400",
       "imagen": "image/churrasco/churrascocompleto.jpg"
     },
     {
       "nombre": "Churrasco Chacarero Ají",
       "descripcion": "Tomates frescos, porotos verdes y ají verde de la casa.",
-      "precio": "$9.700",
+      "precio": "$10.400",
       "imagen": "image/churrasco/chacareroaji.jpg"
     },
     {
       "nombre": "Churrasco Palta Mayo",
       "descripcion": "Generosa capa de palta molida y mayonesa casera.",
-      "precio": "$10.700",
+      "precio": "$11.400",
       "imagen": "image/churrasco/churrascopaltamayo.jpg"
     },
     {
       "nombre": "Churrasco Italiano",
       "descripcion": "Tomate fresco en rodajas, palta y mayonesa casera.",
-      "precio": "$12.000",
+      "precio": "$12.700",
       "imagen": "image/churrasco/churrascoitaliano.jpg"
     },
     {
       "nombre": "Churrasco Baquedano",
       "descripcion": "Queso mantecoso fundido, tomate fresco y cebolla a la plancha.",
-      "precio": "$12.000",
+      "precio": "$12.700",
       "imagen": "image/churrasco/churrascobaquedano.jpg"
     },
     {
       "nombre": "Churrasco Alameda",
       "descripcion": "Tocino crujiente, queso mantecoso fundido y cebolla a la plancha.",
-      "precio": "$13.000",
+      "precio": "$13.700",
       "imagen": "image/churrasco/churrascoalameda.jpg"
     }
   ],
-
   "rumanos": [
     {
       "nombre": "Rumano Solo",
       "descripcion": "Mezcla artesanal de cerdo y vacuno a la plancha con ajo y ají.",
-      "precio": "$7.100",
+      "precio": "$7.800",
       "imagen": "image/rumano/rumanosolo.jpg"
     },
     {
       "nombre": "Rumano Especial",
       "descripcion": "Preparación artesanal de carne con mayonesa de la casa.",
-      "precio": "$8.400",
+      "precio": "$9.100",
       "imagen": "image/rumano/rumanomayo.jpg"
     },
     {
       "nombre": "Rumano Queso",
       "descripcion": "Carne aliñada con abundante queso mantecoso fundido.",
-      "precio": "$9.400",
+      "precio": "$10.100",
       "imagen": "image/rumano/rumanoqueso.jpg"
     },
     {
       "nombre": "Rumano Palta",
       "descripcion": "Servido con una capa de fresca palta de temporada.",
-      "precio": "$9.400",
+      "precio": "$10.100",
       "imagen": "image/rumano/rumanopalta.jpg"
     },
     {
       "nombre": "Rumano Rusa",
       "descripcion": "Ensalada rusa especial con jamón, pepinillos y mayonesa.",
-      "precio": "$9.400",
+      "precio": "$10.100",
       "imagen": "image/rumano/rumanorusa.jpg"
     },
     {
       "nombre": "Rumano Chacarero Ají",
       "descripcion": "Porotos verdes tiernos, tomate en rodajas y ají verde.",
-      "precio": "$9.400",
+      "precio": "$10.400",
       "imagen": "image/rumano/rumanochacarero.jpg"
     },
     {
       "nombre": "Rumano Completo",
       "descripcion": "Chucrut, salsa de tomate natural y mayonesa casera.",
-      "precio": "$9.700",
+      "precio": "$10.400",
       "imagen": "image/rumano/rumanocompleto.jpg"
     },
     {
       "nombre": "Rumano Palta Mayo",
       "descripcion": "Palta molida fresca y mayonesa casera de la casa.",
-      "precio": "$10.400",
+      "precio": "$11.400",
       "imagen": "image/rumano/rumanopaltamayo.jpg"
     },
     {
       "nombre": "Rumano Baquedano",
       "descripcion": "Queso mantecoso fundido, tomate fresco y cebolla a la plancha.",
-      "precio": "$11.600",
+      "precio": "$12.700",
       "imagen": "image/rumano/rumanobaquedano.jpg"
     },
     {
       "nombre": "Rumano Italiano",
       "descripcion": "Tomates frescos, palta molida y mayonesa casera.",
-      "precio": "$12.000",
+      "precio": "$12.700",
       "imagen": "image/rumano/rumanoitaliano.jpg"
     },
     {
       "nombre": "Rumano Alameda",
       "descripcion": "Tocino crujiente, queso mantecoso fundido y cebolla a la plancha.",
-      "precio": "$13.000",
+      "precio": "$13.700",
       "imagen": "image/rumano/rumanoalameda.jpg"
     }
   ],
-
   "fricandelas": [
     {
       "nombre": "Fricandela Sola",
       "descripcion": "Gran albóndiga casera servida en pan amasado artesanal.",
-      "precio": "$4.300",
+      "precio": "$4.400",
       "imagen": "image/fricandela/fricandelasola.jpg"
     },
     {
       "nombre": "Fricandela Especial",
       "descripcion": "Albóndiga artesanal acompañada de mayonesa casera.",
-      "precio": "$5.600",
+      "precio": "$5.700",
       "imagen": "image/fricandela/fricandelamayo.jpg"
     },
     {
       "nombre": "Fricandela Palta",
       "descripcion": "Acompañada de fresca palta molida de temporada.",
-      "precio": "$6.600",
+      "precio": "$6.700",
       "imagen": "image/fricandela/fricapalta.jpg"
     },
     {
       "nombre": "Fricandela Rusa",
       "descripcion": "Ensalada rusa con jamón, pepinillos y mayonesa artesanal.",
-      "precio": "$6.600",
+      "precio": "$6.700",
       "imagen": "image/fricandela/fricarusa.jpg"
     },
     {
       "nombre": "Fricandela Queso",
       "descripcion": "Albóndiga de la casa con cremoso queso fundido.",
-      "precio": "$6.600",
+      "precio": "$6.700",
       "imagen": "image/fricandela/fricaqueso.jpg"
     },
     {
       "nombre": "Fricandela Completa",
       "descripcion": "Chucrut artesanal, salsa de tomate natural y mayonesa casera.",
-      "precio": "$6.900",
+      "precio": "$7.000",
       "imagen": "image/fricandela/fricandelacompleta.jpg"
     },
     {
       "nombre": "Fricandela Chacarera Ají",
       "descripcion": "Porotos verdes, tomate fresco en rodajas y ají.",
-      "precio": "$6.900",
+      "precio": "$7.000",
       "imagen": "image/fricandela/fricandelachacareraaji.jpg"
     },
     {
       "nombre": "Fricandela Palta Mayo",
       "descripcion": "Palta fresca molida y mayonesa casera.",
-      "precio": "$7.900",
+      "precio": "$8.000",
       "imagen": "image/fricandela/fricapaltamayo.jpg"
     },
     {
       "nombre": "Fricandela Baquedano",
       "descripcion": "Queso mantecoso fundido, tomate fresco y cebolla a la plancha.",
-      "precio": "$8.800",
+      "precio": "$9.300",
       "imagen": "image/fricandela/fricandelabaquedano.jpg"
     },
     {
       "nombre": "Fricandela Italiana",
       "descripcion": "Tomates frescos en rodajas, palta y mayonesa de la casa.",
-      "precio": "$9.200",
+      "precio": "$9.300",
       "imagen": "image/fricandela/fricandelaitaliana.jpg"
     },
     {
       "nombre": "Fricandela Alameda",
       "descripcion": "Tocino crujiente, queso mantecoso fundido y cebolla a la plancha.",
-      "precio": "$9.800",
+      "precio": "$10.300",
       "imagen": "image/fricandela/fricandelaalameda.jpg"
     }
   ],
-
   "vienesas": [
     {
       "nombre": "Vienesa Sola",
       "descripcion": "Cecina de fabricación artesanal en pan amasado caliente.",
-      "precio": "$2.000",
+      "precio": "$2.100",
       "imagen": "image/vienesa/vienesasola.jpg"
     },
     {
       "nombre": "Vienesa Especial",
       "descripcion": "Vienesa artesanal con mayonesa de la casa.",
-      "precio": "$3.300",
+      "precio": "$3.400",
       "imagen": "image/vienesa/vienesamayo.jpg"
     },
     {
       "nombre": "Vienesa Rusa",
       "descripcion": "Ensalada rusa artesanal con jamón, pepinillos y mayonesa.",
-      "precio": "$4.300",
+      "precio": "$4.400",
       "imagen": "image/vienesa/vienesarusa.jpg"
     },
     {
       "nombre": "Vienesa Queso",
       "descripcion": "Con abundante queso mantecoso fundido a la plancha.",
-      "precio": "$4.300",
+      "precio": "$4.400",
       "imagen": "image/vienesa/vienesaqueso.jpg"
     },
     {
       "nombre": "Vienesa Palta",
       "descripcion": "Servida con una porción de fresca palta molida.",
-      "precio": "$4.300",
+      "precio": "$4.400",
       "imagen": "image/vienesa/vienesapalta.jpg"
     },
     {
       "nombre": "Vienesa Chacarera Ají",
       "descripcion": "Porotos verdes frescos, tomate en rodajas y ají.",
-      "precio": "$4.300",
+      "precio": "$4.700",
       "imagen": "image/vienesa/vienesachacarera.jpg"
     },
     {
       "nombre": "Vienesa Completa",
       "descripcion": "Chucrut artesanal, salsa de tomate natural y mayonesa casera.",
-      "precio": "$4.600",
+      "precio": "$4.700",
       "imagen": "image/vienesa/vienesacompleta.jpg"
     },
     {
       "nombre": "Vienesa Palta Mayo",
       "descripcion": "Fresca palta molida con nuestra cremosa mayonesa casera.",
-      "precio": "$5.300",
+      "precio": "$5.700",
       "imagen": "image/vienesa/vienesapaltamayo.jpg"
     },
     {
       "nombre": "Vienesa Baquedano",
       "descripcion": "Queso mantecoso fundido, tomate en rodajas y cebolla a la plancha.",
-      "precio": "$6.500",
+      "precio": "$7.000",
       "imagen": "image/vienesa/vienesabaquedano.jpg"
     },
     {
       "nombre": "Vienesa Italiana",
       "descripcion": "Tomates frescos, palta molida y mayonesa casera.",
-      "precio": "$6.900",
+      "precio": "$7.000",
       "imagen": "image/vienesa/vienesaitaliana.jpg"
     },
     {
       "nombre": "Vienesa Alameda",
       "descripcion": "Tocino crujiente, queso mantecoso fundido y cebolla a la plancha.",
-      "precio": "$7.500",
+      "precio": "$8.000",
       "imagen": "image/vienesa/vienesaalameda.jpg"
     }
   ],
-
   "gordas": [
     {
       "nombre": "Gorda Sola",
       "descripcion": "Salchicha de cerdo gruesa, ligeramente ahumada artesanal.",
-      "precio": "$4.300",
+      "precio": "$4.400",
       "imagen": "image/gorda/gordasola.jpg"
     },
     {
       "nombre": "Gorda Especial",
       "descripcion": "Cecina de cerdo ahumada con mayonesa de la casa.",
-      "precio": "$5.600",
+      "precio": "$5.700",
       "imagen": "image/gorda/gordamayo.jpg"
     },
     {
       "nombre": "Gorda Rusa",
       "descripcion": "Ensalada rusa casera con jamón, pepinillos y mayonesa.",
-      "precio": "$6.400",
+      "precio": "$6.700",
       "imagen": "image/gorda/gordarusa.jpg"
     },
     {
       "nombre": "Gorda Queso",
       "descripcion": "Coronada con abundante queso mantecoso fundido.",
-      "precio": "$6.400",
+      "precio": "$6.700",
       "imagen": "image/gorda/gordaqueso.jpg"
     },
     {
       "nombre": "Gorda Palta",
       "descripcion": "Acompañada de fresca palta de estación molida.",
-      "precio": "$6.600",
+      "precio": "$6.700",
       "imagen": "image/gorda/gordapalta.jpg"
     },
     {
       "nombre": "Gorda Chacarera Ají",
       "descripcion": "Porotos verdes tiernos, tomate fresco en rodajas y ají.",
-      "precio": "$6.600",
+      "precio": "$7.000",
       "imagen": "image/gorda/gordachacareraaji.jpg"
     },
     {
       "nombre": "Gorda Completa",
       "descripcion": "Chucrut, salsa de tomate natural y mayonesa casera.",
-      "precio": "$6.900",
+      "precio": "$7.000",
       "imagen": "image/gorda/gordacompleta.jpg"
     },
     {
       "nombre": "Gorda Palta Mayo",
       "descripcion": "Palta molida de temporada y mayonesa de la casa.",
-      "precio": "$7.900",
+      "precio": "$8.000",
       "imagen": "image/gorda/gordapaltamayo.jpg"
     },
     {
       "nombre": "Gorda Baquedano",
       "descripcion": "Queso mantecoso fundido, tomate fresco y cebolla a la plancha.",
-      "precio": "$8.800",
+      "precio": "$9.300",
       "imagen": "image/gorda/gordabaquedano.jpg"
     },
     {
       "nombre": "Gorda Alameda",
       "descripcion": "Tocino crujiente, queso mantecoso fundido y cebolla a la plancha.",
-      "precio": "$9.800",
+      "precio": "$9.300",
       "imagen": "image/gorda/gordaalameda.jpg"
     },
     {
       "nombre": "Gorda Italiana",
       "descripcion": "Tomates frescos, palta molida y mayonesa de la casa.",
-      "precio": "$10.200",
+      "precio": "$10.300",
       "imagen": "image/gorda/gordaitaliana.jpg"
     }
   ],
-
   "agregados": [
-    { "nombre": "Palta", "descripcion": "Porción de palta fresca molida.", "precio": "$1.500", "imagen": "image/agregados/palta.jpg" },
-    { "nombre": "Tomate", "descripcion": "Porción de tomate fresco en rodajas.", "precio": "$1.200", "imagen": "image/agregados/tomate.jpg" },
-    { "nombre": "Mayonesa Casera", "descripcion": "Elaborada con huevo pasteurizado.", "precio": "$1.000", "imagen": "image/agregados/mayo.jpg" },
-    { "nombre": "Chucrut", "descripcion": "Tradicional chucrut artesanal.", "precio": "$1.000", "imagen": "image/agregados/chucrut.jpg" },
-    { "nombre": "Porotos Verdes", "descripcion": "Porotos verdes tiernos seleccionados.", "precio": "$1.200", "imagen": "image/agregados/porotosverdes.jpg" },
-    { "nombre": "Tomate Picado", "descripcion": "Exclusivo para vienesas.", "precio": "$1.000", "imagen": "image/agregados/tomatepicado.jpg" },
-    { "nombre": "Salsa de Tomate", "descripcion": "Salsa de tomate casera de la casa.", "precio": "$800", "imagen": "image/agregados/salsatomate.jpg" },
-    { "nombre": "Ají Verde", "descripcion": "Ají verde fresco picado.", "precio": "$800", "imagen": "image/agregados/ajiverde.jpg" },
-    { "nombre": "Cebolla Caramelizada", "descripcion": "Cebolla rehogada a la plancha.", "precio": "$1.200", "imagen": "image/agregados/cebollacaramelizada.jpg" },
-    { "nombre": "Tocino", "descripcion": "Láminas de tocino crujiente.", "precio": "$1.500", "imagen": "image/agregados/tocino.jpg" },
-    { "nombre": "Queso Fundido", "descripcion": "Porción extra de queso derretido.", "precio": "$1.500", "imagen": "image/agregados/queso.jpg" },
-    { "nombre": "Salsa Americana", "descripcion": "Salsa picada tradicional.", "precio": "$1.000", "imagen": "image/agregados/americana.jpg" },
-    { "nombre": "Ensalada Rusa", "descripcion": "Porción de ensalada rusa artesanal.", "precio": "$1.500", "imagen": "image/agregados/rusa.jpg" },
-    { "nombre": "Pepinillos", "descripcion": "Porción de crujientes pepinillos en rodajas.", "precio": "$1.000", "imagen": "image/agregados/pepinillos.jpg" }
+    { "nombre": "Palta", "descripcion": "Porción de palta fresca molida.", "precio": "$2.300", "imagen": "image/agregados/palta.jpg" },
+    { "nombre": "Tomate", "descripcion": "Porción de tomate fresco en rodajas.", "precio": "$1.300", "imagen": "image/agregados/tomate.jpg" },
+    { "nombre": "Mayonesa Casera", "descripcion": "Elaborada con huevo pasteurizado.", "precio": "$1.300", "imagen": "image/agregados/mayo.jpg" },
+    { "nombre": "Chucrut", "descripcion": "Tradicional chucrut artesanal.", "precio": "$1.300", "imagen": "image/agregados/chucrut.jpg" },
+    { "nombre": "Porotos Verdes", "descripcion": "Porotos verdes tiernos seleccionados.", "precio": "$1.300", "imagen": "image/agregados/porotosverdes.jpg" },
+    { "nombre": "Tomate Picado", "descripcion": "Exclusivo para vienesas.", "precio": "$1.300", "imagen": "image/agregados/tomatepicado.jpg" },
+    { "nombre": "Salsa de Tomate", "descripcion": "Salsa de tomate casera de la casa.", "precio": "$1.300", "imagen": "image/agregados/salsatomate.jpg" },
+    { "nombre": "Ají Verde", "descripcion": "Ají verde fresco picado.", "precio": "$0", "imagen": "image/agregados/ajiverde.jpg" },
+    { "nombre": "Cebolla Caramelizada", "descripcion": "Cebolla rehogada a la plancha.", "precio": "$1.300", "imagen": "image/agregados/cebollacaramelizada.jpg" },
+    { "nombre": "Tocino", "descripcion": "Láminas de tocino crujiente.", "precio": "$2.300", "imagen": "image/agregados/tocino.jpg" },
+    { "nombre": "Queso Fundido", "descripcion": "Porción extra de queso derretido.", "precio": "$2.300", "imagen": "image/agregados/queso.jpg" },
+    { "nombre": "Salsa Americana", "descripcion": "Salsa picada tradicional.", "precio": "$1.300", "imagen": "image/agregados/americana.jpg" },
+    { "nombre": "Ensalada Rusa", "descripcion": "Porción de ensalada rusa artesanal.", "precio": "$2.300", "imagen": "image/agregados/rusa.jpg" },
+    { "nombre": "Pepinillos", "descripcion": "Porción de crujientes pepinillos en rodajas.", "precio": "$1.300", "imagen": "image/agregados/pepinillos.jpg" }
   ],
   "platos": [
     {
       "nombre": "Crudo Tradicional",
       "descripcion": "Carne de vacuno magra picada con aderezos de la casa.",
-      "precio": "$8.900",
+      "precio": "$12.200",
       "imagen": "image/platos/crudo.avif"
     },
     {
       "nombre": "Tártaro",
       "descripcion": "Carne picada fina, alcaparras, cebolla, pepinillo y yema.",
-      "precio": "$9.500",
+      "precio": "$12.200",
       "imagen": "image/platos/tartaro.avif"
     },
     {
       "nombre": "Riñones con Arroz",
       "descripcion": "Jugosos riñones al estilo tradicional de la casa, acompañados de una porción de arroz.",
-      "precio": "$PRECIO",
+      "precio": "$9.500",
       "imagen": "image/platos/rinonarroz.png"
     },
     {
       "nombre": "Rumano con Arroz",
       "descripcion": "Nuestra sabrosa preparación de carne molida al plato, acompañada de arroz.",
-      "precio": "$PRECIO",
+      "precio": "$13.600",
       "imagen": "image/platos/rumano-arroz.jpg"
     },
     {
-      "nombre": "Ensalada de la Casa",
-      "descripcion": "Servida en plato grande con una porción más generosa que la de un sándwich.",
-      "precio": "$PRECIO",
+      "nombre": "Ensalada de Palta",
+      "descripcion": "Ensalada de palta, servida en plato grande en una porción más generosa que la de un sándwich.",
+      "precio": "$3.000",
+      "imagen": "image/platos/ensalada.jpg"
+    },
+    {
+      "nombre": "Ensalada de Tomate",
+      "descripcion": "Ensalada de tomate laminado, servida en plato grande en una porción más generosa que la de un sándwich.",
+      "precio": "$3.000",
+      "imagen": "image/platos/ensalada.jpg"
+    },
+    {
+      "nombre": "Ensalada de Porotos Verdes",
+      "descripcion": "Ensalada de porotos verdes, servida en plato grande en una porción más generosa que la de un sándwich.",
+      "precio": "$2.500",
       "imagen": "image/platos/ensalada.jpg"
     }
   ],
@@ -561,18 +567,18 @@
       "imagen": "image/bebidas/7up.jpg"
     }
   ],
- "te_helado": [
-    { 
-      "nombre": "Ice Tea Lipton Durazno (600cc)", 
-      "descripcion": "Refrescante té negro helado con un suave y dulce sabor a durazno.", 
-      "precio": "$2.200", 
-      "imagen": "image/bebidas/icetedurazno.jpg" 
+  "te_helado": [
+    {
+      "nombre": "Ice Tea Lipton Durazno (600cc)",
+      "descripcion": "Refrescante té negro helado con un suave y dulce sabor a durazno.",
+      "precio": "$2.200",
+      "imagen": "image/bebidas/icetedurazno.jpg"
     },
-    { 
-      "nombre": "Ice Tea Lipton Limón (600cc)", 
-      "descripcion": "Clásico té negro helado con un toque cítrico y refrescante de limón.", 
-      "precio": "$2.200", 
-      "imagen": "image/bebidas/icetelimon.png" 
+    {
+      "nombre": "Ice Tea Lipton Limón (600cc)",
+      "descripcion": "Clásico té negro helado con un toque cítrico y refrescante de limón.",
+      "precio": "$2.200",
+      "imagen": "image/bebidas/icetelimon.png"
     }
   ],
   "jugos_naturales": [
@@ -606,27 +612,27 @@
       "imagen": "image/jugos/pilladelvalle.png"
     }
   ],
- "cafeteria": [
-    { 
-      "nombre": "Té Ceylan", 
-      "descripcion": "Infusión tradicional de té negro Ceylan, servida bien caliente en taza grande.", 
-      "precio": "$1.500", 
-      "imagen": "image/cafeteria/te.jpg" 
+  "cafeteria": [
+    {
+      "nombre": "Té Ceylan",
+      "descripcion": "Infusión tradicional de té negro Ceylan, servida bien caliente en taza grande.",
+      "precio": "$1.500",
+      "imagen": "image/cafeteria/te.jpg"
     },
-    { 
-      "nombre": "Café Chico", 
-      "descripcion": "Tradicional café Nescafé Espresso granulado, servido caliente en taza chica.", 
-      "precio": "$1.500", 
-      "imagen": "image/cafeteria/cafechico.jpg" 
+    {
+      "nombre": "Café Chico",
+      "descripcion": "Tradicional café Nescafé Espresso granulado, servido caliente en taza chica.",
+      "precio": "$1.500",
+      "imagen": "image/cafeteria/cafechico.jpg"
     },
-    { 
-      "nombre": "Café Grande", 
-      "descripcion": "Tradicional café Nescafé Espresso granulado, servido caliente en taza grande.", 
-      "precio": "$2.000", 
-      "imagen": "image/cafeteria/cafegrande.jpg" 
+    {
+      "nombre": "Café Grande",
+      "descripcion": "Tradicional café Nescafé Espresso granulado, servido caliente en taza grande.",
+      "precio": "$2.000",
+      "imagen": "image/cafeteria/cafegrande.jpg"
     }
   ],
- "cervezas_botella": [
+  "cervezas_botella": [
     {
       "nombre": "Kunstmann Torobayo (330cc)",
       "descripcion": "Amber Ale valdiviana tradicional con notas acarameladas y de frutos secos (5.0° GL).",
@@ -773,47 +779,45 @@
       "precio": "$4.000",
       "imagen": "image/shops/coponnegro.jpg"
     }
-    ],
-"bebidas_maquina": [
-  {
-    "nombre": "Coca Cola Original (Máquina)",
-    "descripcion": "Refrescante combinación a base de jarabe concentrado de Coca Cola y agua carbonatada, servida al instante.",
-    "precio": "$1.800",
-    "imagen": "image/maquina/cocanormal.jpg"
-  },
-  {
-    "nombre": "Coca Cola Zero (Máquina)",
-    "descripcion": "El clásico sabor de Coca Cola en su versión sin azúcar de máquina dispensadora.",
-    "precio": "$1.800",
-    "imagen": "image/maquina/cocazero.jpg"
-  },
-  {
-    "nombre": "Fanta Zero (Máquina)",
-    "descripcion": "Sabor a naranja intenso y burbujeante, completamente libre de azúcar.",
-    "precio": "$1.800",
-    "imagen": "image/maquina/fantazero.jpg"
-  },
-  {
-    "nombre": "Soda (Máquina)",
-    "descripcion": "Agua carbonatada purificada, fresca y ultra refrescante.",
-    "precio": "$1.800",
-    "imagen": "image/maquina/soda.jpg"
-  }
-],
-"promociones": [
-  {
-    "nombre": "Promoción Fricandela Completa + Cerveza",
-    "descripcion": "Fricandela completa + Cerveza Del Puerto Porter 500 ml (4,5°). Válida hasta agotar stock.",
-    "precio": "$8.700",
-    "imagen": "image/promocion/fricaporter.jpg"
-  },
-  {
-    "nombre": "Promoción Fricandela Completa + Bebida",
-    "descripcion": "Fricandela completa + Bebida 220 ml. Sabores a elección: Pepsi, Pepsi Zero, Canada Dry Ginger Ale o Canada Dry Zero. Válida hasta agotar stock.",
-    "precio": "$7.700",
-    "imagen": "image/promocion/fricabebidas.jpg"
-  }
-]
-
+  ],
+  "bebidas_maquina": [
+    {
+      "nombre": "Coca Cola Original (Máquina)",
+      "descripcion": "Refrescante combinación a base de jarabe concentrado de Coca Cola y agua carbonatada, servida al instante.",
+      "precio": "$1.800",
+      "imagen": "image/maquina/cocanormal.jpg"
+    },
+    {
+      "nombre": "Coca Cola Zero (Máquina)",
+      "descripcion": "El clásico sabor de Coca Cola en su versión sin azúcar de máquina dispensadora.",
+      "precio": "$1.800",
+      "imagen": "image/maquina/cocazero.jpg"
+    },
+    {
+      "nombre": "Fanta Zero (Máquina)",
+      "descripcion": "Sabor a naranja intenso y burbujeante, completamente libre de azúcar.",
+      "precio": "$1.800",
+      "imagen": "image/maquina/fantazero.jpg"
+    },
+    {
+      "nombre": "Soda (Máquina)",
+      "descripcion": "Agua carbonatada purificada, fresca y ultra refrescante.",
+      "precio": "$1.800",
+      "imagen": "image/maquina/soda.jpg"
+    }
+  ],
+  "promociones": [
+    {
+      "nombre": "Promoción Fricandela Completa + Cerveza",
+      "descripcion": "Fricandela completa + Cerveza Del Puerto Porter 500 ml (4,5°). Válida hasta agotar stock.",
+      "precio": "$8.700",
+      "imagen": "image/promocion/fricaporter.jpg"
+    },
+    {
+      "nombre": "Promoción Fricandela Completa + Bebida",
+      "descripcion": "Fricandela completa + Bebida 220 ml. Sabores a elección: Pepsi, Pepsi Zero, Canada Dry Ginger Ale o Canada Dry Zero. Válida hasta agotar stock.",
+      "precio": "$7.700",
+      "imagen": "image/promocion/fricabebidas.jpg"
+    }
+  ]
 }
-  
