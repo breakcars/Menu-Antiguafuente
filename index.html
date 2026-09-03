@@ -43,10 +43,16 @@
     <div class="container">
     
        
-            <div class="lang-switcher">
-                <button class="btn-lang active" onclick="cambiarIdioma('es', event)">ES</button>
-                <button class="btn-lang" onclick="cambiarIdioma('en', event)">EN</button>
-                <button class="btn-lang" onclick="cambiarIdioma('pt', event)">PT</button>
+            <div class="lang-switcher-wrapper">
+                    <span class="lang-label">
+                    <i class="fas fa-globe"></i> 
+                    <span data-i18n="select_lang">Selecciona tu idioma / Select language:</span>
+                    </span>
+                <div class="lang-switcher">
+                    <button class="btn-lang active" onclick="cambiarIdioma('es', event)">ES</button>
+                    <button class="btn-lang" onclick="cambiarIdioma('en', event)">EN</button>
+                    <button class="btn-lang" onclick="cambiarIdioma('pt', event)">PT</button>
+                </div>
             </div>
 
             <div class="note">
@@ -97,7 +103,7 @@
             </div>
 
             <div class="category-circle-item" onclick="seleccionarCategoria('cat-platos')" role="button" tabindex="0">
-                <img src="image/platos/rinones.png" alt="Platos" loading="lazy">
+                <img src="image/platos/rinon.jpg" alt="Platos" loading="lazy">
                 <span data-i18n="nav_platos">Platos</span>
             </div>
 

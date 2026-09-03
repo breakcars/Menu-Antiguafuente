@@ -207,6 +207,7 @@ details {
     margin: 0 !important;
     padding: 0 !important;
     background: transparent !important;
+    scroll-margin-top: 100px;
 }
 
 details > summary {
@@ -219,11 +220,28 @@ details[open] {
 }
 
 .category-desc {
-    font-style: italic;
-    color: #666;
-    margin: 0 0 12px 0;
-    padding: 0 4px;
-    font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: #fefce8; /* Fondo cálido suave */
+  border-left: 4px solid #d97706; /* Borde con color de acento */
+  padding: 10px 14px;
+  border-radius: 0 8px 8px 0;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #1f2937;
+  margin: 12px 0 18px 0;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+/* Ícono de información al inicio de la descripción */
+.category-desc::before {
+  content: "\f05a"; /* Código del ícono info-circle en FontAwesome */
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  color: #d97706;
+  font-size: 1.1rem;
+  flex-shrink: 0;
 }
 
 /* --- TARJETAS DE PRODUCTOS --- */
@@ -310,7 +328,7 @@ details[open] {
 /* --- BOTÓN FLOTANTE "VOLVER ARRIBA" --- */
 .btn-back-to-top {
     position: fixed;
-    bottom: 20px;
+    bottom: 80px;
     right: 20px;
     width: 48px;
     height: 48px;
@@ -664,4 +682,26 @@ footer {
     background-color: #8b0000;
     color: #ffffff;
     border-color: #8b0000;
+}
+
+/* Estilos para la etiqueta e indicador de idioma */
+.lang-switcher-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 15px;
+}
+
+.lang-label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #4b5563;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.lang-label i {
+  color: #d97706; /* Color del ícono del planeta */
 }

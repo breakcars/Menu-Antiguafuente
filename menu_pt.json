@@ -419,196 +419,196 @@
     { "nombre": "Cebolla Caramelizada", "descripcion": "Cebola refogada na chapa.", "precio": "$1.300", "imagen": "image/agregados/cebollacaramelizada.jpg" },
     { "nombre": "Tocino", "descripcion": "Fatias de bacon crocante.", "precio": "$2.300", "imagen": "image/agregados/tocino.jpg" },
     { "nombre": "Queso Fundido", "descripcion": "Uma porção extra de queijo derretido.", "precio": "$2.300", "imagen": "image/agregados/queso.jpg" },
-    { "nombre": "Salsa Americana", "descripcion": "Molho picado tradicional ao estilo relish.", "precio": "$1.300", "imagen": "image/agregados/americana.jpg" },
-    { "nombre": "Ensalada Rusa", "descripcion": "Uma mistura cremosa feita com pepinos em conserva, cebolas pérola, cenouras e couve-flor finamente picadas, combinadas com presunto em cubos e maionese caseira.", "precio": "$2.300", "imagen": "image/agregados/rusa.jpg" },
-    { "nombre": "Pepinillos", "descripcion": "Uma porção de picles crocantes fatiados.", "precio": "$1.300", "imagen": "image/agregados/pepinillos.jpg" }
+    { "nombre": "Salsa Americana", "descripcion": "Molho tradicional picado.", "precio": "$1.300", "imagen": "image/agregados/americana.jpg" },
+    { "nombre": "Ensalada Rusa", "descripcion": "Porção de salada russa artesanal.", "precio": "$2.300", "imagen": "image/agregados/rusa.jpg" },
+    { "nombre": "Pepinillos", "descripcion": "Porção de picles crocantes fatiados.", "precio": "$1.300", "imagen": "image/agregados/pepinillos.jpg" }
   ],
   "platos": [
     {
       "nombre": "Crudo Tradicional",
-      "descripcion": "(Tártaro de carne estilo chileno) Carne bovina magra moída servida crua com temperos da casa.",
+      "descripcion": "(Tártaro de carne bovina estilo chileno) Carne bovina magra moída servida crua com temperos da casa.",
       "precio": "$12.200",
-      "imagen": "image/platos/crudo.avif"
+      "imagen": "image/platos/crudo.jpg"
     },
     {
       "nombre": "Tártaro",
-      "descripcion": "(Tártaro clássico de carne) Carne bovina finamente moída, alcaparras, cebola, picles e gema de ovo.",
+      "descripcion": "(Tártaro clássico) Carne bovina finamente moída, alcaparras, cebola, picles e gema de ovo.",
       "precio": "$12.200",
-      "imagen": "image/platos/tartaro.avif"
+      "imagen": "image/platos/tartaro.jpg"
     },
     {
       "nombre": "Riñones con Arroz",
-      "descripcion": "(Rins de boi com arroz) Rins suculentos preparados ao estilo da casa, servidos com uma porção de arroz.",
+      "descripcion": "(Rins bovinos com arroz) Rins suculentos preparados ao estilo da casa, acompanhados de uma porção de arroz.",
       "precio": "$9.500",
-      "imagen": "image/platos/rinonarroz.png"
+      "imagen": "image/platos/rinon.jpg"
     },
     {
       "nombre": "Rumano con Arroz",
-      "descripcion": "(\"Rumano\" servido no prato) Nossa saborosa mistura de carne moída servida no prato com arroz em vez de pão.",
+      "descripcion": "(Preparo de carne Rumano servido no prato) Nossa saborosa carne moída temperada servida no prato com arroz.",
       "precio": "$13.600",
-      "imagen": "image/platos/rumano-arroz.jpg"
+      "imagen": "image/platos/rumanos.jpg"
     },
     {
       "nombre": "Ensalada de Palta",
-      "descripcion": "Salada de abacate, servida em prato grande em uma porção mais generosa do que a do sanduíche.",
+      "descripcion": "Salada de abacate, servida em prato grande em porção mais generosa.",
       "precio": "$3.000",
-      "imagen": "image/platos/ensalada.jpg"
+      "imagen": "image/platos/palta.jpg"
     },
     {
       "nombre": "Ensalada de Tomate",
-      "descripcion": "Salada de tomate fatiado, servida em prato grande em uma porção mais generosa do que a do sanduíche.",
+      "descripcion": "Salada de tomate fatiado, servida em prato grande em porção mais generosa.",
       "precio": "$3.000",
-      "imagen": "image/platos/ensalada.jpg"
+      "imagen": "image/platos/tomate.jpg"
     },
     {
       "nombre": "Ensalada de Porotos Verdes",
-      "descripcion": "Salada de vagem, servida em prato grande em uma porção mais generosa do que a do sanduíche.",
+      "descripcion": "Salada de vagem, servida em prato grande em porção mais generosa.",
       "precio": "$2.500",
-      "imagen": "image/platos/ensalada.jpg"
+      "imagen": "image/platos/porotos.jpg"
     }
   ],
   "aderezos": [
     {
       "nombre": "Mostaza Artesanal",
-      "descripcion": "Nossa própria receita artesanal de mostarda da casa.",
-      "precio": "$500",
+      "descripcion": "Nossa receita artesanal de mostarda da casa.",
+      "precio": "$0",
       "imagen": "image/aderezos/mostaza.jpg"
     },
     {
       "nombre": "Ají Rojo Crema",
-      "descripcion": "Molho cremoso de pimenta vermelha, preparado artesanalmente.",
-      "precio": "$500",
+      "descripcion": "Molho cremoso de pimenta vermelha artesanal.",
+      "precio": "$0",
       "imagen": "image/aderezos/ajirojo.jpg"
     }
   ],
   "bebidas": [
     {
       "nombre": "Coca Cola Original (350cc)",
-      "descripcion": "O refrigerante clássico com seu sabor inconfundível e máximo frescor.",
-      "precio": "$1.800",
+      "descripcion": "O clássico refrigerante de sabor inconfundível e máximo frescor.",
+      "precio": "$2.500",
       "imagen": "image/bebidas/cocacola.jpg"
     },
     {
       "nombre": "Coca Cola Zero (350cc)",
       "descripcion": "O mesmo grande sabor e frescor da Coca-Cola, totalmente sem açúcar.",
-      "precio": "$1.800",
+      "precio": "$2.500",
       "imagen": "image/bebidas/cocacolazero.jpg"
     },
     {
       "nombre": "Pepsi (350cc)",
-      "descripcion": "Refrigerante de sabor marcante, refrescante e com o toque característico da Pepsi.",
-      "precio": "$1.800",
+      "descripcion": "Refrigerante de sabor intenso e refrescante, com o toque característico da Pepsi.",
+      "precio": "$2.500",
       "imagen": "image/bebidas/pepsi.jpg"
     },
     {
       "nombre": "Pepsi Zero (350cc)",
-      "descripcion": "Todo o sabor ousado e refrescante da Pepsi, em sua versão sem açúcar e sem calorias.",
-      "precio": "$1.800",
+      "descripcion": "Todo o sabor marcante e refrescante da Pepsi em versão sem açúcar.",
+      "precio": "$2.500",
       "imagen": "image/bebidas/pepsizero.jpg"
     },
     {
       "nombre": "Bilz (350cc)",
       "descripcion": "Tradicional refrigerante chileno com seu inconfundível e doce sabor de fantasia vermelha.",
-      "precio": "$1.800",
+      "precio": "$2.500",
       "imagen": "image/bebidas/bilz.jpg"
     },
     {
       "nombre": "Pap (350cc)",
-      "descripcion": "Emblemático refrigerante chileno com o autêntico, fresco e doce sabor de mamão (papaya).",
-      "precio": "$1.800",
+      "descripcion": "Emblemático refrigerante chileno com o autêntico e doce sabor de mamão (papaya).",
+      "precio": "$2.500",
       "imagen": "image/bebidas/pap.jpg"
     },
     {
       "nombre": "Limón Soda (350cc)",
-      "descripcion": "Bebida carbonatada ultra-refrescante com o toque certo de suco de limão verdadeiro.",
-      "precio": "$1.800",
+      "descripcion": "Refrigerante ultra refrescante com o toque certo de suco de limão de verdade.",
+      "precio": "$2.500",
       "imagen": "image/bebidas/limonsoda.jpg"
     },
     {
       "nombre": "Limón Soda Zero (350cc)",
-      "descripcion": "A intensidade cítrica e refrescante da Limón Soda, totalmente sem açúcar.",
-      "precio": "$1.800",
+      "descripcion": "A intensidade cítrica e refrescante do Limón Soda, totalmente sem açúcar.",
+      "precio": "$2.500",
       "imagen": "image/bebidas/limonsodazero.jpg"
     },
     {
       "nombre": "Canada Dry Ginger Ale (350cc)",
-      "descripcion": "Refrigerante premium elaborado com extratos naturais de gengibre, suave e refrescante.",
-      "precio": "$1.800",
+      "descripcion": "Refrigerante premium feito com extratos naturais de gengibre, suave e refrescante.",
+      "precio": "$2.500",
       "imagen": "image/bebidas/canadadry.jpg"
     },
     {
       "nombre": "Canada Dry Zero (350cc)",
       "descripcion": "O sabor refinado e o frescor efervescente do Ginger Ale, sem açúcar.",
-      "precio": "$1.800",
+      "precio": "$2.500",
       "imagen": "image/bebidas/canadadryzero.jpg"
     },
     {
       "nombre": "Kem Piña (350cc)",
-      "descripcion": "Típico refrigerante chileno de refrescante e doce sabor tropical de abacaxi.",
-      "precio": "$1.800",
+      "descripcion": "Típico refrigerante chileno de sabor tropical doce e refrescante de abacaxi.",
+      "precio": "$2.500",
       "imagen": "image/bebidas/kem.jpg"
     },
     {
       "nombre": "Crush (350cc)",
-      "descripcion": "Refrigerante com um vibrante, doce e intenso sabor de laranja.",
-      "precio": "$1.800",
+      "descripcion": "Refrigerante com um sabor vibrante, doce e intenso de laranja.",
+      "precio": "$2.500",
       "imagen": "image/bebidas/crush.jpg"
     },
     {
       "nombre": "Crush Zero (350cc)",
-      "descripcion": "O clássico e refrescante sabor de laranja da Crush, totalmente sem açúcar.",
-      "precio": "$1.800",
+      "descripcion": "O clássico e refrescante sabor de laranja do Crush, completamente sem açúcar.",
+      "precio": "$2.500",
       "imagen": "image/bebidas/crushzero.jpg"
     },
     {
       "nombre": "7Up (350cc)",
-      "descripcion": "Refrigerante transparente sabor lima-limão, leve, cristalino e efervescente.",
-      "precio": "$1.800",
+      "descripcion": "Refrigerante transparente sabor limão, leve, cristalino e efervescente.",
+      "precio": "$2.500",
       "imagen": "image/bebidas/7up.jpg"
     }
   ],
   "te_helado": [
     {
       "nombre": "Ice Tea Lipton Durazno (600cc)",
-      "descripcion": "Refrescante chá preto gelado com um suave e doce sabor de pêssego.",
-      "precio": "$2.200",
+      "descripcion": "Refrescante chá preto gelado com sabor suave e doce de pêssego.",
+      "precio": "$2.900",
       "imagen": "image/bebidas/icetedurazno.jpg"
     },
     {
       "nombre": "Ice Tea Lipton Limón (600cc)",
-      "descripcion": "Clássico chá preto gelado com uma nota cítrica e refrescante de limão.",
-      "precio": "$2.200",
+      "descripcion": "Clássico chá preto gelado com um toque cítrico e refrescante de limão.",
+      "precio": "$2.900",
       "imagen": "image/bebidas/icetelimon.png"
     }
   ],
   "jugos_naturales": [
-    { "nombre": "Jugo de Frutilla", "descripcion": "Suco de polpa natural de morango.", "precio": "$2.800", "imagen": "image/jugosnaturales/pulpafrutilla.jpg" },
-    { "nombre": "Jugo de Mango", "descripcion": "Suco de polpa natural de manga.", "precio": "$2.800", "imagen": "image/jugosnaturales/pulpamango.jpg" },
-    { "nombre": "Jugo de Chirimoya", "descripcion": "Suco de polpa natural de graviola/chirimoya.", "precio": "$2.800", "imagen": "image/jugosnaturales/pulpachirimoya.jpg" }
+    { "nombre": "Jugo de Frutilla", "descripcion": "Polpa natural de morango.", "precio": "$3.200", "imagen": "image/jugosnaturales/pulpafrutilla.jpg" },
+    { "nombre": "Jugo de Mango", "descripcion": "Polpa natural de manga.", "precio": "$3.200", "imagen": "image/jugosnaturales/pulpamango.jpg" },
+    { "nombre": "Jugo de Chirimoya", "descripcion": "Polpa natural de graviola/chirimoya.", "precio": "$3.200", "imagen": "image/jugosnaturales/pulpachirimoya.jpg" }
   ],
   "jugos_botella": [
     {
       "nombre": "Watt's Durazno (300cc)",
       "descripcion": "Néctar refrescante de pêssego, de textura suave e doçura natural.",
-      "precio": "$1.600",
+      "precio": "$2.600",
       "imagen": "image/jugos/durazno.png"
     },
     {
       "nombre": "Watt's Naranja (300cc)",
       "descripcion": "Néctar refrescante de laranja com um toque cítrico equilibrado.",
-      "precio": "$1.600",
+      "precio": "$2.600",
       "imagen": "image/jugos/naranja.png"
     },
     {
       "nombre": "Watt's Tutti Frutilla (300cc)",
-      "descripcion": "Deliciosa mistura de frutas com um intenso sabor de morango.",
-      "precio": "$1.600",
+      "descripcion": "Deliciosa mistura de frutas com um sabor intenso de morango.",
+      "precio": "$2.600",
       "imagen": "image/jugos/tutifrutilla.png"
     },
     {
       "nombre": "Del Valle Piña (300cc)",
       "descripcion": "Néctar sabor abacaxi de textura leve, doce e muito refrescante.",
-      "precio": "$1.600",
+      "precio": "$2.600",
       "imagen": "image/jugos/pilladelvalle.png"
     }
   ],
@@ -616,206 +616,206 @@
     {
       "nombre": "Té Ceylan",
       "descripcion": "Infusão tradicional de chá preto Ceylan, servida bem quente em xícara grande.",
-      "precio": "$1.500",
+      "precio": "$2.100",
       "imagen": "image/cafeteria/te.jpg"
     },
     {
       "nombre": "Café Chico",
-      "descripcion": "Tradicional café instantâneo Nescafé Espresso, servido quente em xícara pequena.",
-      "precio": "$1.500",
+      "descripcion": "Café solúvel tradicional Nescafé Espresso, servido quente em xícara pequena.",
+      "precio": "$1.600",
       "imagen": "image/cafeteria/cafechico.jpg"
     },
     {
       "nombre": "Café Grande",
-      "descripcion": "Tradicional café instantâneo Nescafé Espresso, servido quente em xícara grande.",
-      "precio": "$2.000",
+      "descripcion": "Café solúvel tradicional Nescafé Espresso, servido quente em xícara grande.",
+      "precio": "$2.100",
       "imagen": "image/cafeteria/cafegrande.jpg"
     }
   ],
   "cervezas_botella": [
     {
       "nombre": "Kunstmann Torobayo (330cc)",
-      "descripcion": "Amber Ale tradicional de Valdivia com notas caramelizadas e de nozes (5.0% ABV).",
-      "precio": "$3.200",
+      "descripcion": "Amber Ale valdiviana tradicional com notas caramelizadas e de frutos secos (5,0% ABV).",
+      "precio": "$4.100",
       "imagen": "image/cervezas/torobayo330.png"
     },
     {
       "nombre": "Kunstmann Bock (330cc)",
-      "descripcion": "Cerveja escura encorpada estilo Bock com toques de café e chocolate (5.3% ABV).",
-      "precio": "$3.200",
+      "descripcion": "Cerveja escura estilo Bock de corpo denso, com toques de café e chocolate (5,3% ABV).",
+      "precio": "$4.100",
       "imagen": "image/cervezas/Bock.png"
     },
     {
       "nombre": "Kunstmann Lager (330cc)",
-      "descripcion": "Lager clara artesanal não filtrada, muito fresca e de amargor moderado (4.3% ABV).",
-      "precio": "$3.200",
+      "descripcion": "Lager loira não filtrada de estilo artesanal, muito fresca e de amargor moderado (4,3% ABV).",
+      "precio": "$4.100",
       "imagen": "image/cervezas/lager.png"
     },
     {
       "nombre": "Kunstmann Lager Blanc (330cc)",
-      "descripcion": "Cerveja de trigo não filtrada, suave, refrescante e com finas notas cítricas (4.3% ABV).",
-      "precio": "$3.200",
+      "descripcion": "Cerveja de trigo não filtrada, suave, refrescante e com finos toques cítricos (4,3% ABV).",
+      "precio": "$4.100",
       "imagen": "image/cervezas/LagerBlanc.png"
     },
     {
       "nombre": "Austral Calafate (330cc)",
-      "descripcion": "Ale patagônica de sabor característico, infusionada com o fruto silvestre calafate (5.0% ABV).",
-      "precio": "$3.200",
+      "descripcion": "Ale patagônica de sabor característico, infusionada com o fruto silvestre calafate (5,0% ABV).",
+      "precio": "$4.100",
       "imagen": "image/cervezas/Calafate330.png"
     },
     {
       "nombre": "Austral Yagán (330cc)",
-      "descripcion": "Dark Ale de tom escuro profundo com intensas notas de cevada torrada (5.0% ABV).",
-      "precio": "$3.200",
+      "descripcion": "Dark Ale de tom escuro profundo com intensas notas de cevada torrada (5,0% ABV).",
+      "precio": "$4.100",
       "imagen": "image/cervezas/Yagan.png"
     },
     {
       "nombre": "Austral Lager (330cc)",
-      "descripcion": "Lager dourada clássica da Patagônia, limpa, refrescante e de final suave (4.6% ABV).",
-      "precio": "$3.200",
+      "descripcion": "Lager dourada clássica da Patagônia, limpa, refrescante e de final suave (4,6% ABV).",
+      "precio": "$4.100",
       "imagen": "image/cervezas/australlager.jpg"
     },
     {
       "nombre": "Austral Patagona (330cc)",
-      "descripcion": "Pale Ale de perfil maltado, cor âmbar atraente e amargor sutil (5.0% ABV).",
-      "precio": "$3.200",
+      "descripcion": "Pale Ale de perfil maltado, atraente cor âmbar e amargor sutil (5,0% ABV).",
+      "precio": "$4.100",
       "imagen": "image/cervezas/Patagona.png"
     },
     {
       "nombre": "Royal Guard (355cc)",
-      "descripcion": "Lager suave produzida com duplo lúpulo para um sabor equilibrado e final suave (5.0% ABV).",
-      "precio": "$2.500",
+      "descripcion": "Smooth Lager elaborada com duplo lúpulo para um sabor equilibrado e final suave (5,0% ABV).",
+      "precio": "$3.800",
       "imagen": "image/cervezas/royalguard.png"
     },
     {
       "nombre": "Cristal Zero (355cc)",
-      "descripcion": "Lager sem álcool, leve e muito refrescante (0.0% ABV).",
-      "precio": "$2.200",
+      "descripcion": "Lager sem álcool, leve e muito refrescante (0,0% ABV).",
+      "precio": "$3.800",
       "imagen": "image/cervezas/cristalzero.png"
     },
     {
       "nombre": "Heineken (330cc)",
-      "descripcion": "Premium Lager internacional 100% malte, sabor equilibrado e amargor suave (5.0% ABV).",
-      "precio": "$2.800",
+      "descripcion": "Premium Lager internacional de puro malte, sabor equilibrado e amargor suave (5,0% ABV).",
+      "precio": "$4.100",
       "imagen": "image/cervezas/heiniken.png"
     },
     {
       "nombre": "Corona (330cc)",
-      "descripcion": "Clássica Pale Lager mexicana, leve, refrescante e muito fácil de beber (4.5% ABV).",
-      "precio": "$2.800",
+      "descripcion": "Clássica Pale Lager mexicana, leve, refrescante e muito fácil de beber (4,5% ABV).",
+      "precio": "$4.100",
       "imagen": "image/cervezas/corona.png"
     },
     {
       "nombre": "Del Puerto Pilsen Lager (330cc)",
-      "descripcion": "Pilsen artesanal no estilo Valparaíso, fresca, leve e bem balanceada (4.5% ABV).",
-      "precio": "$3.000",
+      "descripcion": "Pilsen artesanal porteña, fresca, leve e bem balanceada (4,5% ABV).",
+      "precio": "$4.100",
       "imagen": "image/cervezas/delpuertopilsen.png"
     },
     {
       "nombre": "Coors (330cc)",
-      "descripcion": "Lager americana dourada e refrescante, de corpo leve e fácil de beber (5.0% ABV).",
-      "precio": "$2.500",
+      "descripcion": "Lager americana dourada e refrescante, de corpo leve e fácil de beber (5,0% ABV).",
+      "precio": "$4.100",
       "imagen": "image/cervezas/coors.jfif"
     },
     {
       "nombre": "Erdinger Blanca (330cc)",
-      "descripcion": "Autêntica cerveja de trigo alemã (Weissbier) não filtrada, condimentada e frutada (5.3% ABV).",
-      "precio": "$3.800",
+      "descripcion": "Autêntica cerveja de trigo alemã (Weissbier) não filtrada, condimentada e frutada (5,3% ABV).",
+      "precio": "$4.200",
       "imagen": "image/cervezas/erdingerblanca.jfif"
     },
     {
       "nombre": "Erdinger Zero (330cc)",
-      "descripcion": "Cerveja de trigo alemã sem álcool, de bom corpo e refrescante sabor frutado (0.0% ABV).",
-      "precio": "$3.800",
+      "descripcion": "Cerveja de trigo alemã sem álcool, de bom corpo e refrescante sabor frutado (0,0% ABV).",
+      "precio": "$4.200",
       "imagen": "image/cervezas/erdingerzero.jfif"
     },
     {
       "nombre": "Kunstmann Torobayo (500cc)",
-      "descripcion": "Amber Ale de Valdivia com notas de caramelo, em garrafa de meio litro (5.0% ABV).",
-      "precio": "$4.500",
+      "descripcion": "Amber Ale valdiviana com notas caramelizadas na apresentação de meio litro (5,0% ABV).",
+      "precio": "$5.300",
       "imagen": "image/cervezas/torobayo500.png"
     },
     {
       "nombre": "Austral Calafate (500cc)",
-      "descripcion": "Ale patagônica infusionada com fruto calafate, em garrafa de meio litro (5.0% ABV).",
-      "precio": "$4.500",
+      "descripcion": "Ale patagônica infusionada com calafate na apresentação de meio litro (5,0% ABV).",
+      "precio": "$5.300",
       "imagen": "image/cervezas/calafate500.png"
     }
   ],
   "shops": [
     {
       "nombre": "Shop Escudo Mediano (345cc)",
-      "descripcion": "(Chopp) Refrescante chopp Escudo, servido trincando de gelado em caneca média.",
-      "precio": "$2.500",
+      "descripcion": "(Chopp) Refrescante chopp Escudo, servido trincando em caneca média.",
+      "precio": "$3.800",
       "imagen": "image/shops/blanco.jpg"
     },
     {
       "nombre": "Shop Escudo Jarra (500cc)",
-      "descripcion": "(Chopp) Clássico chopp Escudo, servido trincando de gelado em caneca de meio litro.",
-      "precio": "$3.200",
+      "descripcion": "(Chopp) Clássico chopp Escudo, servido trincando em caneca de meio litro.",
+      "precio": "$4.800",
       "imagen": "image/shops/blancogrande.jpg"
     },
     {
       "nombre": "Shop Escudo Copón (500cc)",
-      "descripcion": "(Chopp) Chopp Escudo servido em taça grande para preservar corpo, espuma e frescor.",
-      "precio": "$3.500",
+      "descripcion": "(Chopp) Chopp Escudo servido em taça grande para manter seu corpo, espuma e frescor.",
+      "precio": "$4.800",
       "imagen": "image/shops/coponblanco.jpg"
     },
     {
       "nombre": "Shop Del Puerto Porter Mediano (345cc)",
-      "descripcion": "(Chopp) Chopp artesanal escuro estilo Porter, servido em caneca média.",
-      "precio": "$2.800",
+      "descripcion": "(Chopp) Chopp de cerveja escura artesanal estilo Porter, servido em caneca média.",
+      "precio": "$3.800",
       "imagen": "image/shops/negro.jpg"
     },
     {
       "nombre": "Shop Del Puerto Porter Jarra (500cc)",
-      "descripcion": "(Chopp) Chopp artesanal escuro estilo Porter com notas maltadas, servido em caneca de meio litro.",
-      "precio": "$3.800",
+      "descripcion": "(Chopp) Chopp de cerveja escura artesanal estilo Porter com notas maltadas, servido em caneca de meio litro.",
+      "precio": "$4.800",
       "imagen": "image/shops/negrogrande.jpg"
     },
     {
       "nombre": "Shop Del Puerto Porter Copón (500cc)",
-      "descripcion": "(Chopp) Chopp artesanal escuro estilo Porter, servido em taça grande para destacar suas notas torradas.",
-      "precio": "$4.000",
+      "descripcion": "(Chopp) Chopp de cerveja escura artesanal estilo Porter, servido em taça grande para realçar suas notas torradas.",
+      "precio": "$4.800",
       "imagen": "image/shops/coponnegro.jpg"
     }
   ],
   "bebidas_maquina": [
     {
       "nombre": "Coca Cola Original (Máquina)",
-      "descripcion": "Refrescante combinação a base de xarope concentrado de Coca Cola e água carbonatada, servida na hora na máquina.",
-      "precio": "$1.800",
+      "descripcion": "Refrescante combinação de xarope concentrado de Coca Cola e água carbonatada, servida na hora.",
+      "precio": "$2.300",
       "imagen": "image/maquina/cocanormal.jpg"
     },
     {
       "nombre": "Coca Cola Zero (Máquina)",
-      "descripcion": "O clássico sabor da Coca Cola na sua versão sem açúcar da máquina dispensadora.",
-      "precio": "$1.800",
+      "descripcion": "O clássico sabor de Coca Cola em sua versão sem açúcar de máquina de refil.",
+      "precio": "$2.300",
       "imagen": "image/maquina/cocazero.jpg"
     },
     {
       "nombre": "Fanta Zero (Máquina)",
-      "descripcion": "Sabor de laranja intenso e efervescente, totalmente sem açúcar.",
-      "precio": "$1.800",
+      "descripcion": "Sabor a laranja intenso e efervescente, totalmente sem açúcar.",
+      "precio": "$2.300",
       "imagen": "image/maquina/fantazero.jpg"
     },
     {
       "nombre": "Soda (Máquina)",
-      "descripcion": "Água carbonatada purificada, fresca e ultra-refrescante.",
-      "precio": "$1.800",
+      "descripcion": "Água carbonatada purificada, fresca e ultra refrescante.",
+      "precio": "$1.200",
       "imagen": "image/maquina/soda.jpg"
     }
   ],
   "promociones": [
     {
       "nombre": "Promoción Fricandela Completa + Cerveza",
-      "descripcion": "(Combo) Hambúrguer Fricandela \"completo\" + Cerveja Del Puerto Porter 500 ml (4,5%). Válido enquanto durarem os estoques.",
+      "descripcion": "(Combo) Sanduíche Fricandela completo + Cerveja Del Puerto Porter 500 ml (4,5%). Válido enquanto durarem os estoques.",
       "precio": "$8.700",
       "imagen": "image/promocion/fricaporter.jpg"
     },
     {
       "nombre": "Promoción Fricandela Completa + Bebida",
-      "descripcion": "(Combo) Hambúrguer Fricandela \"completo\" + Refrigerante de 220 ml. Escolha de Pepsi, Pepsi Zero, Canada Dry Ginger Ale ou Canada Dry Zero. Válido enquanto durarem os estoques.",
+      "descripcion": "(Combo) Sanduíche Fricandela completo + Refrigerante 220 ml. Escolha entre Pepsi, Pepsi Zero, Canada Dry Ginger Ale ou Canada Dry Zero. Válido enquanto durarem os estoques.",
       "precio": "$7.700",
       "imagen": "image/promocion/fricabebidas.jpg"
     }

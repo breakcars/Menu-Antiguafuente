@@ -1,13 +1,13 @@
 {
   "lomitos": [
     {
-      "nombre": "Lomito Solo",
+      "nombre": "Lomito Plain",
       "descripcion": "(Chilean grilled pork sandwich) Freshly cut slices of pork loin on warm traditional Chilean bread.",
       "precio": "$5.600",
       "imagen": "image/lomo/lomosolo.jpg"
     },
     {
-      "nombre": "Lomito Especial",
+      "nombre": "Lomito Special",
       "descripcion": "(Pork sandwich) Topped with our house-made mayonnaise.",
       "precio": "$6.900",
       "imagen": "image/lomo/lomoespecial.jpg"
@@ -19,7 +19,7 @@
       "imagen": "image/lomo/diplomatico.jpg"
     },
     {
-      "nombre": "Lomito Palta",
+      "nombre": "Lomito Avocado",
       "descripcion": "(Pork sandwich) Topped with a generous layer of fresh, in-season avocado.",
       "precio": "$7.900",
       "imagen": "image/lomo/lomopalta.jpg"
@@ -43,13 +43,13 @@
       "imagen": "image/lomo/lomocompleto.jpg"
     },
     {
-      "nombre": "Lomito Palta Mayo",
+      "nombre": "Lomito Avocado-Mayo",
       "descripcion": "(Pork sandwich) In-season avocado and our classic house-made mayonnaise.",
       "precio": "$9.200",
       "imagen": "image/lomo/lomopaltamayo.jpg"
     },
     {
-      "nombre": "Lomito Italiano",
+      "nombre": "Lomito Italian",
       "descripcion": "(Pork sandwich, \"Italian\" style) Sliced fresh tomato, mashed avocado and house mayonnaise — named for its red, white and green colors.",
       "precio": "$10.500",
       "imagen": "image/lomo/lomoitaliano.jpg"
@@ -67,7 +67,6 @@
       "imagen": "image/lomo/lomoalameda.jpg"
     }
   ],
-
   "churrascos": [
     {
       "nombre": "Churrasco Solo",
@@ -136,7 +135,6 @@
       "imagen": "image/churrasco/churrascoalameda.jpg"
     }
   ],
-
   "rumanos": [
     {
       "nombre": "Rumano Solo",
@@ -205,7 +203,6 @@
       "imagen": "image/rumano/rumanoalameda.jpg"
     }
   ],
-
   "fricandelas": [
     {
       "nombre": "Fricandela Sola",
@@ -274,76 +271,74 @@
       "imagen": "image/fricandela/fricandelaalameda.jpg"
     }
   ],
-
   "vienesas": [
     {
-      "nombre": "Vienesa Sola",
+      "nombre": "HOT DOG Plain",
       "descripcion": "(Chilean hot-dog style sausage sandwich) Artisanal sausage served on warm traditional bread.",
       "precio": "$2.100",
       "imagen": "image/vienesa/vienesasola.jpg"
     },
     {
-      "nombre": "Vienesa Especial",
+      "nombre": "HOT DOG Special",
       "descripcion": "(Sausage sandwich) Artisanal sausage with house-made mayonnaise.",
       "precio": "$3.400",
       "imagen": "image/vienesa/vienesamayo.jpg"
     },
     {
-      "nombre": "Vienesa Rusa",
+      "nombre": "HOT DOG Rusa",
       "descripcion": "(Sausage sandwich) Artisanal \"Russian salad\" (potato salad) with ham, pickles and mayonnaise.",
       "precio": "$4.400",
       "imagen": "image/vienesa/vienesarusa.jpg"
     },
     {
-      "nombre": "Vienesa Queso",
+      "nombre": "HOT DOG Cheese",
       "descripcion": "(Sausage sandwich) With plenty of melted buttery cheese, grilled.",
       "precio": "$4.400",
       "imagen": "image/vienesa/vienesaqueso.jpg"
     },
     {
-      "nombre": "Vienesa Palta",
+      "nombre": "HOT DOG Avocado",
       "descripcion": "(Sausage sandwich) Served with a portion of fresh mashed avocado.",
       "precio": "$4.400",
       "imagen": "image/vienesa/vienesapalta.jpg"
     },
     {
-      "nombre": "Vienesa Chacarera Ají",
+      "nombre": "HOT DOG Chacarera Ají",
       "descripcion": "(Sausage sandwich, \"Chacarero\" style) Fresh green beans, sliced tomato and chili (ají).",
       "precio": "$4.700",
       "imagen": "image/vienesa/vienesachacarera.jpg"
     },
     {
-      "nombre": "Vienesa Completa",
+      "nombre": "HOT DOG Completa",
       "descripcion": "(Sausage sandwich, \"loaded\" style) Artisanal sauerkraut, natural tomato sauce and house-made mayonnaise.",
       "precio": "$4.700",
       "imagen": "image/vienesa/vienesacompleta.jpg"
     },
     {
-      "nombre": "Vienesa Palta Mayo",
+      "nombre": "HOT DOG Palta Mayo",
       "descripcion": "(Sausage sandwich) Fresh mashed avocado with our creamy house-made mayonnaise.",
       "precio": "$5.700",
       "imagen": "image/vienesa/vienesapaltamayo.jpg"
     },
     {
-      "nombre": "Vienesa Baquedano",
+      "nombre": "HOT DOG Baquedano",
       "descripcion": "(Sausage sandwich) Melted buttery cheese, sliced tomato and grilled onion.",
       "precio": "$7.000",
       "imagen": "image/vienesa/vienesabaquedano.jpg"
     },
     {
-      "nombre": "Vienesa Italiana",
+      "nombre": "HOT DOG Italian",
       "descripcion": "(Sausage sandwich, \"Italian\" style) Fresh tomato, mashed avocado and house-made mayonnaise.",
       "precio": "$7.000",
       "imagen": "image/vienesa/vienesaitaliana.jpg"
     },
     {
-      "nombre": "Vienesa Alameda",
+      "nombre": "HOT DOG Alameda",
       "descripcion": "(Sausage sandwich) Crispy bacon, melted buttery cheese and grilled onion.",
       "precio": "$8.000",
       "imagen": "image/vienesa/vienesaalameda.jpg"
     }
   ],
-
   "gordas": [
     {
       "nombre": "Gorda Sola",
@@ -412,19 +407,18 @@
       "imagen": "image/gorda/gordaitaliana.jpg"
     }
   ],
-
   "agregados": [
-    { "nombre": "Palta", "descripcion": "A portion of fresh mashed avocado.", "precio": "$2.300", "imagen": "image/agregados/palta.jpg" },
-    { "nombre": "Tomate", "descripcion": "A portion of fresh sliced tomato.", "precio": "$1.300", "imagen": "image/agregados/tomate.jpg" },
-    { "nombre": "Mayonesa Casera", "descripcion": "House-made mayonnaise, prepared with pasteurized egg.", "precio": "$1.300", "imagen": "image/agregados/mayo.jpg" },
-    { "nombre": "Chucrut", "descripcion": "Traditional artisanal sauerkraut.", "precio": "$1.300", "imagen": "image/agregados/chucrut.jpg" },
-    { "nombre": "Porotos Verdes", "descripcion": "Selected tender green beans.", "precio": "$1.300", "imagen": "image/agregados/porotosverdes.jpg" },
-    { "nombre": "Tomate Picado", "descripcion": "Diced tomato, exclusively for \"vienesa\" sausage sandwiches.", "precio": "$1.300", "imagen": "image/agregados/tomatepicado.jpg" },
-    { "nombre": "Salsa de Tomate", "descripcion": "Our house-made tomato sauce.", "precio": "$1.300", "imagen": "image/agregados/salsatomate.jpg" },
+    { "nombre": "Avocado", "descripcion": "A portion of fresh mashed avocado.", "precio": "$2.300", "imagen": "image/agregados/palta.jpg" },
+    { "nombre": "Tomatoes", "descripcion": "A portion of fresh sliced tomato.", "precio": "$1.300", "imagen": "image/agregados/tomate.jpg" },
+    { "nombre": "Mayonnaise", "descripcion": "House-made mayonnaise, prepared with pasteurized egg.", "precio": "$1.300", "imagen": "image/agregados/mayo.jpg" },
+    { "nombre": "Sauerkraut", "descripcion": "Traditional artisanal sauerkraut.", "precio": "$1.300", "imagen": "image/agregados/chucrut.jpg" },
+    { "nombre": "Green Beans", "descripcion": "Selected tender green beans.", "precio": "$1.300", "imagen": "image/agregados/porotosverdes.jpg" },
+    { "nombre": "Chopped Tomato", "descripcion": "Diced tomato, exclusively for \"vienesa\" sausage sandwiches.", "precio": "$1.300", "imagen": "image/agregados/tomatepicado.jpg" },
+    { "nombre": "Homemade Tomato Sauce", "descripcion": "Our house-made tomato sauce.", "precio": "$1.300", "imagen": "image/agregados/salsatomate.jpg" },
     { "nombre": "Ají Verde", "descripcion": "Fresh chopped green chili pepper.", "precio": "$0", "imagen": "image/agregados/ajiverde.jpg" },
-    { "nombre": "Cebolla Caramelizada", "descripcion": "Onion sautéed on the griddle.", "precio": "$1.300", "imagen": "image/agregados/cebollacaramelizada.jpg" },
-    { "nombre": "Tocino", "descripcion": "Slices of crispy bacon.", "precio": "$2.300", "imagen": "image/agregados/tocino.jpg" },
-    { "nombre": "Queso Fundido", "descripcion": "An extra portion of melted cheese.", "precio": "$2.300", "imagen": "image/agregados/queso.jpg" },
+    { "nombre": "Caramelized Onion", "descripcion": "Onion sautéed on the griddle.", "precio": "$1.300", "imagen": "image/agregados/cebollacaramelizada.jpg" },
+    { "nombre": "Bacon", "descripcion": "Slices of crispy bacon.", "precio": "$2.300", "imagen": "image/agregados/tocino.jpg" },
+    { "nombre": "Cheese", "descripcion": "An extra portion of melted cheese.", "precio": "$2.300", "imagen": "image/agregados/queso.jpg" },
     { "nombre": "Salsa Americana", "descripcion": "Traditional chopped relish-style sauce.", "precio": "$1.300", "imagen": "image/agregados/americana.jpg" },
     { "nombre": "Ensalada Rusa", "descripcion": "Its a creamy mash made with pickled cucumbers, pearl onions, carrots and cauliflower finely chopped, combined with diced ham and homemade mayonnaise.", "precio": "$2.300", "imagen": "image/agregados/rusa.jpg" },
     { "nombre": "Pepinillos", "descripcion": "A portion of crunchy sliced pickles.", "precio": "$1.300", "imagen": "image/agregados/pepinillos.jpg" }
@@ -434,56 +428,56 @@
       "nombre": "Crudo Tradicional",
       "descripcion": "(Chilean-style beef tartare) Lean minced beef served raw with house seasonings.",
       "precio": "$12.200",
-      "imagen": "image/platos/crudo.avif"
+      "imagen": "image/platos/crudo.jpg"
     },
     {
       "nombre": "Tártaro",
       "descripcion": "(Classic beef tartare) Finely minced beef, capers, onion, pickle and egg yolk.",
       "precio": "$12.200",
-      "imagen": "image/platos/tartaro.avif"
+      "imagen": "image/platos/tartaro.jpg"
     },
     {
       "nombre": "Riñones con Arroz",
       "descripcion": "(Beef kidneys with rice) Juicy kidneys prepared house-style, served with a portion of rice.",
       "precio": "$9.500",
-      "imagen": "image/platos/rinonarroz.png"
+      "imagen": "image/platos/rinon.jpg"
     },
     {
       "nombre": "Rumano con Arroz",
       "descripcion": "(\"Rumano\" meat filling served as a plate) Our flavorful ground-meat preparation served over rice instead of in bread.",
       "precio": "$13.600",
-      "imagen": "image/platos/rumano-arroz.jpg"
+      "imagen": "image/platos/rumanos.jpg"
     },
     {
       "nombre": "Ensalada de Palta",
       "descripcion": "Avocado salad, served on a large plate in a more generous portion than a sandwich.",
       "precio": "$3.000",
-      "imagen": "image/platos/ensalada.jpg"
+      "imagen": "image/platos/palta.jpg"
     },
     {
       "nombre": "Ensalada de Tomate",
       "descripcion": "Sliced tomato salad, served on a large plate in a more generous portion than a sandwich.",
       "precio": "$3.000",
-      "imagen": "image/platos/ensalada.jpg"
+      "imagen": "image/platos/tomate.jpg"
     },
     {
       "nombre": "Ensalada de Porotos Verdes",
       "descripcion": "Green bean salad, served on a large plate in a more generous portion than a sandwich.",
       "precio": "$2.500",
-      "imagen": "image/platos/ensalada.jpg"
+      "imagen": "image/platos/porotos.jpg"
     }
   ],
   "aderezos": [
     {
       "nombre": "Mostaza Artesanal",
       "descripcion": "Our own artisanal house recipe mustard.",
-      "precio": "$500",
+      "precio": "$0",
       "imagen": "image/aderezos/mostaza.jpg"
     },
     {
       "nombre": "Ají Rojo Crema",
       "descripcion": "Creamy red chili sauce, artisanally prepared.",
-      "precio": "$500",
+      "precio": "$0",
       "imagen": "image/aderezos/ajirojo.jpg"
     }
   ],
@@ -491,260 +485,260 @@
     {
       "nombre": "Coca Cola Original (350cc)",
       "descripcion": "The classic soft drink with its unmistakable flavor and ultimate refreshment.",
-      "precio": "$1.800",
+      "precio": "$2.500",
       "imagen": "image/bebidas/cocacola.jpg"
     },
     {
       "nombre": "Coca Cola Zero (350cc)",
       "descripcion": "The same great Coca-Cola taste and refreshment, completely sugar-free.",
-      "precio": "$1.800",
+      "precio": "$2.500",
       "imagen": "image/bebidas/cocacolazero.jpg"
     },
     {
       "nombre": "Pepsi (350cc)",
       "descripcion": "A soft drink with bold, refreshing flavor and Pepsi's signature taste.",
-      "precio": "$1.800",
+      "precio": "$2.500",
       "imagen": "image/bebidas/pepsi.jpg"
     },
     {
       "nombre": "Pepsi Zero (350cc)",
       "descripcion": "All the bold, refreshing taste of Pepsi, in a sugar-free, zero-calorie version.",
-      "precio": "$1.800",
+      "precio": "$2.500",
       "imagen": "image/bebidas/pepsizero.jpg"
     },
     {
       "nombre": "Bilz (350cc)",
       "descripcion": "A traditional Chilean soft drink with its unmistakable sweet \"fantasy red\" flavor.",
-      "precio": "$1.800",
+      "precio": "$2.500",
       "imagen": "image/bebidas/bilz.jpg"
     },
     {
       "nombre": "Pap (350cc)",
       "descripcion": "An iconic Chilean soft drink with an authentic, fresh, sweet papaya flavor.",
-      "precio": "$1.800",
+      "precio": "$2.500",
       "imagen": "image/bebidas/pap.jpg"
     },
     {
       "nombre": "Limón Soda (350cc)",
       "descripcion": "An ultra-refreshing carbonated drink with just the right touch of real lemon juice.",
-      "precio": "$1.800",
+      "precio": "$2.500",
       "imagen": "image/bebidas/limonsoda.jpg"
     },
     {
       "nombre": "Limón Soda Zero (350cc)",
       "descripcion": "The refreshing citrus intensity of Limón Soda, completely sugar-free.",
-      "precio": "$1.800",
+      "precio": "$2.500",
       "imagen": "image/bebidas/limonsodazero.jpg"
     },
     {
       "nombre": "Canada Dry Ginger Ale (350cc)",
       "descripcion": "A premium soft drink made with natural ginger extracts, smooth and refreshing.",
-      "precio": "$1.800",
+      "precio": "$2.500",
       "imagen": "image/bebidas/canadadry.jpg"
     },
     {
       "nombre": "Canada Dry Zero (350cc)",
       "descripcion": "The refined taste and bubbly freshness of Ginger Ale, without the sugar.",
-      "precio": "$1.800",
+      "precio": "$2.500",
       "imagen": "image/bebidas/canadadryzero.jpg"
     },
     {
       "nombre": "Kem Piña (350cc)",
       "descripcion": "A classic Chilean soft drink with a refreshing, sweet tropical pineapple flavor.",
-      "precio": "$1.800",
+      "precio": "$2.500",
       "imagen": "image/bebidas/kem.jpg"
     },
     {
       "nombre": "Crush (350cc)",
       "descripcion": "A soft drink with a vibrant, sweet, intense orange flavor.",
-      "precio": "$1.800",
+      "precio": "$2.500",
       "imagen": "image/bebidas/crush.jpg"
     },
     {
       "nombre": "Crush Zero (350cc)",
       "descripcion": "The classic, refreshing orange taste of Crush, completely sugar-free.",
-      "precio": "$1.800",
+      "precio": "$2.500",
       "imagen": "image/bebidas/crushzero.jpg"
     },
     {
       "nombre": "7Up (350cc)",
       "descripcion": "A clear, lemon-lime soft drink — light, crisp and bubbly.",
-      "precio": "$1.800",
+      "precio": "$2.500",
       "imagen": "image/bebidas/7up.jpg"
     }
   ],
- "te_helado": [
+  "te_helado": [
     {
       "nombre": "Ice Tea Lipton Durazno (600cc)",
       "descripcion": "Refreshing iced black tea with a soft, sweet peach flavor.",
-      "precio": "$2.200",
+      "precio": "$2.900",
       "imagen": "image/bebidas/icetedurazno.jpg"
     },
     {
       "nombre": "Ice Tea Lipton Limón (600cc)",
       "descripcion": "Classic iced black tea with a refreshing citrus lemon note.",
-      "precio": "$2.200",
+      "precio": "$2.900",
       "imagen": "image/bebidas/icetelimon.png"
     }
   ],
   "jugos_naturales": [
-    { "nombre": "Jugo de Frutilla", "descripcion": "Natural strawberry pulp juice.", "precio": "$2.800", "imagen": "image/jugosnaturales/pulpafrutilla.jpg" },
-    { "nombre": "Jugo de Mango", "descripcion": "Natural mango pulp juice.", "precio": "$2.800", "imagen": "image/jugosnaturales/pulpamango.jpg" },
-    { "nombre": "Jugo de Chirimoya", "descripcion": "Natural chirimoya (custard apple) pulp juice.", "precio": "$2.800", "imagen": "image/jugosnaturales/pulpachirimoya.jpg" }
+    { "nombre": "Jugo de Frutilla", "descripcion": "Natural strawberry pulp juice.", "precio": "$3.200", "imagen": "image/jugosnaturales/pulpafrutilla.jpg" },
+    { "nombre": "Jugo de Mango", "descripcion": "Natural mango pulp juice.", "precio": "$3.200", "imagen": "image/jugosnaturales/pulpamango.jpg" },
+    { "nombre": "Jugo de Chirimoya", "descripcion": "Natural chirimoya (custard apple) pulp juice.", "precio": "$3.200", "imagen": "image/jugosnaturales/pulpachirimoya.jpg" }
   ],
   "jugos_botella": [
     {
       "nombre": "Watt's Durazno (300cc)",
       "descripcion": "A refreshing peach nectar with a smooth texture and natural sweetness.",
-      "precio": "$1.600",
+      "precio": "$2.600",
       "imagen": "image/jugos/durazno.png"
     },
     {
       "nombre": "Watt's Naranja (300cc)",
       "descripcion": "A refreshing orange nectar with a balanced citrus touch.",
-      "precio": "$1.600",
+      "precio": "$2.600",
       "imagen": "image/jugos/naranja.png"
     },
     {
       "nombre": "Watt's Tutti Frutilla (300cc)",
       "descripcion": "A delicious fruit blend with an intense strawberry flavor.",
-      "precio": "$1.600",
+      "precio": "$2.600",
       "imagen": "image/jugos/tutifrutilla.png"
     },
     {
       "nombre": "Del Valle Piña (300cc)",
       "descripcion": "A pineapple-flavored nectar, light in texture, sweet and very refreshing.",
-      "precio": "$1.600",
+      "precio": "$2.600",
       "imagen": "image/jugos/pilladelvalle.png"
     }
   ],
- "cafeteria": [
+  "cafeteria": [
     {
       "nombre": "Té Ceylan",
       "descripcion": "Traditional Ceylon black tea infusion, served piping hot in a large cup.",
-      "precio": "$1.500",
+      "precio": "$2.100",
       "imagen": "image/cafeteria/te.jpg"
     },
     {
       "nombre": "Café Chico",
       "descripcion": "Traditional instant Nescafé Espresso coffee, served hot in a small cup.",
-      "precio": "$1.500",
+      "precio": "$1.600",
       "imagen": "image/cafeteria/cafechico.jpg"
     },
     {
       "nombre": "Café Grande",
       "descripcion": "Traditional instant Nescafé Espresso coffee, served hot in a large cup.",
-      "precio": "$2.000",
+      "precio": "$2.100",
       "imagen": "image/cafeteria/cafegrande.jpg"
     }
   ],
- "cervezas_botella": [
+  "cervezas_botella": [
     {
       "nombre": "Kunstmann Torobayo (330cc)",
       "descripcion": "A traditional Valdivian amber ale with caramel and nutty notes (5.0% ABV).",
-      "precio": "$3.200",
+      "precio": "$4.100",
       "imagen": "image/cervezas/torobayo330.png"
     },
     {
       "nombre": "Kunstmann Bock (330cc)",
       "descripcion": "A dense-bodied dark Bock-style beer with hints of coffee and chocolate (5.3% ABV).",
-      "precio": "$3.200",
+      "precio": "$4.100",
       "imagen": "image/cervezas/Bock.png"
     },
     {
       "nombre": "Kunstmann Lager (330cc)",
       "descripcion": "An unfiltered artisanal blonde lager, very fresh with moderate bitterness (4.3% ABV).",
-      "precio": "$3.200",
+      "precio": "$4.100",
       "imagen": "image/cervezas/lager.png"
     },
     {
       "nombre": "Kunstmann Lager Blanc (330cc)",
       "descripcion": "An unfiltered wheat beer, smooth, refreshing, with fine citrus notes (4.3% ABV).",
-      "precio": "$3.200",
+      "precio": "$4.100",
       "imagen": "image/cervezas/LagerBlanc.png"
     },
     {
       "nombre": "Austral Calafate (330cc)",
       "descripcion": "A Patagonian ale with a distinctive flavor, infused with wild calafate berries (5.0% ABV).",
-      "precio": "$3.200",
+      "precio": "$4.100",
       "imagen": "image/cervezas/Calafate330.png"
     },
     {
       "nombre": "Austral Yagán (330cc)",
       "descripcion": "A deep, dark ale with intense notes of toasted barley (5.0% ABV).",
-      "precio": "$3.200",
+      "precio": "$4.100",
       "imagen": "image/cervezas/Yagan.png"
     },
     {
       "nombre": "Austral Lager (330cc)",
       "descripcion": "A classic golden Patagonian lager, clean, refreshing, with a smooth finish (4.6% ABV).",
-      "precio": "$3.200",
+      "precio": "$4.100",
       "imagen": "image/cervezas/australlager.jpg"
     },
     {
       "nombre": "Austral Patagona (330cc)",
       "descripcion": "A malty pale ale with an appealing amber color and subtle bitterness (5.0% ABV).",
-      "precio": "$3.200",
+      "precio": "$4.100",
       "imagen": "image/cervezas/Patagona.png"
     },
     {
       "nombre": "Royal Guard (355cc)",
       "descripcion": "A smooth lager brewed with double hops for a balanced flavor and soft finish (5.0% ABV).",
-      "precio": "$2.500",
+      "precio": "$3.800",
       "imagen": "image/cervezas/royalguard.png"
     },
     {
       "nombre": "Cristal Zero (355cc)",
       "descripcion": "An alcohol-free lager, light and very refreshing (0.0% ABV).",
-      "precio": "$2.200",
+      "precio": "$3.800",
       "imagen": "image/cervezas/cristalzero.png"
     },
     {
       "nombre": "Heineken (330cc)",
       "descripcion": "An international premium all-malt lager with balanced flavor and mild bitterness (5.0% ABV).",
-      "precio": "$2.800",
+      "precio": "$4.100",
       "imagen": "image/cervezas/heiniken.png"
     },
     {
       "nombre": "Corona (330cc)",
       "descripcion": "The classic Mexican pale lager — light, refreshing and very easy to drink (4.5% ABV).",
-      "precio": "$2.800",
+      "precio": "$4.100",
       "imagen": "image/cervezas/corona.png"
     },
     {
       "nombre": "Del Puerto Pilsen Lager (330cc)",
       "descripcion": "An artisanal Valparaíso-style pilsen, fresh, light and well balanced (4.5% ABV).",
-      "precio": "$3.000",
+      "precio": "$4.100",
       "imagen": "image/cervezas/delpuertopilsen.png"
     },
     {
       "nombre": "Coors (330cc)",
       "descripcion": "A golden, refreshing American lager, light-bodied and easy-drinking (5.0% ABV).",
-      "precio": "$2.500",
+      "precio": "$4.100",
       "imagen": "image/cervezas/coors.jfif"
     },
     {
       "nombre": "Erdinger Blanca (330cc)",
       "descripcion": "An authentic unfiltered German wheat beer (Weissbier), spicy and fruity (5.3% ABV).",
-      "precio": "$3.800",
+      "precio": "$4.200",
       "imagen": "image/cervezas/erdingerblanca.jfif"
     },
     {
       "nombre": "Erdinger Zero (330cc)",
       "descripcion": "An alcohol-free German wheat beer with good body and a refreshing fruity flavor (0.0% ABV).",
-      "precio": "$3.800",
+      "precio": "$4.200",
       "imagen": "image/cervezas/erdingerzero.jfif"
     },
     {
       "nombre": "Kunstmann Torobayo (500cc)",
       "descripcion": "A Valdivian amber ale with caramel notes, in a half-liter size (5.0% ABV).",
-      "precio": "$4.500",
+      "precio": "$5.300",
       "imagen": "image/cervezas/torobayo500.png"
     },
     {
       "nombre": "Austral Calafate (500cc)",
       "descripcion": "A Patagonian ale infused with calafate berries, in a half-liter size (5.0% ABV).",
-      "precio": "$4.500",
+      "precio": "$5.300",
       "imagen": "image/cervezas/calafate500.png"
     }
   ],
@@ -752,79 +746,78 @@
     {
       "nombre": "Shop Escudo Mediano (345cc)",
       "descripcion": "(Draft beer) Refreshing Escudo draft beer, served ice-cold in a medium mug.",
-      "precio": "$2.500",
+      "precio": "$3.800",
       "imagen": "image/shops/blanco.jpg"
     },
     {
       "nombre": "Shop Escudo Jarra (500cc)",
       "descripcion": "(Draft beer) Classic Escudo draft beer, served ice-cold in a half-liter mug.",
-      "precio": "$3.200",
+      "precio": "$4.800",
       "imagen": "image/shops/blancogrande.jpg"
     },
     {
       "nombre": "Shop Escudo Copón (500cc)",
       "descripcion": "(Draft beer) Escudo draft beer served in a large goblet glass to preserve its body, foam and freshness.",
-      "precio": "$3.500",
+      "precio": "$4.800",
       "imagen": "image/shops/coponblanco.jpg"
     },
     {
       "nombre": "Shop Del Puerto Porter Mediano (345cc)",
       "descripcion": "(Draft beer) Artisanal dark Porter-style draft beer, served in a medium mug.",
-      "precio": "$2.800",
+      "precio": "$3.800",
       "imagen": "image/shops/negro.jpg"
     },
     {
       "nombre": "Shop Del Puerto Porter Jarra (500cc)",
       "descripcion": "(Draft beer) Artisanal dark Porter-style draft beer with malty notes, served in a half-liter mug.",
-      "precio": "$3.800",
+      "precio": "$4.800",
       "imagen": "image/shops/negrogrande.jpg"
     },
     {
       "nombre": "Shop Del Puerto Porter Copón (500cc)",
       "descripcion": "(Draft beer) Artisanal dark Porter-style draft beer, served in a large goblet glass to bring out its toasted notes.",
-      "precio": "$4.000",
+      "precio": "$4.800",
       "imagen": "image/shops/coponnegro.jpg"
     }
-    ],
-"bebidas_maquina": [
-  {
-    "nombre": "Coca Cola Original (Máquina)",
-    "descripcion": "A refreshing blend of concentrated Coca Cola syrup and carbonated water, served on the spot from the dispenser.",
-    "precio": "$1.800",
-    "imagen": "image/maquina/cocanormal.jpg"
-  },
-  {
-    "nombre": "Coca Cola Zero (Máquina)",
-    "descripcion": "The classic Coca Cola taste in its sugar-free version, from the fountain machine.",
-    "precio": "$1.800",
-    "imagen": "image/maquina/cocazero.jpg"
-  },
-  {
-    "nombre": "Fanta Zero (Máquina)",
-    "descripcion": "Intense, bubbly orange flavor, completely sugar-free.",
-    "precio": "$1.800",
-    "imagen": "image/maquina/fantazero.jpg"
-  },
-  {
-    "nombre": "Soda (Máquina)",
-    "descripcion": "Purified carbonated water, fresh and ultra-refreshing.",
-    "precio": "$1.800",
-    "imagen": "image/maquina/soda.jpg"
-  }
-],
-"promociones": [
-  {
-    "nombre": "Promoción Fricandela Completa + Cerveza",
-    "descripcion": "(Combo deal) A \"loaded\" Fricandela meat-patty sandwich plus a 500 ml Del Puerto Porter beer (4.5%). Valid while stocks last.",
-    "precio": "$8.700",
-    "imagen": "image/promocion/fricaporter.jpg"
-  },
-  {
-    "nombre": "Promoción Fricandela Completa + Bebida",
-    "descripcion": "(Combo deal) A \"loaded\" Fricandela meat-patty sandwich plus a 220 ml soft drink. Choice of Pepsi, Pepsi Zero, Canada Dry Ginger Ale or Canada Dry Zero. Valid while stocks last.",
-    "precio": "$7.700",
-    "imagen": "image/promocion/fricabebidas.jpg"
-  }
-]
-
+  ],
+  "bebidas_maquina": [
+    {
+      "nombre": "Coca Cola Original (Máquina)",
+      "descripcion": "A refreshing blend of concentrated Coca Cola syrup and carbonated water, served on the spot from the dispenser.",
+      "precio": "$2.300",
+      "imagen": "image/maquina/cocanormal.jpg"
+    },
+    {
+      "nombre": "Coca Cola Zero (Máquina)",
+      "descripcion": "The classic Coca Cola taste in its sugar-free version, from the fountain machine.",
+      "precio": "$2.300",
+      "imagen": "image/maquina/cocazero.jpg"
+    },
+    {
+      "nombre": "Fanta Zero (Máquina)",
+      "descripcion": "Intense, bubbly orange flavor, completely sugar-free.",
+      "precio": "$2.300",
+      "imagen": "image/maquina/fantazero.jpg"
+    },
+    {
+      "nombre": "Soda (Máquina)",
+      "descripcion": "Purified carbonated water, fresh and ultra-refreshing.",
+      "precio": "$1.200",
+      "imagen": "image/maquina/soda.jpg"
+    }
+  ],
+  "promociones": [
+    {
+      "nombre": "Promoción Fricandela Completa + Cerveza",
+      "descripcion": "(Combo deal) A \"loaded\" Fricandela meat-patty sandwich plus a 500 ml Del Puerto Porter beer (4.5%). Valid while stocks last.",
+      "precio": "$8.700",
+      "imagen": "image/promocion/fricaporter.jpg"
+    },
+    {
+      "nombre": "Promoción Fricandela Completa + Bebida",
+      "descripcion": "(Combo deal) A \"loaded\" Fricandela meat-patty sandwich plus a 220 ml soft drink. Choice of Pepsi, Pepsi Zero, Canada Dry Ginger Ale or Canada Dry Zero. Valid while stocks last.",
+      "precio": "$7.700",
+      "imagen": "image/promocion/fricabebidas.jpg"
+    }
+  ]
 }

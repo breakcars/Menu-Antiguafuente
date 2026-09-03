@@ -428,56 +428,56 @@
       "nombre": "Crudo Tradicional",
       "descripcion": "Carne de vacuno magra picada con aderezos de la casa.",
       "precio": "$12.200",
-      "imagen": "image/platos/crudo.avif"
+      "imagen": "image/platos/crudo.jpg"
     },
     {
       "nombre": "Tártaro",
       "descripcion": "Carne picada fina, alcaparras, cebolla, pepinillo y yema.",
       "precio": "$12.200",
-      "imagen": "image/platos/tartaro.avif"
+      "imagen": "image/platos/tartaro.jpg"
     },
     {
       "nombre": "Riñones con Arroz",
       "descripcion": "Jugosos riñones al estilo tradicional de la casa, acompañados de una porción de arroz.",
       "precio": "$9.500",
-      "imagen": "image/platos/rinonarroz.png"
+      "imagen": "image/platos/rinon.jpg"
     },
     {
       "nombre": "Rumano con Arroz",
       "descripcion": "Nuestra sabrosa preparación de carne molida al plato, acompañada de arroz.",
       "precio": "$13.600",
-      "imagen": "image/platos/rumano-arroz.jpg"
+      "imagen": "image/platos/rumanos.jpg"
     },
     {
       "nombre": "Ensalada de Palta",
       "descripcion": "Ensalada de palta, servida en plato grande en una porción más generosa que la de un sándwich.",
       "precio": "$3.000",
-      "imagen": "image/platos/ensalada.jpg"
+      "imagen": "image/platos/palta.jpg"
     },
     {
       "nombre": "Ensalada de Tomate",
       "descripcion": "Ensalada de tomate laminado, servida en plato grande en una porción más generosa que la de un sándwich.",
       "precio": "$3.000",
-      "imagen": "image/platos/ensalada.jpg"
+      "imagen": "image/platos/tomate.jpg"
     },
     {
       "nombre": "Ensalada de Porotos Verdes",
       "descripcion": "Ensalada de porotos verdes, servida en plato grande en una porción más generosa que la de un sándwich.",
       "precio": "$2.500",
-      "imagen": "image/platos/ensalada.jpg"
+      "imagen": "image/platos/porotos.jpg"
     }
   ],
   "aderezos": [
     {
       "nombre": "Mostaza Artesanal",
       "descripcion": "Receta artesanal de la casa.",
-      "precio": "$500",
+      "precio": "$0",
       "imagen": "image/aderezos/mostaza.jpg"
     },
     {
       "nombre": "Ají Rojo Crema",
       "descripcion": "Cremoso ají rojo preparado de forma artesanal.",
-      "precio": "$500",
+      "precio": "$0",
       "imagen": "image/aderezos/ajirojo.jpg"
     }
   ],
@@ -485,85 +485,85 @@
     {
       "nombre": "Coca Cola Original (350cc)",
       "descripcion": "La clásica bebida gaseosa de sabor inconfundible y máxima refrescancia.",
-      "precio": "$1.800",
+      "precio": "$2.500",
       "imagen": "image/bebidas/cocacola.jpg"
     },
     {
       "nombre": "Coca Cola Zero (350cc)",
       "descripcion": "El mismo gran sabor y refrescancia de Coca-Cola, completamente libre de azúcar.",
-      "precio": "$1.800",
+      "precio": "$2.500",
       "imagen": "image/bebidas/cocacolazero.jpg"
     },
     {
       "nombre": "Pepsi (350cc)",
       "descripcion": "Bebida gaseosa de sabor intenso, refrescante y con el toque característico de Pepsi.",
-      "precio": "$1.800",
+      "precio": "$2.500",
       "imagen": "image/bebidas/pepsi.jpg"
     },
     {
       "nombre": "Pepsi Zero (350cc)",
       "descripcion": "Todo el sabor audaz y refrescante de Pepsi, en su versión sin azúcar ni calorías.",
-      "precio": "$1.800",
+      "precio": "$2.500",
       "imagen": "image/bebidas/pepsizero.jpg"
     },
     {
       "nombre": "Bilz (350cc)",
       "descripcion": "Tradicional bebida gaseosa chilena con su inconfundible y dulce sabor a fantasía roja.",
-      "precio": "$1.800",
+      "precio": "$2.500",
       "imagen": "image/bebidas/bilz.jpg"
     },
     {
       "nombre": "Pap (350cc)",
       "descripcion": "Emblemática bebida nacional con el auténtico, fresco y dulce sabor a papaya.",
-      "precio": "$1.800",
+      "precio": "$2.500",
       "imagen": "image/bebidas/pap.jpg"
     },
     {
       "nombre": "Limón Soda (350cc)",
       "descripcion": "Bebida carbonatada ultra refrescante con el toque justo de verdadero jugo de limón.",
-      "precio": "$1.800",
+      "precio": "$2.500",
       "imagen": "image/bebidas/limonsoda.jpg"
     },
     {
       "nombre": "Limón Soda Zero (350cc)",
       "descripcion": "La intensidad cítrica y refrescante de Limón Soda, totalmente libre de azúcar.",
-      "precio": "$1.800",
+      "precio": "$2.500",
       "imagen": "image/bebidas/limonsodazero.jpg"
     },
     {
       "nombre": "Canada Dry Ginger Ale (350cc)",
       "descripcion": "Gaseosa premium elaborada con extractos naturales de jengibre, suave y refrescante.",
-      "precio": "$1.800",
+      "precio": "$2.500",
       "imagen": "image/bebidas/canadadry.jpg"
     },
     {
       "nombre": "Canada Dry Zero (350cc)",
       "descripcion": "El refinado sabor y burbujeante frescura del Ginger Ale, sin azúcar.",
-      "precio": "$1.800",
+      "precio": "$2.500",
       "imagen": "image/bebidas/canadadryzero.jpg"
     },
     {
       "nombre": "Kem Piña (350cc)",
       "descripcion": "Típica bebida chilena de refrescante y dulce sabor tropical a piña.",
-      "precio": "$1.800",
+      "precio": "$2.500",
       "imagen": "image/bebidas/kem.jpg"
     },
     {
       "nombre": "Crush (350cc)",
       "descripcion": "Bebida gaseosa con un vibrante, dulce e intenso sabor a naranja.",
-      "precio": "$1.800",
+      "precio": "$2.500",
       "imagen": "image/bebidas/crush.jpg"
     },
     {
       "nombre": "Crush Zero (350cc)",
       "descripcion": "El clásico y refrescante sabor a naranja de Crush, completamente sin azúcar.",
-      "precio": "$1.800",
+      "precio": "$2.500",
       "imagen": "image/bebidas/crushzero.jpg"
     },
     {
       "nombre": "7Up (350cc)",
       "descripcion": "Bebida transparente sabor lima-limón, ligera, cristalina y burbujeante.",
-      "precio": "$1.800",
+      "precio": "$2.500",
       "imagen": "image/bebidas/7up.jpg"
     }
   ],
@@ -571,44 +571,44 @@
     {
       "nombre": "Ice Tea Lipton Durazno (600cc)",
       "descripcion": "Refrescante té negro helado con un suave y dulce sabor a durazno.",
-      "precio": "$2.200",
+      "precio": "$2.900",
       "imagen": "image/bebidas/icetedurazno.jpg"
     },
     {
       "nombre": "Ice Tea Lipton Limón (600cc)",
       "descripcion": "Clásico té negro helado con un toque cítrico y refrescante de limón.",
-      "precio": "$2.200",
+      "precio": "$2.900",
       "imagen": "image/bebidas/icetelimon.png"
     }
   ],
   "jugos_naturales": [
-    { "nombre": "Jugo de Frutilla", "descripcion": "Pulpa natural de frutilla", "precio": "$2.800", "imagen": "image/jugosnaturales/pulpafrutilla.jpg" },
-    { "nombre": "Jugo de Mango", "descripcion": "Pulpa natural de mango", "precio": "$2.800", "imagen": "image/jugosnaturales/pulpamango.jpg" },
-    { "nombre": "Jugo de Chirimoya", "descripcion": "Pulpa natural de chirimoya", "precio": "$2.800", "imagen": "image/jugosnaturales/pulpachirimoya.jpg" }
+    { "nombre": "Jugo de Frutilla", "descripcion": "Pulpa natural de frutilla", "precio": "$3.200", "imagen": "image/jugosnaturales/pulpafrutilla.jpg" },
+    { "nombre": "Jugo de Mango", "descripcion": "Pulpa natural de mango", "precio": "$3.200", "imagen": "image/jugosnaturales/pulpamango.jpg" },
+    { "nombre": "Jugo de Chirimoya", "descripcion": "Pulpa natural de chirimoya", "precio": "$3.200", "imagen": "image/jugosnaturales/pulpachirimoya.jpg" }
   ],
   "jugos_botella": [
     {
       "nombre": "Watt's Durazno (300cc)",
       "descripcion": "Refrescante néctar de durazno, de textura suave y dulzor natural.",
-      "precio": "$1.600",
+      "precio": "$2.600",
       "imagen": "image/jugos/durazno.png"
     },
     {
       "nombre": "Watt's Naranja (300cc)",
       "descripcion": "Néctar de naranja refrescante con un equilibrado toque cítrico.",
-      "precio": "$1.600",
+      "precio": "$2.600",
       "imagen": "image/jugos/naranja.png"
     },
     {
       "nombre": "Watt's Tutti Frutilla (300cc)",
       "descripcion": "Deliciosa mezcla de frutas con un intenso sabor a frutilla.",
-      "precio": "$1.600",
+      "precio": "$2.600",
       "imagen": "image/jugos/tutifrutilla.png"
     },
     {
       "nombre": "Del Valle Piña (300cc)",
       "descripcion": "Néctar sabor piña de textura ligera, dulce y muy refrescante.",
-      "precio": "$1.600",
+      "precio": "$2.600",
       "imagen": "image/jugos/pilladelvalle.png"
     }
   ],
@@ -616,19 +616,19 @@
     {
       "nombre": "Té Ceylan",
       "descripcion": "Infusión tradicional de té negro Ceylan, servida bien caliente en taza grande.",
-      "precio": "$1.500",
+      "precio": "$2.100",
       "imagen": "image/cafeteria/te.jpg"
     },
     {
       "nombre": "Café Chico",
       "descripcion": "Tradicional café Nescafé Espresso granulado, servido caliente en taza chica.",
-      "precio": "$1.500",
+      "precio": "$1.600",
       "imagen": "image/cafeteria/cafechico.jpg"
     },
     {
       "nombre": "Café Grande",
       "descripcion": "Tradicional café Nescafé Espresso granulado, servido caliente en taza grande.",
-      "precio": "$2.000",
+      "precio": "$2.100",
       "imagen": "image/cafeteria/cafegrande.jpg"
     }
   ],
@@ -636,109 +636,109 @@
     {
       "nombre": "Kunstmann Torobayo (330cc)",
       "descripcion": "Amber Ale valdiviana tradicional con notas acarameladas y de frutos secos (5.0° GL).",
-      "precio": "$3.200",
+      "precio": "$4.100",
       "imagen": "image/cervezas/torobayo330.png"
     },
     {
       "nombre": "Kunstmann Bock (330cc)",
       "descripcion": "Cerveza negra estilo Bock de cuerpo denso, con toques de café y chocolate (5.3° GL).",
-      "precio": "$3.200",
+      "precio": "$4.100",
       "imagen": "image/cervezas/Bock.png"
     },
     {
       "nombre": "Kunstmann Lager (330cc)",
       "descripcion": "Lager rubia sin filtrar de estilo artesanal, muy fresca y de amargor moderado (4.3° GL).",
-      "precio": "$3.200",
+      "precio": "$4.100",
       "imagen": "image/cervezas/lager.png"
     },
     {
       "nombre": "Kunstmann Lager Blanc (330cc)",
       "descripcion": "Cerveza de trigo sin filtrar, suave, refrescante y con finos toques cítricos (4.3° GL).",
-      "precio": "$3.200",
+      "precio": "$4.100",
       "imagen": "image/cervezas/LagerBlanc.png"
     },
     {
       "nombre": "Austral Calafate (330cc)",
       "descripcion": "Ale patagónica de sabor característico, infusionada con el fruto silvestre de calafate (5.0° GL).",
-      "precio": "$3.200",
+      "precio": "$4.100",
       "imagen": "image/cervezas/Calafate330.png"
     },
     {
       "nombre": "Austral Yagán (330cc)",
       "descripcion": "Dark Ale de tono oscuro profundo con intensas notas de cebada tostada (5.0° GL).",
-      "precio": "$3.200",
+      "precio": "$4.100",
       "imagen": "image/cervezas/Yagan.png"
     },
     {
       "nombre": "Austral Lager (330cc)",
       "descripcion": "Lager dorada clásica de la Patagonia, limpia, refrescante y de final suave (4.6° GL).",
-      "precio": "$3.200",
+      "precio": "$4.100",
       "imagen": "image/cervezas/australlager.jpg"
     },
     {
       "nombre": "Austral Patagona (330cc)",
       "descripcion": "Pale Ale de perfil maltoso, atractivo color ámbar y amargor sutil (5.0° GL).",
-      "precio": "$3.200",
+      "precio": "$4.100",
       "imagen": "image/cervezas/Patagona.png"
     },
     {
       "nombre": "Royal Guard (355cc)",
       "descripcion": "Smooth Lager elaborada con doble lúpulo para un sabor equilibrado y final suave (5.0° GL).",
-      "precio": "$2.500",
+      "precio": "$3.800",
       "imagen": "image/cervezas/royalguard.png"
     },
     {
       "nombre": "Cristal Zero (355cc)",
       "descripcion": "Lager sin alcohol, ligera y muy refrescante (0.0° GL).",
-      "precio": "$2.200",
+      "precio": "$3.800",
       "imagen": "image/cervezas/cristalzero.png"
     },
     {
       "nombre": "Heineken (330cc)",
       "descripcion": "Premium Lager internacional de pura malta, sabor equilibrado y amargor suave (5.0° GL).",
-      "precio": "$2.800",
+      "precio": "$4.100",
       "imagen": "image/cervezas/heiniken.png"
     },
     {
       "nombre": "Corona (330cc)",
       "descripcion": "Clásica Pale Lager mexicana, liviana, refrescante y muy fácil de tomar (4.5° GL).",
-      "precio": "$2.800",
+      "precio": "$4.100",
       "imagen": "image/cervezas/corona.png"
     },
     {
       "nombre": "Del Puerto Pilsen Lager (330cc)",
       "descripcion": "Pilsen artesanal porteña, fresca, ligera y bien balanceada (4.5° GL).",
-      "precio": "$3.000",
+      "precio": "$4.100",
       "imagen": "image/cervezas/delpuertopilsen.png"
     },
     {
       "nombre": "Coors (330cc)",
       "descripcion": "Lager americana dorada y refrescante, de cuerpo ligero y trago fácil (5.0° GL).",
-      "precio": "$2.500",
+      "precio": "$4.100",
       "imagen": "image/cervezas/coors.jfif"
     },
     {
       "nombre": "Erdinger Blanca (330cc)",
       "descripcion": "Auténtica cerveza de trigo alemana (Weissbier) sin filtrar, especiada y frutal (5.3° GL).",
-      "precio": "$3.800",
+      "precio": "$4.200",
       "imagen": "image/cervezas/erdingerblanca.jfif"
     },
     {
       "nombre": "Erdinger Zero (330cc)",
       "descripcion": "Cerveza de trigo alemana sin alcohol, de buen cuerpo y refrescante sabor frutal (0.0° GL).",
-      "precio": "$3.800",
+      "precio": "$4.200",
       "imagen": "image/cervezas/erdingerzero.jfif"
     },
     {
       "nombre": "Kunstmann Torobayo (500cc)",
       "descripcion": "Amber Ale valdiviana con notas acarameladas en presentación formato medio litro (5.0° GL).",
-      "precio": "$4.500",
+      "precio": "$5.300",
       "imagen": "image/cervezas/torobayo500.png"
     },
     {
       "nombre": "Austral Calafate (500cc)",
       "descripcion": "Ale patagónica infusionada con calafate en presentación formato medio litro (5.0° GL).",
-      "precio": "$4.500",
+      "precio": "$5.300",
       "imagen": "image/cervezas/calafate500.png"
     }
   ],
@@ -746,37 +746,37 @@
     {
       "nombre": "Shop Escudo Mediano (345cc)",
       "descripcion": "Refrescante cerveza Escudo de barril, servida en jarra mediana bien helada.",
-      "precio": "$2.500",
+      "precio": "$3.800",
       "imagen": "image/shops/blanco.jpg"
     },
     {
       "nombre": "Shop Escudo Jarra (500cc)",
       "descripcion": "Clásica cerveza Escudo de barril, servida en jarra de medio litro bien helada.",
-      "precio": "$3.200",
+      "precio": "$4.800",
       "imagen": "image/shops/blancogrande.jpg"
     },
     {
       "nombre": "Shop Escudo Copón (500cc)",
       "descripcion": "Cerveza Escudo de barril, servida en copón para mantener su cuerpo, espuma y frescura.",
-      "precio": "$3.500",
+      "precio": "$4.800",
       "imagen": "image/shops/coponblanco.jpg"
     },
     {
       "nombre": "Shop Del Puerto Porter Mediano (345cc)",
       "descripcion": "Cerveza negra artesanal estilo Porter de barril, servida en jarra mediana.",
-      "precio": "$2.800",
+      "precio": "$3.800",
       "imagen": "image/shops/negro.jpg"
     },
     {
       "nombre": "Shop Del Puerto Porter Jarra (500cc)",
       "descripcion": "Cerveza negra artesanal estilo Porter de barril con notas maltosas, servida en jarra de medio litro.",
-      "precio": "$3.800",
+      "precio": "$4.800",
       "imagen": "image/shops/negrogrande.jpg"
     },
     {
       "nombre": "Shop Del Puerto Porter Copón (500cc)",
       "descripcion": "Cerveza negra artesanal estilo Porter de barril, servida en copón para resaltar sus notas tostadas.",
-      "precio": "$4.000",
+      "precio": "$4.800",
       "imagen": "image/shops/coponnegro.jpg"
     }
   ],
@@ -784,25 +784,25 @@
     {
       "nombre": "Coca Cola Original (Máquina)",
       "descripcion": "Refrescante combinación a base de jarabe concentrado de Coca Cola y agua carbonatada, servida al instante.",
-      "precio": "$1.800",
+      "precio": "$2.300",
       "imagen": "image/maquina/cocanormal.jpg"
     },
     {
       "nombre": "Coca Cola Zero (Máquina)",
       "descripcion": "El clásico sabor de Coca Cola en su versión sin azúcar de máquina dispensadora.",
-      "precio": "$1.800",
+      "precio": "$2.300",
       "imagen": "image/maquina/cocazero.jpg"
     },
     {
       "nombre": "Fanta Zero (Máquina)",
       "descripcion": "Sabor a naranja intenso y burbujeante, completamente libre de azúcar.",
-      "precio": "$1.800",
+      "precio": "$2.300",
       "imagen": "image/maquina/fantazero.jpg"
     },
     {
       "nombre": "Soda (Máquina)",
       "descripcion": "Agua carbonatada purificada, fresca y ultra refrescante.",
-      "precio": "$1.800",
+      "precio": "$1.200",
       "imagen": "image/maquina/soda.jpg"
     }
   ],
