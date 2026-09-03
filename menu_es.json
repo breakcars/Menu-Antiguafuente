@@ -742,39 +742,39 @@
       "imagen": "image/cervezas/calafate500.png"
     }
   ],
-  "shops": [
+  "Schop": [
     {
-      "nombre": "Shop Escudo Mediano (345cc)",
+      "nombre": "Schop Escudo Mediano (345cc)",
       "descripcion": "Refrescante cerveza Escudo de barril, servida en jarra mediana bien helada.",
       "precio": "$3.800",
       "imagen": "image/shops/blanco.jpg"
     },
     {
-      "nombre": "Shop Escudo Jarra (500cc)",
+      "nombre": "Schop Escudo Jarra (500cc)",
       "descripcion": "Clásica cerveza Escudo de barril, servida en jarra de medio litro bien helada.",
       "precio": "$4.800",
       "imagen": "image/shops/blancogrande.jpg"
     },
     {
-      "nombre": "Shop Escudo Copón (500cc)",
+      "nombre": "Schop Escudo Copón (500cc)",
       "descripcion": "Cerveza Escudo de barril, servida en copón para mantener su cuerpo, espuma y frescura.",
       "precio": "$4.800",
       "imagen": "image/shops/coponblanco.jpg"
     },
     {
-      "nombre": "Shop Del Puerto Porter Mediano (345cc)",
+      "nombre": "Schop Del Puerto Porter Mediano (345cc)",
       "descripcion": "Cerveza negra artesanal estilo Porter de barril, servida en jarra mediana.",
       "precio": "$3.800",
       "imagen": "image/shops/negro.jpg"
     },
     {
-      "nombre": "Shop Del Puerto Porter Jarra (500cc)",
+      "nombre": "Schop Del Puerto Porter Jarra (500cc)",
       "descripcion": "Cerveza negra artesanal estilo Porter de barril con notas maltosas, servida en jarra de medio litro.",
       "precio": "$4.800",
       "imagen": "image/shops/negrogrande.jpg"
     },
     {
-      "nombre": "Shop Del Puerto Porter Copón (500cc)",
+      "nombre": "Schop Del Puerto Porter Copón (500cc)",
       "descripcion": "Cerveza negra artesanal estilo Porter de barril, servida en copón para resaltar sus notas tostadas.",
       "precio": "$4.800",
       "imagen": "image/shops/coponnegro.jpg"
