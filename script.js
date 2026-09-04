@@ -27,7 +27,7 @@ const translations = {
         nav_jugos_botella: "Jugos Bot.",
         nav_cafeteria: "Cafetería",
         nav_cervezas_botella: "Cervezas",
-        nav_shops: "Shops",
+        nav_shops: "Schops",
         nav_bebidas_maquina: "Bebida Máquina",
 
         cat_promociones_title: "PROMOCIONES",
@@ -62,7 +62,7 @@ const translations = {
         cat_cafeteria_desc: "Bebidas calientes para acompañar.",
         cat_cervezas_botella_title: "CERVEZAS EN BOTELLA",
         cat_cervezas_botella_desc: "Selección de cervezas nacionales e importadas en formato 330ml y 500ml.",
-        cat_shops_title: "SHOPS",
+        cat_shops_title: "SCHOPS",
         cat_shops_desc: "Cerveza de barril bien fría en jarra o copón.",
         cat_bebidas_maquina_title: "BEBIDAS DE MÁQUINA",
         cat_bebidas_maquina_desc: "Refrescante combinación a base de jarabe concentrado y agua carbonatada (soda), servida al instante.",
