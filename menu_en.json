@@ -397,13 +397,13 @@
     {
       "nombre": "Gorda Alameda",
       "descripcion": "(Smoked sausage sandwich) Crispy bacon, melted buttery cheese and grilled onion.",
-      "precio": "$9.300",
+      "precio": "$10.300",
       "imagen": "image/gorda/gordaalameda.jpg"
     },
     {
       "nombre": "Gorda Italiana",
       "descripcion": "(Smoked sausage sandwich, \"Italian\" style) Fresh tomato, mashed avocado and house-made mayonnaise.",
-      "precio": "$10.300",
+      "precio": "$9.300",
       "imagen": "image/gorda/gordaitaliana.jpg"
     }
   ],

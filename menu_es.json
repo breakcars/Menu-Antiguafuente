@@ -397,13 +397,13 @@
     {
       "nombre": "Gorda Alameda",
       "descripcion": "Tocino crujiente, queso mantecoso fundido y cebolla a la plancha.",
-      "precio": "$9.300",
+      "precio": "$10.300",
       "imagen": "image/gorda/gordaalameda.jpg"
     },
     {
       "nombre": "Gorda Italiana",
       "descripcion": "Tomates frescos, palta molida y mayonesa de la casa.",
-      "precio": "$10.300",
+      "precio": "$9.300",
       "imagen": "image/gorda/gordaitaliana.jpg"
     }
   ],
