@@ -785,19 +785,19 @@
       "nombre": "Coca Cola Original (Máquina)",
       "descripcion": "Refrescante combinación a base de jarabe concentrado de Coca Cola y agua carbonatada, servida al instante.",
       "precio": "$2.300",
-      "imagen": "image/maquina/cocanormal.jpg"
+      "imagen": "image/maquina/pepsi.png"
     },
     {
       "nombre": "Coca Cola Zero (Máquina)",
       "descripcion": "El clásico sabor de Coca Cola en su versión sin azúcar de máquina dispensadora.",
       "precio": "$2.300",
-      "imagen": "image/maquina/cocazero.jpg"
+      "imagen": "image/maquina/pepsizero.png"
     },
     {
       "nombre": "Fanta Zero (Máquina)",
       "descripcion": "Sabor a naranja intenso y burbujeante, completamente libre de azúcar.",
       "precio": "$2.300",
-      "imagen": "image/maquina/fantazero.jpg"
+      "imagen": "image/maquina/crush.png"
     },
     {
       "nombre": "Soda (Máquina)",
