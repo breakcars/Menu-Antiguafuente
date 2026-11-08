@@ -785,19 +785,19 @@
       "nombre": "Coca Cola Original (Máquina)",
       "descripcion": "A refreshing blend of concentrated Coca Cola syrup and carbonated water, served on the spot from the dispenser.",
       "precio": "$2.300",
-      "imagen": "image/maquina/cocanormal.jpg"
+      "imagen": "image/maquina/pepsi.png"
     },
     {
       "nombre": "Coca Cola Zero (Máquina)",
       "descripcion": "The classic Coca Cola taste in its sugar-free version, from the fountain machine.",
       "precio": "$2.300",
-      "imagen": "image/maquina/cocazero.jpg"
+      "imagen": "image/maquina/pepsizero.png"
     },
     {
       "nombre": "Fanta Zero (Máquina)",
       "descripcion": "Intense, bubbly orange flavor, completely sugar-free.",
       "precio": "$2.300",
-      "imagen": "image/maquina/fantazero.jpg"
+      "imagen": "image/maquina/crush.png"
     },
     {
       "nombre": "Soda (Máquina)",
