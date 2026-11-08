@@ -809,9 +809,9 @@
   "promociones": [
     {
       "nombre": "Promoción Fricandela Completa + Cerveza",
-      "descripcion": "(Combo deal) A \"loaded\" Fricandela meat-patty sandwich plus a 500 ml Del Puerto Porter beer (4.5%). Valid while stocks last.",
+      "description": "Complete Fricandela + Kunstmann Lagerblanc beer 330 cc. Valid while supplies last.",
       "precio": "$8.700",
-      "imagen": "image/promocion/fricaporter.jpg"
+      "imagen": "image/promocion/fricalager.jpg"
     },
     {
       "nombre": "Promoción Fricandela Completa + Bebida",

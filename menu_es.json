@@ -809,9 +809,9 @@
   "promociones": [
     {
       "nombre": "Promoción Fricandela Completa + Cerveza",
-      "descripcion": "Fricandela completa + Cerveza Del Puerto Porter 500 ml (4,5°). Válida hasta agotar stock.",
+      "descripcion": "Fricandela completa + Cerveza Lagerblanc Kunstmann 330 cc. Válida hasta agotar stock.",
       "precio": "$8.700",
-      "imagen": "image/promocion/fricaporter.jpg"
+      "imagen": "image/promocion/fricalager.jpg"
     },
     {
       "nombre": "Promoción Fricandela Completa + Bebida",
