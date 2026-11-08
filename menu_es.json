@@ -782,20 +782,20 @@
   ],
   "bebidas_maquina": [
     {
-      "nombre": "Coca Cola Original (Máquina)",
-      "descripcion": "Refrescante combinación a base de jarabe concentrado de Coca Cola y agua carbonatada, servida al instante.",
+      "nombre": "Pepsi Original (Máquina)",
+      "descripcion": "Refrescante combinación a base de jarabe concentrado de Pepsi y agua carbonatada, servida al instante.",
       "precio": "$2.300",
       "imagen": "image/maquina/pepsi.png"
     },
     {
-      "nombre": "Coca Cola Zero (Máquina)",
-      "descripcion": "El clásico sabor de Coca Cola en su versión sin azúcar de máquina dispensadora.",
+      "nombre": "Pepsi Zero (Máquina)",
+      "descripcion": "El clásico sabor de Pepsi en su versión sin azúcar de máquina dispensadora.",
       "precio": "$2.300",
       "imagen": "image/maquina/pepsizero.png"
     },
     {
-      "nombre": "Fanta Zero (Máquina)",
-      "descripcion": "Sabor a naranja intenso y burbujeante, completamente libre de azúcar.",
+      "nombre": "Crush (Máquina)",
+      "descripcion": "Sabor a naranja intenso y burbujeante.",
       "precio": "$2.300",
       "imagen": "image/maquina/crush.png"
     },

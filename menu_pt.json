@@ -782,21 +782,21 @@
   ],
   "bebidas_maquina": [
     {
-      "nombre": "Coca Cola Original (Máquina)",
-      "descripcion": "Refrescante combinação de xarope concentrado de Coca Cola e água carbonatada, servida na hora.",
-      "precio": "$2.300",
+      "nombre": "Pepsi Original (Máquina)",
+      "descripcion": "Refrescante combinação de xarope concentrado de Pepsi e água gaseificada, servida na hora.",
+      "precio": "R$ 2.300",
       "imagen": "image/maquina/pepsi.png"
     },
     {
-      "nombre": "Coca Cola Zero (Máquina)",
-      "descripcion": "O clássico sabor de Coca Cola em sua versão sem açúcar de máquina de refil.",
-      "precio": "$2.300",
+      "nombre": "Pepsi Zero (Máquina)",
+      "descripcion": "O clássico sabor da Pepsi na versão sem açúcar, direto da máquina dispensadora.",
+      "precio": "R$ 2.300",
       "imagen": "image/maquina/pepsizero.png"
     },
     {
-      "nombre": "Fanta Zero (Máquina)",
-      "descripcion": "Sabor a laranja intenso e efervescente, totalmente sem açúcar.",
-      "precio": "$2.300",
+      "nombre": "Crush (Máquina)",
+      "descripcion": "Sabor intenso de laranja e borbulhante.",
+      "precio": "R$ 2.300",
       "imagen": "image/maquina/crush.png"
     },
     {

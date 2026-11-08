@@ -782,20 +782,20 @@
   ],
   "bebidas_maquina": [
     {
-      "nombre": "Coca Cola Original (Máquina)",
-      "descripcion": "A refreshing blend of concentrated Coca Cola syrup and carbonated water, served on the spot from the dispenser.",
+      "nombre": "Pepsi Original (Fountain)",
+      "descripcion": "A refreshing blend of Pepsi concentrated syrup and carbonated water, served instantly.",
       "precio": "$2.300",
       "imagen": "image/maquina/pepsi.png"
     },
     {
-      "nombre": "Coca Cola Zero (Máquina)",
-      "descripcion": "The classic Coca Cola taste in its sugar-free version, from the fountain machine.",
+      "nombre": "Pepsi Zero (Fountain)",
+      "descripcion": "The classic Pepsi taste in its sugar-free version, straight from the fountain dispenser.",
       "precio": "$2.300",
       "imagen": "image/maquina/pepsizero.png"
     },
     {
-      "nombre": "Fanta Zero (Máquina)",
-      "descripcion": "Intense, bubbly orange flavor, completely sugar-free.",
+      "nombre": "Crush (Fountain)",
+      "descripcion": "Bold, bubbly orange flavor.",
       "precio": "$2.300",
       "imagen": "image/maquina/crush.png"
     },
