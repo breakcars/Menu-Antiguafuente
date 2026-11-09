@@ -359,12 +359,6 @@
       "imagen": "image/gorda/gordarusa.jpg"
     },
     {
-      "nombre": "Gorda Queso",
-      "descripcion": "Coronada con abundante queso mantecoso fundido.",
-      "precio": "$6.700",
-      "imagen": "image/gorda/gordaqueso.jpg"
-    },
-    {
       "nombre": "Gorda Palta",
       "descripcion": "Acompañada de fresca palta de estación molida.",
       "precio": "$6.700",
