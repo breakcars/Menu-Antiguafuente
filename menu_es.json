@@ -682,12 +682,6 @@
       "imagen": "image/cervezas/heiniken.png"
     },
     {
-      "nombre": "Corona (330cc)",
-      "descripcion": "Clásica Pale Lager mexicana, liviana, refrescante y muy fácil de tomar (4.5° GL).",
-      "precio": "$4.100",
-      "imagen": "image/cervezas/corona.png"
-    },
-    {
       "nombre": "Del Puerto Pilsen Lager (330cc)",
       "descripcion": "Pilsen artesanal porteña, fresca, ligera y bien balanceada (4.5° GL).",
       "precio": "$4.100",
