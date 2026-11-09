@@ -483,18 +483,6 @@
   ],
   "bebidas": [
     {
-      "nombre": "Coca Cola Original (350cc)",
-      "descripcion": "The classic soft drink with its unmistakable flavor and ultimate refreshment.",
-      "precio": "$2.500",
-      "imagen": "image/bebidas/cocacola.jpg"
-    },
-    {
-      "nombre": "Coca Cola Zero (350cc)",
-      "descripcion": "The same great Coca-Cola taste and refreshment, completely sugar-free.",
-      "precio": "$2.500",
-      "imagen": "image/bebidas/cocacolazero.jpg"
-    },
-    {
       "nombre": "Pepsi (350cc)",
       "descripcion": "A soft drink with bold, refreshing flavor and Pepsi's signature taste.",
       "precio": "$2.500",

@@ -483,18 +483,6 @@
   ],
   "bebidas": [
     {
-      "nombre": "Coca Cola Original (350cc)",
-      "descripcion": "La clásica bebida gaseosa de sabor inconfundible y máxima refrescancia.",
-      "precio": "$2.500",
-      "imagen": "image/bebidas/cocacola.jpg"
-    },
-    {
-      "nombre": "Coca Cola Zero (350cc)",
-      "descripcion": "El mismo gran sabor y refrescancia de Coca-Cola, completamente libre de azúcar.",
-      "precio": "$2.500",
-      "imagen": "image/bebidas/cocacolazero.jpg"
-    },
-    {
       "nombre": "Pepsi (350cc)",
       "descripcion": "Bebida gaseosa de sabor intenso, refrescante y con el toque característico de Pepsi.",
       "precio": "$2.500",

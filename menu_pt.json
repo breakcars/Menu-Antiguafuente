@@ -483,18 +483,6 @@
   ],
   "bebidas": [
     {
-      "nombre": "Coca Cola Original (350cc)",
-      "descripcion": "O clássico refrigerante de sabor inconfundível e máximo frescor.",
-      "precio": "$2.500",
-      "imagen": "image/bebidas/cocacola.jpg"
-    },
-    {
-      "nombre": "Coca Cola Zero (350cc)",
-      "descripcion": "O mesmo grande sabor e frescor da Coca-Cola, totalmente sem açúcar.",
-      "precio": "$2.500",
-      "imagen": "image/bebidas/cocacolazero.jpg"
-    },
-    {
       "nombre": "Pepsi (350cc)",
       "descripcion": "Refrigerante de sabor intenso e refrescante, com o toque característico da Pepsi.",
       "precio": "$2.500",
