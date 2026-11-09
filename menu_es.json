@@ -728,6 +728,12 @@
       "descripcion": "Ale patagónica infusionada con calafate en presentación formato medio litro (5.0° GL).",
       "precio": "$5.300",
       "imagen": "image/cervezas/calafate500.png"
+    },
+    {
+    "nombre": "Kunstmann Valdivia Pale Lager (500cc)",
+    "descripcion": "Lager sin filtrar, refrescante y lupulada con dry hopping, de notas cítricas y tropicales, elaborada en Valdivia, en presentación formato medio litro (5.2° GL).",
+    "precio": "$5.300",
+    "imagen": "image/cervezas/vpl500.png"
     }
   ],
   "shops": [

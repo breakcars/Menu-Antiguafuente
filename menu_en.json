@@ -728,6 +728,12 @@
       "descripcion": "A Patagonian ale infused with calafate berries, in a half-liter size (5.0% ABV).",
       "precio": "$5.300",
       "imagen": "image/cervezas/calafate500.png"
+    },
+    {
+    "nombre": "Kunstmann Valdivia Pale Lager (500cc)",
+    "descripcion": "Unfiltered, refreshing and hoppy dry-hopped lager with citrus and tropical notes, brewed in Valdivia, in a half-liter bottle (5.2% ABV).",
+    "precio": "$5.300",
+    "imagen": "image/cervezas/vpl500.png"
     }
   ],
   "shops": [
