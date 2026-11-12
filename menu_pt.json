@@ -571,8 +571,7 @@
   ],
   "jugos_naturales": [
     { "nombre": "Jugo de Frutilla", "descripcion": "Polpa natural de morango.", "precio": "$3.200", "imagen": "image/jugosnaturales/pulpafrutilla.jpg" },
-    { "nombre": "Jugo de Mango", "descripcion": "Polpa natural de manga.", "precio": "$3.200", "imagen": "image/jugosnaturales/pulpamango.jpg" },
-    { "nombre": "Jugo de Chirimoya", "descripcion": "Polpa natural de graviola/chirimoya.", "precio": "$3.200", "imagen": "image/jugosnaturales/pulpachirimoya.jpg" }
+    { "nombre": "Jugo de Mango", "descripcion": "Polpa natural de manga.", "precio": "$3.200", "imagen": "image/jugosnaturales/pulpamango.jpg" }
   ],
   "jugos_botella": [
     {
@@ -592,12 +591,6 @@
       "descripcion": "Deliciosa mistura de frutas com um sabor intenso de morango.",
       "precio": "$2.600",
       "imagen": "image/jugos/tutifrutilla.png"
-    },
-    {
-      "nombre": "Del Valle Piña (300cc)",
-      "descripcion": "Néctar sabor abacaxi de textura leve, doce e muito refrescante.",
-      "precio": "$2.600",
-      "imagen": "image/jugos/pilladelvalle.png"
     }
   ],
   "cafeteria": [
@@ -686,12 +679,6 @@
       "descripcion": "Premium Lager internacional de puro malte, sabor equilibrado e amargor suave (5,0% ABV).",
       "precio": "$4.100",
       "imagen": "image/cervezas/heiniken.png"
-    },
-    {
-      "nombre": "Del Puerto Pilsen Lager (330cc)",
-      "descripcion": "Pilsen artesanal porteña, fresca, leve e bem balanceada (4,5% ABV).",
-      "precio": "$4.100",
-      "imagen": "image/cervezas/delpuertopilsen.png"
     },
     {
       "nombre": "Coors (330cc)",
@@ -806,6 +793,12 @@
       "descripcion": "(Combo) Sanduíche Fricandela completo + Refrigerante 220 ml. Escolha entre Pepsi, Pepsi Zero, Canada Dry Ginger Ale ou Canada Dry Zero. Válido enquanto durarem os estoques.",
       "precio": "$7.700",
       "imagen": "image/promocion/fricabebidas.jpg"
+    },
+    {
+    "nome": "Promoção Churrasco ou Lomo + Cerveja",
+    "descricao": "Peça seu sanduíche com base de Churrasco ou Lomo e leve uma cerveja Kunstmann Lager Blanc 330 cc por apenas $1.000 a mais. Somente para maiores de 18 anos. Válida enquanto durarem os estoques.",
+    "preco": "+$1.000",
+    "imagem": "image/promocion/churrasco-lomo-cerveza.jpg"
     }
   ]
 }

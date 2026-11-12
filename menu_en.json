@@ -571,8 +571,7 @@
   ],
   "jugos_naturales": [
     { "nombre": "Jugo de Frutilla", "descripcion": "Natural strawberry pulp juice.", "precio": "$3.200", "imagen": "image/jugosnaturales/pulpafrutilla.jpg" },
-    { "nombre": "Jugo de Mango", "descripcion": "Natural mango pulp juice.", "precio": "$3.200", "imagen": "image/jugosnaturales/pulpamango.jpg" },
-    { "nombre": "Jugo de Chirimoya", "descripcion": "Natural chirimoya (custard apple) pulp juice.", "precio": "$3.200", "imagen": "image/jugosnaturales/pulpachirimoya.jpg" }
+    { "nombre": "Jugo de Mango", "descripcion": "Natural mango pulp juice.", "precio": "$3.200", "imagen": "image/jugosnaturales/pulpamango.jpg" }
   ],
   "jugos_botella": [
     {
@@ -592,12 +591,6 @@
       "descripcion": "A delicious fruit blend with an intense strawberry flavor.",
       "precio": "$2.600",
       "imagen": "image/jugos/tutifrutilla.png"
-    },
-    {
-      "nombre": "Del Valle Piña (300cc)",
-      "descripcion": "A pineapple-flavored nectar, light in texture, sweet and very refreshing.",
-      "precio": "$2.600",
-      "imagen": "image/jugos/pilladelvalle.png"
     }
   ],
   "cafeteria": [
@@ -686,12 +679,6 @@
       "descripcion": "An international premium all-malt lager with balanced flavor and mild bitterness (5.0% ABV).",
       "precio": "$4.100",
       "imagen": "image/cervezas/heiniken.png"
-    },
-    {
-      "nombre": "Del Puerto Pilsen Lager (330cc)",
-      "descripcion": "An artisanal Valparaíso-style pilsen, fresh, light and well balanced (4.5% ABV).",
-      "precio": "$4.100",
-      "imagen": "image/cervezas/delpuertopilsen.png"
     },
     {
       "nombre": "Coors (330cc)",
@@ -806,6 +793,12 @@
       "descripcion": "(Combo deal) A \"loaded\" Fricandela meat-patty sandwich plus a 220 ml soft drink. Choice of Pepsi, Pepsi Zero, Canada Dry Ginger Ale or Canada Dry Zero. Valid while stocks last.",
       "precio": "$7.700",
       "imagen": "image/promocion/fricabebidas.jpg"
+    },
+    {
+    "name": "Churrasco or Lomo + Beer Promotion",
+    "description": "Order your sandwich with a Churrasco or Lomo base and add a Kunstmann Lager Blanc 330 cc beer for just $1,000 more. Only for ages 18 and over. Valid while supplies last.",
+    "price": "+$1.000",
+    "image": "image/promocion/churrasco-lomo-cerveza.jpg"
     }
   ]
 }
